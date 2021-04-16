@@ -1,0 +1,41 @@
+/*
+| --------------------------------------------------------
+| Theme Name : WebPanda
+| Theme Version : 1.0
+| Theme Date : 07/08/2018
+| Platforms : HTML5, CSS3, Bootstrap4, JS, Jquery, Sass
+| Theme Author : Yankee Themes
+| Author URI : https://themeforest.net/user/yankeethemes
+| Author Contact : enquiry[at]yankeeinfoweb[dot]com
+| Tags : yankeethemes, yankeeinfoweb, webdesign, boostrap, wordpress, support, html, responsive, css3, wellorganized, retina, animation, html5, sass, support, yakneelife
+| File : yit-shortcodes.css
+| --------------------------------------------------------
+*/
+
+/*
+| --------------------------------------------------------
+| TABLE OF CSS CONTENT
+| --------------------------------------------------------
+| Feature Box Style CSS BOF
+| Portfolio Style CSS BOF
+| Testimonial Style CSS BOF
+| Team Style CSS BOF
+| Social Icons CSS BOF
+| Pricing CSS BOF
+| Accordion CSS BOF
+| Skillbar CSS BOF
+*/
+
+/* NOTE:  This file includes all shortcodes with variations. If you don't want to use any from below. You can simply remove that line from this file. */
+
+/* Slider Plugin CSS */
+@import url("shortcodes/yit-accordion.css");
+@import url("shortcodes/yit-tabs.css");
+@import url("shortcodes/yit-featurebox.css");
+@import url("shortcodes/yit-portfolio.css");
+@import url("shortcodes/yit-pricing.css");
+@import url("shortcodes/yit-skillbar.css");
+@import url("shortcodes/yit-social.css");
+@import url("shortcodes/yit-team.css");
+@import url("shortcodes/yit-testimonial.css");
+@import url("shortcodes/yit-forms.css");

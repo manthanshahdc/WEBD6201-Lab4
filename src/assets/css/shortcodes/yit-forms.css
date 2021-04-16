@@ -1,0 +1,133 @@
+/*
+| --------------------------------------------------------
+| Theme Name : WebPanda
+| Theme Version : 1.0
+| Theme Date : 07/08/2018
+| Platforms : HTML5, CSS3, Bootstrap4, JS, Jquery, Sass
+| Theme Author : Yankee Themes
+| Author URI : https://themeforest.net/user/yankeethemes
+| Author Contact : enquiry[at]yankeeinfoweb[dot]com
+| Tags : yankeethemes, yankeeinfoweb, webdesign, boostrap, wordpress, support, html, responsive, css3, wellorganized, retina, animation, html5, sass, support, yakneelife
+| File : yit-forms.css
+| --------------------------------------------------------
+*/
+
+/*
+| --------------------------------------------------------
+| TABLE OF CSS CONTENT
+| --------------------------------------------------------
+| Forms Style CSS BOF
+| Forms Component CSS BOF
+| Responsive Style CSS BOF
+*/
+
+/* Note:
+	- yit is a standard prefix of our profile name (yankee infoweb theme)
+	- This file include all form inputs with variation style
+*/
+
+/* Form Control CSS BOF
+========================================================== */
+
+/*** Input Sizing Variation CSS BOF ***/
+.input-xlarge .form-control { padding:30px 45px; height:auto; }
+.input-large .form-control { padding:20px 35px; height:auto; }
+.input-medium .form-control { padding:15px 25px; height:auto; }
+
+/*** Input With Semi Transparent Style CSS ***/
+.input-bg .form-control, .input-bg.form-control { background-color:#e8e8e8; border:medium none; }
+.input-bg .form-control:focus, .input-bg.form-control:focus { background-color:#cecece; border:medium none; }
+.input-bg .has-error .form-control { border-color:#f00; }
+.input-bg .success .form-control  { border-color:#14CC25; }
+
+/*** Input Style-1 CSS BOF ***/
+.input-style-1 .form-control{ border-width:0 0 2px 0; border-style:none none solid none; border-color:transparent transparent #ced4da transparent;
+	border-width:0 0 2px 0; border-style:none none solid none; border-color:transparent transparent #ced4da transparent; padding:10px 0; }
+.input-style-1 .form-control:focus{ border-color:#e91e63; }
+.input-style-1 .has-error .form-control { border-color:#f00; }
+.input-style-1 .success .form-control  { border-color:#14CC25; }
+.input-style-1 .yit-nice-select.nice-select.form-control { padding:2px 0; }
+
+/*** Input Style-2 CSS BOF ***/
+.input-style-2 .form-control { border-width:1px 1px 1px 2px; border-style:solid; border-color:#ced4da; }
+.input-style-2 .form-control:focus{ border-color:#e91e63; }
+.input-style-2 .has-error .form-control { border-color:#f00; }
+.input-style-2 .success .form-control  { border-color:#14CC25; }
+
+/*** Input Style-3 CSS BOF ***/
+.input-style-3 .form-control { border-width:0 0 1px 2px; border-style:solid; border-color:#ced4da; }
+.input-style-3 .form-control:focus { border-color:#e91e63; }
+.input-style-3 .has-error .form-control { border-color:#f00; }
+.input-style-3 .success .form-control  { border-color:#14CC25; }
+
+/*** Input Style-4 CSS BOF ***/
+.input-style-4 .form-control { border-width:0 0 1px 0; border-style:none none solid none; border-color:transparent transparent #ced4da transparent; padding:10px 0; }
+.input-style-4 .form-control:focus{ border-color:transparent;}
+.input-style-4 .has-error .form-control { border-color:#f00; }
+.input-style-4 .success .form-control  { border-color:#14CC25; }
+.input-style-4 .yit-nice-select.nice-select.form-control { padding:2px 0; }
+
+/*** Input Style-5 CSS BOF ***/
+.input-style-5 .form-control { box-shadow:0 1px 4px 0 rgba(0, 0, 0, 0.3); -moz-box-shadow:0 1px 4px 0 rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow:0 1px 4px 0 rgba(0, 0, 0, 0.3); ) }
+.input-style-5 .form-control:focus { box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.3); -moz-box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow:0 3px 8px 0 rgba(0, 0, 0, 0.3); ) }
+.input-style-5 .has-error .form-control { border-color:#f00; }
+.input-style-5 .success .form-control  { border-color:#14CC25; }
+
+/*** Input Style-6 CSS BOF ***/
+.input-style-6 .form-control { padding:10px 15px 10px 50px; }
+
+/*** Input Style-7 CSS BOF ***/
+.input-style-7 .form-control { transform:scale(1); -moz-transform:scale(1); -webkit-transform:scale(1); -o-transform:scale(1); -ms-transform:scale(1); }
+.input-style-7 .form-control:focus { transform:scale(1.1); -moz-transform:scale(1.1); -webkit-transform:scale(1.1); -o-transform:scale(1.1); -ms-transform:scale(1.1); }
+
+/*** Input Style-8 CSS BOF ***/
+.input-style-8 .form-control::placeholder { opacity:0 }
+.input-style-8 .form-control::-moz-placeholder { opacity:0 }
+.input-style-8 .form-control::-webkit-input-placeholder { opacity:0 }
+.input-style-8 .form-control::-o-input-placeholder { opacity:0 }
+.input-style-8 .form-control::-ms-input-placeholder { opacity:0 }
+
+/*** Input With Icon CSS BOF  ***/
+.form-group .input-icon { position:absolute; -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s;
+	-ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; left:20px; top:13px; font-size:20px; }
+.form-control:focus + .input-icon { color:#e91e63; }
+
+/*** Input With Stacked Label CSS BOF ***/
+.form-group .input-label { position:absolute; -moz-transition:all .3s ease-in-out 0s; -webkit-transition:all .3s ease-in-out 0s; -o-transition:all .3s ease-in-out 0s;
+	-ms-transition:all .3s ease-in-out 0s; transition:all .3s ease-in-out 0s; left:15px; top:10px; font-size:14px; color:rgba(0, 0, 0, 0.4);
+	-webkit-transform:scale(1); -o-transform:scale(1); -ms-transform:scale(1); -moz-transform:scale(1); transform:scale(1); }
+.form-control:focus + .input-label { top:-25px; -webkit-transform:scale(1.1); -o-transform:scale(1.1); -ms-transform:scale(1.1); -moz-transform:scale(1.1);
+	transform:scale(1.1); }
+
+/*** Input With Animated Bar CSS BOF ***/
+.form-group .input-bar, .bar:after, .input-style-4.form-group .input-bar:after { background:#eaedf1;
+	width:0; height:2px; left:0; right:0; margin:0 auto; position:absolute; transition:width 0.2 ease-in-out 0s; -moz-transition:width 0.2s ease-in-out 0s;
+	-webkit-transition:width 0.2s ease-in-out 0s; bottom:0; -o-transition:width 0.2s ease-in-out 0s; -ms-transition:width 0.2s ease-in-out 0s; z-index:0; }
+.form-control:focus + .input-bar { width:100%; background:#e91e63; }
+
+/*** Input Light Color CSS BOF ***/
+.input-light .form-control { color:#fff; }
+.input-light .has-error .form-control { border-color:#f00 !important; }
+.input-light .success .form-control  { border-color:#14CC25 !important; }
+
+/*** Nice Selectbox CSS BOF ***/
+.yit-nice-select.nice-select.flxed-select { width:200px; }
+.yit-nice-select.nice-select.form-control { padding:2px 15px; }
+.yit-nice-select.nice-select.form-control::after { width:12px; height:12px; border-bottom:3px solid #999999; border-right:3px solid #999999; right:20px; top:40%; }
+.yit-nice-select.nice-select.form-control .list { width:100%; }
+.yit-nice-select.nice-select .option { display:block; color:#333; }
+.yit-nice-select.nice-select:active, .yit-nice-select.nice-select.open, .yit-nice-select.nice-select:focus {  border-color:#e91e63; }
+
+/*** Date &amp; Time Picker CSS BOF ***/
+.yit-datetime-picker .bootstrap-datetimepicker-widget a[data-action] { padding:0; }
+.yit-datetime-picker .bootstrap-datetimepicker-widget .btn { background:none; color:#333; border:none; }
+.yit-datetime-picker .bootstrap-datetimepicker-widget .picker-switch td span { padding:0 10px; }
+.yit-datetime-picker .bootstrap-datetimepicker-widget table td.active, .yit-datetime-picker .bootstrap-datetimepicker-widget table td.active:hover { background-color:#e91e63; }
+.yit-datetime-picker .input-group-text { -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; border:medium none; background-color:#e91e63; color:#fff; }
+
+/*** Responsive Select Box CSS BOF ***/
+@media (max-width:767px){
+.yit-nice-select.nice-select.flxed-select { width:100%; }
+}

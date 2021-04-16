@@ -1,0 +1,534 @@
+/*
+| --------------------------------------------------------
+| Theme Name : WebPanda
+| Theme Version : 1.0
+| Theme Date : 07/08/2018
+| Platforms : HTML5, CSS3, Bootstrap4, JS, Jquery, Sass
+| Theme Author : Yankee Themes
+| Author URI : https://themeforest.net/user/yankeethemes
+| Author Contact : enquiry[at]yankeeinfoweb[dot]com
+| Tags : yankeethemes, yankeeinfoweb, webdesign, boostrap, wordpress, support, html, responsive, css3, wellorganized, retina, animation, html5, sass, support, yakneelife
+| File : yit-responsive.css
+| --------------------------------------------------------
+*/
+
+/*
+| --------------------------------------------------------
+| TABLE OF CSS CONTENT
+| --------------------------------------------------------
+| 980 Media General
+| 768 * 979 iPad Portrait
+| 980 * 1024 iPad Landscape
+| 1200 Up to Large
+*/
+
+/* Note: This file include all page responsive device css */
+
+/* General Media Query (iPhone, iPad, Small Tablet, 979 / 80 px)
+=============================================================== */
+@media (max-width: 980px) {
+    .xs-max-width-auto { max-width:100%; } /* max-width for all device */
+    .yit-btn-group .btn + .btn { margin-left:0; }
+    .bg-none-sm-device { background-image:none !important; } /* apply this class for hide bg image in all small device */
+}
+
+/* iPad &amp; Small Tablet (Portrait) (768 * 1024)
+============================================================== */
+@media (min-width: 768px) and (max-width: 980px) {
+
+    /*** Global Classes CSS BOC ***/
+    .hidden-sm { display:none !important; } /* hide in small device */
+    .btn { font-size:15px; }
+    h1, h2, h3, h4, h5, h6 { line-height:1.22; }
+    section { padding-top:30px; padding-bottom:30px; }
+
+    h1{font-size: 2.1rem;}
+    h2{font-size: 2.0rem;}
+    h3{font-size: 1.7rem;}
+    /* General Small Device Classes CSS BOF */
+    .font-xxsmall { font-size:.95rem; }
+    .bg-seprator.skew-one::after { bottom:-132px; }
+    .bg-seprator.skew-three::before { height:580px; }
+    .bg-seprator.skew-six::before { height:560px; }
+    .bg-seprator.skew-five::after { bottom:237px; }
+    /*.content-l-space { margin-left:0; }*/
+    .banner-mark-text::after { font-size:130px; top:0; }
+    .parallax-bg { background-position:center center !important; height:500px; }
+    .bg-mark-letter { font-size:110px; }
+    .sec-lines .height-full { height:100vh; }
+    .inner-banner-large.bg-fade-overlay, .inner-banner-large.bg-overlay, .inner-banner-large.bg-fade-overlay-dark { background-position:0 0; }
+    .inner-banner-large { padding-bottom:100px; padding-top:150px; }
+
+    /* Small Device Spacer Classes CSS BOF */
+    .height-full { height:50vh; }
+    .sm-text-center { text-align:center; }
+    .sm-height-auto { height:auto; }
+    .sm-bg-image-none { background-image:none !important; } /* hide background-image in small device */
+    .sm-height-one-half { height:500px; } /* use for fix heigt banner */
+    .sm-section-v-space { padding-top:40px; padding-bottom:40px; }
+    .sm-display-block { display:block; width:auto; } /* full block in medium device */
+    .sm-display-tb-cell { display:block; } /* medium center block in medium device */
+
+    /* Small Device Spacer Classes CSS BOF */
+    .pad-100-all { padding:50px; } /* overide large padding with section */
+    .sm-mb-25 { margin-bottom:30px; }
+    .sm-mb-70 { margin-bottom:70px; }
+
+    /*** All Pages Combine Selector CSS BOF ***/
+    .bg-letter, .bg-sec-count, .bg-dotted::after, .section-shadow::before, .bg-dotted-left::after { display:none; }
+
+    /*** WEBP Default Page (home1) CSS BOF ***/
+    .webpanda-default .webp-default-contact .icon-l { float:none; display:block; text-align:center; margin:0 auto 15px; }
+    .webpanda-default .webp-default-contact .yit-overflow { text-align:center; }
+    .webpanda-default .webp-offer .yit-feature.style-3 .yit-feature-item i { float:none; }
+
+    /*** WEBP Classic (home2) CSS ***/
+    .webpanda-classic .webp-classic-why .yit-feature.style-5 .yit-display-tb-cell { display:table-cell; }
+
+    /*** WEBP Business Parallax (home4) CSS ***/
+    .webp-business-parallax .webp-business-banner .parallax-obj-triangle { width:80%; bottom:20%; }
+    .webp-business-parallax .webp-business-banner .parallax-obj-name { bottom:40%; width:80%; }
+    .webp-business-parallax .webp-business-banner .parallax-obj-bubble { bottom:30%; width:70%; }
+
+    /*** WEBP Creative Studio (home5) CSS ***/
+    .webp-creative-studio .webp-studio-skill.height-full { height:100%; background-attachment:inherit; }
+    .webp-creative-studio .content-l-space { margin-left:80px; }
+    .webp-creative-studio .webp-studio-portfolio .yit-portfolio.style-5 .yit-portfolio-content { height:100%; border-width:0; }
+
+    /*** WEBP Creative Web Agency (home7) CSS ***/
+    .webp-creative-web-agency .webp-creative-web-banner .height-cover { height:70vh; }
+    .webp-creative-web-agency .webp-creative-web-banner .svg-curve.style-1 { bottom:0; }
+    .webp-creative-web-agency .webp-agency-about-tab .yit-tab-verticle.style-4 .nav-pills .nav-link i { position:relative; left:0; top:0; text-align:center; margin-bottom:10px; }
+    .webp-creative-web-agency .webp-agency-about-tab .yit-tab-verticle.style-4 .nav-pills .nav-link { padding:25px; text-align:center; }
+    .webp-creative-web-agency .webp-agency-about-tab .yit-tab-verticle.style-4 .tab-inner { margin-left:0; }
+    .webp-creative-web-agency .webp-agency-about-tab .yit-tab-verticle.style-4 .tab-content figure { position:relative; }
+    .webp-creative-web-agency .webp-agency-about-tab .yit-tab-verticle.style-4 .nav-pills .nav-link.show::before { display:none; }
+    .webp-creative-web-agency .webp-web-agency-about .video-outer { left:0; margin-right:20px; }
+    .webp-creative-web-agency .webp-web-agency-testimonial .yit-testimonial { float:none; }
+    .webp-creative-web-agency .webp-web-agency-testimonial .testimonial-outer { right:0; }
+    .webp-web-agency-testimonial .yit-testimonial { float:none; margin:0 auto 30px; }
+    .webp-creative-web-agency .webp-web-agency-blog:before, .webp-creative-web-agency .webp-web-agency-blog:after { display:none; }
+
+    /*** WEBP Freelancer Page CSS BOF (homepage-8) ***/
+    .webp-freelancer .content-l-space { margin-left:80px; }
+    .webp-freelancer .webp-freelancer-banner { text-align:center; }
+    .webp-freelancer .webp-freelancer-banner .yit-flex-h-center { justify-content:center; }
+    .webp-freelancer .webp-freelancer-banner h4 { font-size:4.2rem; }
+    .webp-freelancer .webp-freelancer-banner h2 { font-size:5rem; }
+    .webp-freelancer .webp-freelancer-banner .arrow-style-2 a { right:0; }
+    .webp-freelancer .webp-freelancer-banner .arrow-style-2 a span { left:0; right:0; margin:0 auto; }
+
+    /*** WEBP Bradning Agency Page CSS BOF (homepage-9) ***/
+    .webp-branding-agency .webp-branding-agency-testimonial .yit-testimonial-content { margin-bottom:50px; }
+    .webp-branding-agency .webp-branding-agency-testimonial .yit-testimonial img { margin-top:31px; }
+    .webp-branding-agency .webp-branding-agency-team { padding-bottom:0;  }
+
+    /*** WEBP Startup Page CSS BOF (homepage-10) ***/
+    .webp-startup .webp-startup-parallax .data-parallax-effect { max-width:100%; right:0; }
+
+    /*** WEBP Web Agency Onepage CSS BOF (homepage-11) ***/
+    .webp-web-agency section { padding-top:70px; padding-bottom:70px; }
+
+    /*** WEBP Web Agency Onepage CSS BOF (homepage-12) ***/
+    .webp-branding-onepage .webp-branding-cta .svg-curve.circle-right { height:80%; }
+    .webp-branding-onepage .webp-branding-blog .yit-blog.style-2 .yit-blog-item h6 { font-size:1rem; }
+
+    /*** WEBP Branding Agency Onepage CSS BOF (homepage-13) ***/
+    .webp-branding-onepage .webp-branding-header h1 { font-size:3rem; }
+
+    /*** WEBP Digital Maketing Page CSS BOF (homepage-14) ***/
+    .webp-digital-marketing .webp-digital-banner { height:auto; }
+    .webp-digital-marketing .webp-digital-banner .banner-img { position:absolute; top:auto; max-width:50%; }
+    .webp-digital-marketing .webp-digital-marketing-testimonial .yit-testimonial img { margin-top:31px; }
+    .webp-digital-marketing .webp-digital-marketing-testimonial .yit-testimonial-content { margin-bottom:50px; }
+
+    /*** WEBP App Onepage CSS BOF (homepage-15) ***/
+    .webp-app .webp-app-banner { height:auto; }
+    .webp-app .app-feature-content:hover .app-feature-list [class*="item-"] { transform:none; -moz-transform:none; -webkit-transform:none; -o-transform:none; -ms-transform:none; }
+    .webp-app .webp-app-pricing .yit-tab .nav-link i { display:inline-block; }
+
+    /*** WEBP Hosting CSS BOF (homepage-17) ***/
+    .webp-hosting .webp-hosting-banner.yit-slick-slider .height-cover { height:60vh; }
+    .webp-hosting .webp-hosting-cms .item-icon { width:300px; height:300px; }
+    .webp-hosting .webp-hosting-pricing .yit-pricing .yit-pricing-item h6 { font-size:1rem; }
+
+    /*** WEBP Personal Portfolio CSS BOF (homepage-18) ***/
+    .webp-personal .webp-personal-header .webp-personal-banner .banner-scene li { height:70vh; }
+    .webp-personal .webp-personal-header .webp-personal-banner .banner-services li { letter-spacing:0 }
+    .webp-personal .webp-personal-service .service-intro::after { display:none; }
+    .webp-personal .webp-personal-service .service-intro, .webp-personal .webp-personal-service .service-listing { height:auto; }
+    .webp-personal .webp-personal-service .service-listing { margin-top:0; }
+
+    /*** WEBP About Classic CSS BOF (aboutpage-02) ***/
+    .webp-about-classic .about-history h6 { left:20px; bottom:20px; -webkit-transform:none; -o-transform:none; -ms-transform:none; -moz-transform:none; transform:none; }
+
+    /*** Team Creative Page CSS BOF (teampage-04) ***/
+    .webp-team-creative .team-creative .item-content { margin-bottom:70px; }
+    .yit-footer .pr-50{
+        padding-right: 0 !important;
+    }
+    .yit-footer .pl-50{
+        padding-left: 0 !important;
+    }
+    .full-slider .details{
+        padding: 50px 50px;
+    }
+    .yit-feature.style-9 .yit-feature-item{
+        background-color: #f8f8f8;
+        border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    }
+    .yit-nav .navbar .navbar-brand span{
+        right: -10px;
+    }
+
+
+
+} /* portrait media close */
+
+/* All Mobile Device (iPhone, Android, Window)(480 * 640)
+============================================================== */
+@media (max-width: 767px) {
+
+    /*** Global Classes CSS BOC ***/
+    .hidden-xs { display:none !important; } /* hide in mobile */
+
+    /* Trypography CSS BOC */
+    h1, h2, h3, h4, h5, h6 { line-height:1.30; text-align:center; }
+    h1 { font-size:2rem; }
+    h2 { font-size:1.50rem; }
+    h3 { font-size:1.40rem; }
+    h4 { font-size:1.35rem; }
+    h5 { font-size:1.325rem; }
+    h6 { font-size:1.2rem; }
+    .font-xxlarge { font-size: 3.25rem; }
+    .font-xlarge { font-size: 3rem; }
+    .font-large { font-size: 2.40rem; }
+    .font-medium { font-size: 2.26rem; }
+    .font-small { font-size: 2rem; }
+    .font-xsmall { font-size: 1.65rem; }
+    .font-xxsmall { font-size:.85rem; }
+    p { line-height:1.8; padding-top:3px; padding-bottom:3px; /*margin-bottom:0rem;*/ }
+
+    /* Image CSS BOC */
+    img, .yit-img-left, .yit-img-right { float:none; margin:0px auto; display:block; text-align:center; }
+    img.left-in-mob { float: left !important; margin-right: 15px !important; }
+    img.right-in-mob { float:right !important; margin-left:15px !important; }
+    .parallax-bg { background-position:center center !important; height:500px; }
+
+    /* General Classes CSS BOC */
+    .yit-lead { font-size:16px; }
+    ul li { display:block; line-height:1.7; }
+    .form-control { height:43px; }
+    .flex { display:block; }
+    .icon-l { float:none; text-align:center; margin:10px auto; display:block; }
+    .height-full { height:100vh; }
+    section, section.mini-section, footer { padding-top:40px; padding-bottom:40px; }
+    .content-l-space { margin-left:0; }
+    .section-h-space .container-fluid { padding-left:15px; padding-right:15px; }
+    .gmap-locaton.section-h-space .container-fluid { padding-left:0; padding-right:0; }
+
+    /* Button Classes CS BOF */
+    .btn[class*="gradient-"] { font-size:14px; padding:10px; }
+    .btn { width:100%; padding:10px; font-size:14px; margin-bottom:10px; }
+    .btn-xxxsmall { padding:5px 8px; }
+
+    /* General Mobile Classes CSS BOF */
+    .display-center-mob { display:table; margin:0 auto; } /* center all in mobile */
+    .xs-display-block { display:block; width:auto; } /* full view in mobile */
+    .xs-display-tb-cell { display:block; } /* center block in mobile */
+    .xs-float-none { float:none !important; } /* remove floating position in mobile */
+    .yit-bg-center-xs, .xs-bg-image-center { background-position:center center; } /* center background-image in mobile */
+    .xs-bg-image-none { background-image:none !important; } /* hide background-image in mobile */
+    .xs-letterspace-none { letter-spacing:0 !important; } /* letterspace none in mobile */
+    .xs-height-auto { height:auto; } /* height auto in mobile */
+    .xs-space-none.section-h-space .container-fluid { padding-left:0; padding-right:0; } /* apply this class when you remove padding from container-fluid */
+    .xs-bg-cover { -moz-background-size:cover; -webkit-background-size:cover; -o-background-size:cover; -ms-background-size:cover; background-size:cover; }
+    .xs-border-none { border:medium none !important; }
+    .xs-listing-inline li { display:inline-block; }
+    .xs-transition-none { -moz-transition:none; -webkit-transition:none; -o-transition:none; -ms-transition:none; transition:none; } /* apply this class when you don't need transit in mobile */
+    .xs-btn-auto { width:auto !important; } /* apply this class when you don't need full button in mobile version */
+
+    /* Mobile Banner Classes CSS BOF */
+    .xs-banner-space { margin-top:50px; margin-bottom:50px; } /* common banner space when item is position:fixed */
+    .xs-banner-space-top { margin-top:50px; } /* apply this class when you want to item space from top */
+    .xs-banner-small-space { margin-top:70px; margin-bottom:70px; } /* common small banner space when item is position:fixed */
+    .xs-banner-medium-space { margin-top:100px; margin-bottom:100px; } /* common medium banner space when item is position:fixed */
+    .xs-banner-large-space { margin-top:150px; margin-bottom:150px; } /* common large banner space when item is position:fixed */
+
+    /* Mobile Text Alignment Classes CSS BOF */
+    .xs-icon-center { text-align:center; display:block; } /* apply this class for icon center */
+    .xs-text-center { text-align:center; } /* center text in mobile */
+    .xs-text-left h1, .xs-text-left h2, .xs-text-left h3, .xs-text-left h4, .xs-text-left h5, .xs-text-left h6, .xs-text-left p { text-align:left; } /* left text in mobile */
+    .xs-text-right h1, .xs-text-right h2, .xs-text-right h3, .xs-text-right h4, .xs-text-right h5, .xs-text-right h6, .xs-text-right p { text-align:right; } /* right text in mobile */
+
+    /* Mobile Spacer Classes CSS BOF */
+    .xs-section-v-space { padding-top:40px; padding-bottom:40px; }
+    .xs-pad-none { padding:0 !important; } /* apply this class for remove all side paddding in mobile version */
+    .pad-50-all { padding:40px 15px; }
+    .xs-pad-15-all { padding:15px !important; } /* padding all side */
+    .xs-pad-small { padding:35px; } /* padding all side in small spacer */
+    .xs-pad-medium { padding:50px !important; } /* padding all side in medium spacer */
+    .xs-pad-extra-medium { padding:60px !important; } /* padding all side in extra medium spacer */
+    .xs-pad-large { padding:70px !important; }
+    .xs-pr-none { padding-right:0 !important; } /* apply this class when you want to padding-right(zero) in mobile version */
+    .xs-pb-section { padding-bottom:40px !important; } /* apply this class when you add padding-bottom(zero) classes in section */
+    .xs-mb-0 { margin-bottom:0 !important; }
+    .xs-mb-15 { margin-bottom:15px; }
+    .xs-mb-25 { margin-bottom:25px; }
+    .xs-mt-0 { margin-top:0 !important; }
+    .xs-ml-0 { margin-left:0 !important; }
+    .xs-mr-0 { margin-right:0 !important; }
+    .xs-pt-0 { padding-top:0 !important; }
+    .xs-pb-0 { padding-bottom:0 !important; }
+    .xs-pl-0 { padding-left:0 !important; }
+    .xs-pr-0 { padding-right:0 !important; }
+    .xs-mrg-none { margin:0 !important; } /* apply this class for remove all side margin in mobile version */
+
+    /*** All Pages Combine Selector CSS BOF ***/
+    .webpanda-default .webp-why.section-h-space .container-fluid, .webpanda-classic .webp-classic-why.section-h-space .container-fluid,
+    .webp-freelancer .webp-freelancer-cms.section-h-space .container-fluid, .webp-startup .webp-startup-about.section-h-space .container-fluid { padding-left:0; padding-right:0; }
+
+    .bg-letter, .bg-sec-count, .bg-seprator:after, .bg-seprator:before, .bg-dotted::after, .section-shadow::before, .svg-pattern, .banner-mark-text::after, .bg-mark-letter,
+    .caption-title::before, .caption-title::after, .bg-dotted-left::after, .parallax-text { display:none; }
+
+    /*** WEBP Default Page CSS (home1) BOF ***/
+    .webpanda-default .webp-offer .offer-item-content { padding:40px 0; }
+
+    /*** WEBP Classic Page CSS (home2) BOF ***/
+    .webp-classic-banner .flexslider.flexslider-slide .btn { margin:10px 0 0; width:49%; }
+
+    /*** WEBP Digital Agency Page CSS (home3) BOF ***/
+    .webp-digital-agency .webp-agency-about h1 { font-size:1.80rem; }
+
+    /*** WEBP Business Parallax (home4) CSS ***/
+    .webp-business-parallax .webp-business-service, .webp-business-parallax .webp-business-testimonial { background-color:#f7fafc; }
+    .webp-business-parallax .webp-business-contact { background-color:#e91e63; }
+    .webp-business-parallax .webp-business-testimonial .yit-testimonial.style-4 .yit-img { display:block; }
+
+    /*** WEBP Creative Studio (home5) CSS ***/
+    .webp-creative-studio .webp-creative-banner { margin-left:0; margin-top:80px; }
+    .webp-creative-studio h1 { font-size:1.60rem; }
+    .webp-creative-studio .yit-feature.style-41 .yit-feature-item { margin-bottom:20px; }
+    .webp-creative-studio .webp-studio-skill.height-full { height:100%; }
+
+    /*** WEBP Creative Designer (home6) CSS ***/
+    .webp-creative-designer .webp-desinger-contact.pos-t-105 { top:40px; }
+    .webp-creative-designer .webp-designer-footer .yit-footer.mt-80 { margin-top:40px !important; }
+    .webp-creative-designer .webp-designer-footer .yit-instafeed.style-1 li { width:49%; display:inline-block; }
+
+    /*** WEBP Creative Web Agency (home7) CSS ***/
+    .webp-creative-web-agency .webp-creative-web-banner .yit-banner-content { margin-top:100px; }
+    .webp-creative-web-agency .webp-agency-about-tab .yit-tab-verticle.style-4 .nav-pills .nav-link i { position:relative; left:0; top:0; text-align:center; }
+    .webp-creative-web-agency .webp-agency-about-tab .yit-tab-verticle.style-4 .nav-pills .nav-link { padding:15px 20px; }
+    .webp-creative-web-agency .webp-agency-about-tab .yit-tab-verticle.style-4 .tab-inner { margin-left:0; }
+    .webp-creative-web-agency .webp-agency-about-tab .yit-tab-verticle.style-4 .tab-content figure { position:relative; }
+    .webp-creative-web-agency .webp-web-agency-about .video-outer { left:0; }
+    .webp-creative-web-agency .webp-web-agency-testimonial .testimonial-outer { right:0; }
+    .webp-creative-web-agency .webp-web-agency-testimonial .yit-testimonial { float:none; }
+    .webp-creative-web-agency .webp-agency-about-tab .yit-tab-verticle.style-4 .nav-pills .nav-link.show::before,
+    .webp-creative-web-agency .webp-web-agency-blog:before, .webp-creative-web-agency .webp-web-agency-blog:after { display:none; }
+    .webp-creative-web-agency .webp-web-agency-process .yit-process .yit-process-item { padding:0; }
+
+    /*** WEBP Startup Onepage (home8) CSS ***/
+    .webp-startup-onepage .webp-startup-header .flex-slide-text::before { display:none; }
+
+    /*** WEBP Freelancer Page CSS BOF (homepage-8) ***/
+    .webp-freelancer .fancy-letter { font-size:90px; }
+    .webp-freelancer .webp-freelancer-banner { margin-top:70px; }
+    .webp-freelancer .webp-freelancer-contact.pos-t-105 { top:0; }
+    .webp-freelancer .webp-freelacer-blog .yit-blog .yit-blog-author { display:table; margin:0 auto; }
+
+    /*** WEBP Branding Agency Page CSS BOF (homepage-9) ***/
+    .webp-branding-agency .webp-branding-agency-testimonial { padding-bottom:50px !important; }
+
+    /*** WEBP Startup Page CSS BOF (homepage-10) ***/
+    .webp-startup .webp-startup-about .pad-50-all { padding:50px 15px; }
+    .webp-startup .webp-startup-parallax .data-parallax-effect { max-width:100%; right:0; }
+    .webp-startup .webp-startup-footer { background-image:none; background-color:#fff; }
+    .webp-startup .webp-startup-intro .yit-feature.style-26 .yit-feature-item * { text-align:center; }
+    .webp-startup .webp-startup-intro .yit-feature.style-26 .yit-feature-item span { padding-right:0 !important; display:block; margin-bottom:0 !important; }
+    .webp-startup .webp-startup-intro .yit-display-tb-cell { display:block; }
+
+    /*** WEBP Web Agency Onepage CSS BOF (homepage-11) ***/
+    .webp-web-agency section, .webp-web-agency section:nth-child(2n+2) { padding-top:40px; padding-bottom:40px; }
+    .webp-web-agency .yit-on-sticky-nav.is-visible { background-color:rgba(0, 0, 0, .8); }
+    .webp-web-agency .header-logo { background-color:rgba(0, 0, 0, .8); padding:15px 0; width:100%; left:0; text-align:center; }
+    .webp-web-agency .fullpage-nav { right:-40px; -moz-transition:all .3s ease-in-out 0s; -webkit-transition:all .3s ease-in-out 0s; -o-transition:all .3s ease-in-out 0s; -ms-transition:all .3s ease-in-out 0s; transition:all .3s ease-in-out 0s; }
+    .webp-web-agency:hover .fullpage-nav { right:10px; }
+    .webp-web-agency .webp-web-agency-about .yit-tab .tab-content { padding:15px; }
+    .webp-web-agency .webp-web-agency-portfolio .filter-tab .btn { -moz-border-radius:20px; -webkit-border-radius:20px; border-radius:20px; }
+
+    /*** WEBP Branding Agency Onepage CSS BOF (homepage-13) ***/
+    .webp-branding-onepage .webp-branding-header h1 { font-size:1.85rem; }
+    .webp-branding-onepage .webp-branding-header .arrow-style-3 { bottom:0; }
+    .webp-startup-onepage .webp-services .yit-feature.style-43 .yit-feature-item { padding:30px; }
+
+    /*** WEBP Digital Marketing CSS BOF (homepage-14) ***/
+    .webp-digital-marketing .webp-digital-banner { height:auto; }
+    .webp-digital-marketing .webp-digital-marketing-testimonial.pb-0 { padding-bottom:50px !important; }
+
+    /*** WEBP App Onepage CSS BOF (homepage-15) ***/
+    .webp-app .webp-app-banner { height:auto; -moz-background-size:cover; -webkit-background-size:cover; -o-background-size:cover; -ms-background-size:cover; background-size:cover; }
+    .webp-app .app-feature-content:hover .app-feature-list [class*="item-"] { transform:none; -moz-transform:none; -webkit-transform:none; -o-transform:none; -ms-transform:none; }
+
+    /*** WEBP SEO CSS BOF (homepage-16) ***/
+    .webp-seo .webp-seo-header .yit-swiper-slider::after { display:none; }
+
+    /*** WEBP Hosting CSS BOF (homepage-17) ***/
+    .webp-hosting .webp-hosting-header .yit-top-nav { padding:0; }
+    .webp-hosting .webp-hosting-banner::after { display:none; }
+    .webp-hosting .webp-hosting-banner.yit-slick-slider .slick-slide-img { height:auto; }
+    .webp-hosting .webp-hosting-banner.yit-slick-slider .slick-slider-content .yit-display-centrize { margin-top:0; }
+    .webp-hosting .webp-hosting-cms .item-icon { width:260px; height:260px; margin:35px auto; }
+    .webp-hosting .webp-hosting-cms .item-icon .item-price { width:80px; height:80px; font-size:17px; }
+
+    /*** WEBP Personal Portfolio CSS BOF (homepage-18) ***/
+    .webp-personal .webp-personal-about { padding-top:40px; }
+    .webp-personal .webp-personal-service .service-intro::after { display:none; }
+    .webp-personal .webp-personal-service .service-intro, .webp-personal .webp-personal-service .service-listing { height:auto; }
+    .webp-personal .webp-personal-service .service-intro hr { float:none; }
+    .webp-personal .webp-personal-service .service-listing { margin-top:0; }
+    .webp-personal .webp-personal-service .service-listing .yit-feature { padding-left:15px; padding-right:15px; }
+    .webp-personal .webp-personal-portfolio .btn { width:auto; }
+
+    /*** WEBP About Classic CSS BOF (aboutpage-02) ***/
+    .webp-about-classic .about-history h6 { left:20px; bottom:20px; -webkit-transform:none; -o-transform:none; -ms-transform:none; -moz-transform:none; transform:none; }
+
+    /*** WEBP About Creative CSS BOF (aboutpage-04) ***/
+    .webp-about-creative .yit-portfolio.style-6 .swiper-button-next, .webp-about-creative .yit-portfolio.style-6 .swiper-button-prev { top:50%; bottom:auto; }
+
+    /*** 404 Error Pages CSS BOF (404-error-01) ***/
+    .error-page .error-banner-content .error-text-heading { font-size:100px; }
+
+    /*** Team Creative Page CSS BOF (teampage-04) ***/
+    .webp-team-creative .team-creative .item-content { margin-top:40px; }
+    .yit-blog .yit-blog-item .post-title{
+        text-align: left;
+    }
+    .back-top #toTop{
+        display: none !important;
+    }
+    .chat-icon{
+        bottom: 10px;
+        right: 10px;    
+    }
+    .yit-portfolio.style-2 .yit-portfolio-item p{
+        margin-bottom: 0px;
+    }
+    .yit-footer .pr-50{
+        padding-right: 0 !important;
+    }
+    .yit-footer .pl-50{
+        padding-left: 0 !important;
+        padding-top: 10px;
+    }
+    .webp-home1-why-img{
+        height: 35vh;
+    }
+    .full-slider .slider-data {
+        padding: 140px 25px 50px 25px;
+    }
+    .full-slider .details{
+        padding: 40px 20px;
+    }
+    .full-slider .details h2, .full-slider .details h1{
+        text-align: left;
+    }
+    .why-us .yit-flex-v-center{
+        min-height:375px;
+    }
+    .yit-nav .navbar .navbar-brand span{
+        font-size: 10px;
+    }
+
+
+
+} /* mobile media close */
+
+/* All Mobile Device (iPhone, Android, Window)(480 * 640)
+============================================================== */
+@media (min-width:320px) and (max-width:480px) { /* code here */ }
+
+/* iPad & Small Tablet Landscape (1024 * 768)
+============================================================== */
+@media (min-width: 979px) and (max-width: 1200px) {
+
+    /*** Global CSS BOF ***/
+    .hidden-md { display:none !important; } /* hide in medium device */
+    h1, h2, h3, h4, h5, h6 { line-height:1.3; }
+    section { padding-top:30px; padding-bottom:30px; }
+    .bg-sec-count { display:none; }
+    .bg-seprator.skew-one::after { bottom:-140px; }
+    .bg-seprator.skew-four::before { height:680px; }
+    .section-shadow::before { bottom:80px; }
+    .bg-mark-letter { font-size:130px; }
+    .xs-max-width-auto { max-width:100%; }
+    .md-parallax-bg { height:600px; } /* apply this class when you want to fix section height in medium version */
+    .pad-100-all { padding:70px; } /* override full with section padding */
+
+    /*** WEBP Default Page (home1) CSS BOF ***/
+    .webpanda-default .webp-default-contact .icon-l { float:none; display:block; text-align:center; margin:0 auto 15px; }
+    .webpanda-default .webp-default-contact .yit-overflow { text-align: center; }
+
+    /*** WEBP Business Parallax (home4) CSS ***/
+    .webp-business-parallax .webp-business-banner .parallax-obj-triangle { width:80%; bottom:80px; }
+    .webp-business-parallax .webp-business-banner .parallax-obj-name { bottom:40%; width:80%; }
+    .webp-business-parallax .webp-business-banner .parallax-obj-bubble { bottom:30%; width:70%; }
+
+    /*** WEBP Business Parallax (home6) CSS ***/
+    .webp-creative-designer .webp-designer-cms .yit-accordion { margin-top:40px !important; }
+
+    /*** WEBP Creative Web Agency (home7) CSS ***/
+    .webp-creative-web-agency .webp-creative-web-banner .svg-curve.style-1 { bottom:0; }
+    .webp-creative-web-agency .webp-agency-about-tab .yit-tab-verticle.style-4 .nav-pills .nav-link { padding:20px 70px; }
+    .webp-creative-web-agency .webp-web-agency-about .video-outer-md { align-items: center; display: flex; height: 100%; }
+    .webp-creative-web-agency .webp-web-agency-about .video-outer { left:-40px; }
+    .webp-creative-web-agency .webp-web-agency-testimonial .yit-testimonial { float:none; }
+    .webp-creative-web-agency .webp-web-agency-testimonial .testimonial-outer-md { align-items: center; display: flex; height: 100%; }
+    .webp-creative-web-agency .webp-web-agency-testimonial .testimonial-outer { right:-40px; }
+
+    /*** WEBP Freelancer Page CSS BOF (homepage-8) ***/
+    .webp-freelancer .webp-freelancer-banner .yit-flex-h-center { justify-content:center; }
+    .webp-freelancer .webp-freelancer-cms .webp-freelancer-team-img { height:80vh; background-size:inherit; }
+
+    /*** WEBP Startup Page CSS BOF (homepage-10) ***/
+    .webp-startup .webp-startup-parallax .data-parallax-effect { max-width:100%; right:0; }
+
+    /*** WEBP Digital Marketings Page CSS BOF (homepage-11) ***/
+    .webp-digital-marketing .webp-digital-banner { height:100vh; }
+
+    /*** WEBP Startup Onepage (home12) CSS ***/
+    .webp-startup-onepage .webp-startup-contact .google-map { height: 719px; }
+
+    /*** WEBP App Onepage CSS BOF (homepage-15) ***/
+    .webp-app .app-feature-content:hover .app-feature-list [class*="item-"] { transform:none; -moz-transform:none; -webkit-transform:none; -o-transform:none; -ms-transform:none; }
+
+    /*** WEBP App Onepage CSS BOF (homepage-16) ***/
+    .webp-seo .webp-seo-about .yit-feature .yit-feature-item h6 { font-size:1.03rem; }
+
+    /*** WEBP Personal Portfolio CSS BOF (homepage-18) ***/
+    .webp-personal .webp-personal-about .img-frame { top:45px; }
+    .webp-personal .webp-personal-service .service-intro::after { display:none; }
+    .webp-personal .webp-personal-service .service-intro, .webp-personal .webp-personal-service .service-listing { height:auto; }
+    .webp-personal .webp-personal-service .service-listing { margin-top:0; }
+
+} /* landscape media close */
+
+/* Small Tablet Landscape (980 * 1023)
+============================================================== */
+@media (min-width: 980px) and (max-width:1023px) {
+
+    /*** WEBP Business Parallax (home4) CSS ***/
+    .webp-business-parallax .webp-business-banner .parallax-obj-triangle { width:80%; bottom:20%; }
+    .webp-business-parallax .webp-business-banner .parallax-obj-name { bottom:40%; width:80%; }
+    .webp-business-parallax .webp-business-banner .parallax-obj-bubble { bottom:30%; width:70%; }
+
+    /*** WEBP Web Agency Onepage CSS BOF (homepage-13) ***/
+    .webp-branding-onepage .webp-branding-counter .counter-item { height:100%; }
+} /* custom landscape medic close */
+
+/* Large Device (1200 * 1920)
+============================================================== */
+@media (min-width:1200px){
+    .hidden-lg { display:none !important; }
+}

@@ -1,0 +1,414 @@
+/*
+| --------------------------------------------------------
+| Theme Name : WebPanda
+| Theme Version : 1.0
+| Theme Date : 07/08/2018
+| Platforms : HTML5, CSS3, Bootstrap4, JS, Jquery, Sass
+| Theme Author : Yankee Themes
+| Author URI : https://themeforest.net/user/yankeethemes
+| Author Contact : enquiry[at]yankeeinfoweb[dot]com
+| Tags : yankeethemes, yankeeinfoweb, webdesign, boostrap, wordpress, support, html, responsive, css3, wellorganized, retina, animation, html5, sass, support, yakneelife
+| File : yit-boostrap-nav.css
+| --------------------------------------------------------
+*/
+
+/*
+| --------------------------------------------------------
+| TABLE OF CSS CONTENT
+| --------------------------------------------------------
+| General Boostrap Navigation
+|  - Transparent Style
+|  - Solid Style
+|  - Animate Navigation
+|  - Responsive Navigation
+| Custom Navigation
+|  - Faded Navigation
+|  - Responsive Navigation
+|  - Left Half Slide Navigation
+|  - Megamenu Navigation
+*/
+
+/* NOTE: This file includes all boostrap navigation (custom, alignment, other) many more variations styles */
+
+/*
+| ================================================================================================================
+| Genreral Boostrap Navigation CSS BOF
+| ================================================================================================================
+*/
+.yit-upcase-nav .nav-link { text-transform:none; font-weight:600 !important; }
+
+/* Common All Pages Top Naivgation Variations CSS BOF
+================================================================================================================ */
+
+/*** Top Nav General Style CSS BOF ***/
+.yit-top-nav { padding:10px 1rem 5px; font-size:14px; font-family:inherit; }
+.yit-top-nav .top-nav-left { float:left; }
+.yit-top-nav .top-nav-right { float:right; }
+.yit-top-nav .top-nav-left ul li { padding-right:10px; }
+.yit-top-nav ul li a i { padding-right:5px; }
+.yit-top-nav .yit-social i { padding:0; }
+
+/*** Top Nav Transparent CSS BOF ***/
+.yit-top-nav-transparent { background-color:transparent; border-bottom:solid 1px rgba(255, 255, 255, .2); }
+.yit-top-nav-transparent a { color:rgba(255, 255, 255, .7); }
+.yit-top-nav-transparent a:hover { color:#fff; }
+.yit-top-nav-transparent .yit-social.style-1 a { color:rgba(255, 255, 255, .7); }
+.yit-top-nav-transparent .yit-social.style-1 a:hover { color:#fff; }
+.yit-top-nav-transparent .btn-xxsmall:hover, .yit-top-nav-transparent .btn-xxsmall:focus, .yit-top-nav-transparent .btn-xxsmall:focus { color:#000; }
+
+/*** Top Nav Light CSS BOF ***/
+.yit-top-nav-light { background:#f8f8f8; }
+.yit-top-nav-light a { color:rgba(0, 0, 0, 0.7); }
+
+/*** Top Nav Dark CSS BOF ***/
+.yit-top-nav-dark { background:#333; }
+.yit-top-nav-dark a { color:rgba(255, 255, 255, .7); }
+.yit-top-nav-dark a:hover, .yit-top-nav-dark a:focus, .yit-top-nav-dark a:active { color:#fff; }
+
+/*** Top Nav Color CSS BOF ***/
+.yit-top-nav-color a { color:#fff }
+.yit-top-nav-color a:hover, .yit-top-nav-color a:focus, .yit-top-nav-color a:active { color:#fff; }
+
+/*** Top Nav Fancy Style CSS BOF ***/
+.yit-top-nav.fancy-style { position:relative; z-index:10; }
+.yit-top-nav.fancy-style a { color:#cbd3dc; }
+.yit-top-nav.fancy-style .top-nav-right ul li::after { color: #43566b; content: "|"; padding: 0 10px; }
+.yit-top-nav.fancy-style a:hover, .yit-top-nav.fancy-style a:focus, .yit-top-nav.fancy-style a:active { color:#fff; }
+.yit-top-nav.fancy-style:after { border-bottom: 250px solid #085DAD; border-left: 250px solid rgba(0, 0, 0, 0); bottom: 0; content: ""; height: 0; position: absolute; right: 0;
+                                 width: 0; z-index: -1; }
+
+/*** Top Nav Language Selection CSS BOF ***/
+.yit-nice-select.language-select { line-height:normal; height:auto; padding-left:0; }
+.yit-nice-select.language-select { background-color:transparent; border:none; color:#cbd3dc; -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; float:none; }
+.yit-nice-select.language-select.nice-select .option { padding-left:10px; padding-right:10px; }
+.yit-nice-select.language-select:after { height:8px; width:8px; }
+
+/* Common All Pages Naivgation Variations CSS BOF
+================================================================================================================ */
+
+/*** Nav Style General CSS BOF ***/
+.yit-nav .navbar { padding:0 !important; }
+.yit-nav .navbar-nav { font-family:inherit; }
+.yit-nav .navbar-nav .nav-link { padding-top:7px; padding-bottom:7px; }
+.yit-nav .navbar-nav .nav-item.dropdown { -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; }
+
+/*** Nav Style Transparent CSS BOF ***/
+.yit-nav-transparent-style .navbar { 
+    background-color:transparent;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+}
+.yit-nav-transparent-style .navbar-nav .nav-link { font-size:14px;letter-spacing:1px;text-transform: uppercase; color:#fff; padding-left:.9rem; padding-right:.9rem;font-family: "Roboto", sans-serif; }
+
+/*** Nav Style Light CSS BOF ***/
+.yit-nav-light-style .navbar, .yit-nav-light-style.navbar { background-color:#fff; }
+.yit-nav-light-style .navbar-light .navbar-nav .nav-link, .yit-nav-light-style.navbar-light .navbar-nav .nav-link { color:rgba(0, 0, 0, .7); }
+.yit-on-scroll-nav.animated.yit-nav-light-style .navbar, .yit-on-scroll-nav.animated .yit-nav-light-style .navbar { background-color:#fff; }
+.yit-nav-light-style .navbar-nav .nav-item:hover .nav-link, .yit-nav-light-style .navbar-nav .nav-item:focus .nav-link,
+.yit-nav-light-style .navbar-nav .nav-item:active .nav-link { color:#fff; } /* nav-link override white */
+.yit-nav-light-style .navbar-nav .nav-item:hover .yit-seclevel-menu .nav-link, .yit-nav-light-style .navbar-nav .nav-item:active .yit-seclevel-menu .nav-link,
+.yit-nav-light-style .navbar-nav .nav-item:focus .yit-seclevel-menu .nav-link { color: #000000; } /* sub level nav-item override black */
+
+/*** Nav Style Dark CSS BOF ***/
+.yit-nav-dark-style .navbar, .yit-nav-dark-style.navbar { background-color:#232323; }
+.yit-nav-dark-style .navbar-light .navbar-nav .nav-link, .yit-nav-dark-style.navbar-light .navbar-nav .nav-link { color:#9d9d9d; }
+.yit-nav-dark-style .navbar-nav .nav-item:hover .nav-link, .yit-nav-dark-style .navbar-nav .nav-item:focus .nav-link,
+.yit-nav-dark-style .navbar-nav .nav-item:active .nav-link { color:#fff; } /* nav-link override white */
+.yit-nav-dark-style .navbar-nav .nav-item:hover .yit-seclevel-menu .nav-link, .yit-nav-dark-style .navbar-nav .nav-item:active .yit-seclevel-menu .nav-link,
+.yit-nav-dark-style .navbar-nav .nav-item:focus .yit-seclevel-menu .nav-link { color: #000000; } /* sub level nav-item override black */
+
+/*** Nav Style Color CSS BOF ***/
+.yit-nav-color-style .navbar-light .navbar-nav .nav-link, .yit-nav-color-style.navbar-light .navbar-nav .nav-link { color:#fff; }
+
+/*** Nav Style Fancy CSS BOF ***/
+.yit-nav-fancy-style { max-width:1140px; margin:22px auto; box-shadow:0 3px 5px 0 rgba(0, 0, 0, 0.2); -webkit-box-shadow:0 3px 5px 0 rgba(0, 0, 0, 0.2);
+                       -moz-box-shadow:0 3px 5px 0 rgba(0, 0, 0, 0.2); }
+.yit-on-scroll-nav.animated.navbar.yit-nav-fancy-style { background: #ffffff; margin: 0 auto; max-width:none; }
+
+/*** Nav Style Inverse CSS BOF ***/
+.yit-nav-inverse .navbar-nav .nav-link, .yit-nav-inverse .search-link { color: #000000; }
+.yit-nav-inverse .yit-on-scroll-nav.animated .navbar-nav .nav-link { color: #ffffff; }
+.yit-nav-inverse .yit-on-scroll-nav.animated .search-link { color: #ffffff; }
+.yit-nav-inverse .navbar-nav .nav-item:hover .nav-link, .yit-nav-inverse .navbar-nav .nav-item:focus .nav-link,
+.yit-nav-inverse .navbar-nav .nav-item:active .nav-link { color:#fff; } /* nav-link override white */
+.yit-nav-inverse .navbar-nav .nav-item:hover .yit-seclevel-menu .nav-link, .yit-nav-inverse .navbar-nav .nav-item:active .yit-seclevel-menu .nav-link,
+.yit-nav-inverse .navbar-nav .nav-item:focus .yit-seclevel-menu .nav-link { color: #000000; } /* sub level nav-item override black */
+
+/* Hover State (.js) Class Append CSS BOF */	
+.yit-nav-inverse .yit-on-scroll-nav.animated .navbar-nav .nav-link:hover, .yit-nav-inverse .yit-on-scroll-nav.animated .navbar-nav .nav-link:focus,
+.yit-nav-inverse .yit-on-scroll-nav.animated .navbar-nav .nav-link:active { color: #fff; }
+.yit-nav-inverse .yit-on-scroll-nav.animated .navbar-nav .nav-item.active .nav-link { color:#fff; }
+
+/*** Nav Style (.js) Scroll Animated CSS BOF ***/
+.yit-on-scroll-nav { -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; }
+.yit-on-scroll-nav.animated .yit-top-nav { background-color:#1e1e1e; }
+.yit-on-scroll-nav.animated .navbar { background-color:#1e1e1e; }
+.yit-on-scroll-nav.animated.navbar { background-color:#1e1e1e; }
+
+/*** Nav Style (.js) Sticky CSS BOF ***/
+.yit-on-sticky-nav.is-hidden, .yit-on-sticky-nav.is-visible { -moz-transition:all .4s ease-in-out 0s; -webkit-transition:all .4s ease-in-out 0s;
+                                                              -o-transition:all .4s ease-in-out 0s; -ms-transition:all .4s ease-in-out 0s; transition:all .4s ease-in-out 0s;  }
+.yit-on-sticky-nav.is-hidden
+{
+    -webkit-transform:translate(0, -60px); -moz-transform:translate(0, -60px); -o-transform:translate(0, -60px); -ms-transform:translate(0, -60px); transform:translate(0,-60px); opacity:0;
+}
+.yit-on-sticky-nav.is-visible { opacity:1; }
+.yit-on-sticky-nav.is-visible { background-color:rgba(0, 0, 0, .8); }
+
+/*** Logo Style Top CSS BOF ***/
+.yit-nav.yit-bsnav-logo-top { padding-bottom:0; }
+.yit-nav.yit-bsnav-logo-top .navbar { padding-top:0; padding-bottom:0; }
+.yit-on-scroll-nav.animated.yit-bsnav-logo-top { background-color:#1e1e1e; }
+
+/* General Nav Hover State CSS BOF (General Menu Hover) */
+.yit-nav .navbar-nav .nav-link:hover, .yit-nav .navbar-nav .nav-link:focus, .yit-nav .navbar-nav .nav-link:active,
+.yit-nav .navbar-nav .nav-link.active, .yit-nav .navbar-nav .dropdown:hover, .yit-nav .navbar-nav .dropdown:focus,
+.yit-nav .navbar-nav .dropdown:active, .yit-nav .yit-nav .navbar-nav .show .nav-link, .yit-nav .navbar-nav .active .nav-link,
+.yit-nav .nav-link.show, .yit-nav .navbar-nav .nav-link.active { background-color:#085DAD; color:#fff;border-radius: 10px; } /* change navigation hover here */
+
+/*** Nav Style General Dropdown CSS BOF **/
+.yit-nav .navbar .dropdown .dropdown-item { font-size:0.875rem; font-size:14px; display:block; font-weight:400; padding:9px 15px; line-height:normal; border-bottom:solid 1px rgba(0, 0, 0, .1); color:#000; }
+.yit-nav .dropdown-toggle::after { vertical-align:middle; margin-top:-1px; } /* dropdown indicate arrow */
+.yit-nav .dropdown-menu { min-width:13rem; margin:0; } /* dropdown menu top postition */
+.yit-nav .navbar .dropdown-menu { padding: 0; }
+.yit-nav .yit-seclevel-menu .dropdown-menu { left:106%; top:0px; -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; padding:0; }
+.yit-nav .yit-seclevel-menu .dropdown-menu .dropdown-item i { display:none; }
+.yit-nav .yit-seclevel-menu .nav-item { display:block; border-bottom:1px solid rgba(0, 0, 0, 0.1); }
+.yit-nav .dropdown:hover .yit-seclevel-menu .dropdown-toggle { position:relative; }
+.yit-nav .yit-seclevel-menu .dropdown-toggle::after { border: medium none; content: ""; font-family: "FontAwesome"; position: absolute; font-size:20px; line-height:normal;
+                                                      right:25px; }
+.yit-nav .navbar-nav .yit-seclevel-menu .nav-link { padding:7px 12px; font-size:14px; color: #000000; background-color:#fff;border-radius: 0; }
+.yit-nav .yit-seclevel-menu .nav-item { padding:0; }
+.yit-nav .navbar .dropdown .dropdown-item:hover, .yit-nav .navbar .dropdown .dropdown-item:focus, .yit-nav .navbar .dropdown .dropdown-item:active, .yit-nav .navbar .dropdown .dropdown-item.active { color:#000; background-color:transparent; }
+
+/*** Dropdown Postition Setup CSS BOF ***/
+.yit-nav .dropdown-menu { /*top:167%;*/ }
+.yit-nav .yit-bsnav-short-menu .dropdown:not(.yit-megamenu-block) .dropdown-menu { /*top:135%;*/ } /* dropdown:not with .yit-megamenu-block */
+.yit-nav .yit-bsnav-short-menu .dropdown:not(.yit-megamenu-block) .yit-seclevel-menu .dropdown-menu { /*top:0;*/ } /* dropdown:not with .yit-megamenu-block apply css for second level */
+
+/* General Dropdown Item (.dropdown-item) Hover/Active State */
+.yit-nav .navbar .dropdown .dropdown-item:hover, .yit-nav .navbar .dropdown .dropdown-item:focus,
+.yit-nav .navbar .dropdown .dropdown-item:active, .yit-nav .navbar .dropdown .dropdown-item.active, 
+.yit-nav .navbar-nav .yit-seclevel-menu .dropdown:hover, .yit-nav .navbar-nav .yit-seclevel-menu .dropdown:hover .nav-link,
+.yit-nav .navbar-nav .yit-seclevel-menu .nav-item:hover .nav-link { background:#085DAD; color:#fff; } /* change general dropdown hover state */
+
+/* Second Level Dropdown (.yit-seclevel-menu) Hover/Active State */
+.yit-nav .navbar-nav .yit-seclevel-menu .dropdown .nav-link:hover, .yit-nav .navbar-nav .yit-seclevel-menu .dropdown .nav-link:focus,
+.yit-nav .navbar-nav .yit-seclevel-menu .dropdown .nav-link:active,  .yit-nav .navbar-nav .yit-seclevel-menu .dropdown.active .nav-link { background:#085DAD; color:#fff; } /* change 2nd level dropdown hover state */
+
+/* Second Level Dropdown Item (.yit-seclevel-menu .dropdown-item) Hover/Active State */
+.yit-nav .navbar-nav .yit-seclevel-menu .dropdown-item:hover, .yit-nav .navbar-nav .yit-seclevel-menu .dropdown-item:focus,
+.yit-nav .navbar-nav .yit-seclevel-menu .dropdown-item:active, .yit-nav .navbar-nav .yit-seclevel-menu .dropdown-item.active { background:#085DAD; color:#fff; } /* change 2nd level dropdown item hover state */
+
+.yit-nav .navbar .navbar-brand{
+    position: relative;
+}
+.yit-nav .navbar .navbar-brand span{
+    color: #fff;
+    font-size: 12px;
+    position: relative;
+    top: -4px;
+    right: 0;
+    line-height: 6px;
+    display: block;
+    text-align: right;
+    letter-spacing: 1px;
+}
+
+/* General Boostrap Navigation Responsive CSS BOC
+================================================================================================================ */
+
+/* Mobile Device Responsive CSS */
+@media (max-width:767px) {
+
+    /*** Nav Style General CSS BOF ***/
+    .yit-nav .navbar { padding:15px !important;  }
+    .yit-nav .navbar-collapse.collapse.show { max-height: 380px; overflow-y: auto; } /* scroll appear in responsive */
+    .yit-nav .navbar-nav { margin-top:20px; }
+    .yit-nav .navbar-nav .nav-link { padding-top:10px; padding-bottom:10px; }
+    .yit-nav .navbar-light .navbar-toggler { border-color: #085DAD; color: #085DAD; }
+    .yit-top-nav .top-nav-left, .yit-top-nav .top-nav-right { float:none; text-align:center; }
+    .yit-top-nav .top-call-action i { padding:0 }
+    .yit-nav .dropdown-menu { border:medium none; -moz-box-shadow:none; -webkit-box-shadow:none; box-shadow:none; }
+    .yit-nav .yit-seclevel-menu .nav-link { padding:7px 12px; }
+    .yit-nav .yit-seclevel-menu .nav-item { border:none; }
+    .yit-nav .yit-seclevel-menu .nav-item .dropdown-item { padding: 9px 25px; }
+    .yit-nav .search-link { display:none; } /* hide search in mobile */
+    .yit-nav .yit-bsnav-logo-right .xs-brand-right { position: absolute; right: 15px; top: 10px; } /* apply this mobile class when logo is right align in desktop */
+    .yit-nav.yit-bsnav-logo-top .navbar { padding-top:20px; padding-bottom:20px; }
+
+    /* Hover State CSS BOF */
+    .yit-nav .navbar-light .navbar-toggler-icon { background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox=\'0 0 30 30\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath stroke=\'rgba(233, 30, 99)\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-miterlimit=\'10\' d=\'M4 7h22M4 15h22M4 23h22\'/%3E%3C/svg%3E"); }
+    .yit-nav .navbar-nav .nav-link:hover, .yit-nav .navbar-nav .nav-link:focus, .yit-nav .navbar-nav .nav-link:active,
+    .yit-nav .navbar-nav .nav-link.active { background-color:#085DAD; color:#fff; } /* mobile collpase nav hover */
+    .yit-nav .navbar-light .navbar-nav .show > .nav-link, .yit-nav .navbar-light .navbar-nav .active > .nav-link, .yit-nav .navbar-light .navbar-nav .nav-link.show, 
+    .yit-nav .navbar-light .navbar-nav .nav-link.active { background: #085DAD; color:#fff; }
+
+    /* Toggle State CSS BOF */
+    .navbar .navbar-nav .dropdown-toggle::after { border: medium none; content: ""; font-family: "FontAwesome"; position: absolute; right:25px; font-size:20px;
+                                                  line-height:normal; } /* general toggle */
+    .yit-nav .nav-item.dropdown.show .dropdown-toggle::after { content: ""; } /* main nav collapase icon */
+    .yit-nav .nav-item.dropdown .yit-seclevel-menu .dropdown-toggle::after { content: ""; } /* dropdown collapase icon */
+    .yit-nav .nav-item.dropdown .yit-seclevel-menu .active.dropdown-toggle::after { content: ""; } /* 2nd level dropdown collapase icon */
+
+    /*** Nav Style Transparent CSS BOF ***/
+    .yit-on-scroll-nav.animated .yit-top-nav-transparent { display:none; } /* tob bar none on scroll */
+    .yit-nav-transparent-style .navbar { background-color:rgba(0, 0, 0, .9); }
+    .yit-top-nav-transparent { background-color:rgba(0, 0, 0, .8); }
+    .yit-nav-transparent-style .navbar-nav .nav-link { font-size:14px; color:#fff; }
+
+    /*** Nav Style Light CSS BOF ***/
+    .yit-nav-light-style .navbar-nav .nav-link { padding-left:.9rem; padding-right:.9rem; }
+    .yit-nav .yit-nav-light-style .nav-item.show { background:#085DAD; }
+
+    /*** Nav Style Dark CSS BOF ***/
+    .yit-nav-dark-style .navbar-nav .nav-link { padding-left:.9rem; padding-right:.9rem; }
+
+    /*** Nav Style Fancy CSS BOF ***/
+    .yit-nav-fancy-style { max-width:none; margin:0 auto; }
+
+    /*** Nav Style Center Menu CSS BOF ***/
+    .yit-nav .yit-bsnav-center-menu .navbar-nav { margin-top:0; }
+    .yit-nav .yit-bsnav-center-menu .navbar-collapse { margin:25px 0; }
+}
+
+/* iPad Portrait Device Responsive CSS */
+@media (min-width:768px) and (max-width:980px) {
+
+    /*** Nav Style General Dropdown CSS BOF ***/
+    .yit-nav .dropdown:hover .yit-seclevel-menu .dropdown-menu { opacity: 0; visibility: hidden; }
+    .yit-nav .yit-seclevel-menu .dropdown:hover .dropdown-menu { opacity:1; -moz-opacity:1; -webkit-opacity:1; -o-opacity:1; -ms-opacity:1; visibility:visible; display:block; left:100%; }
+    .yit-nav .navbar .navbar-nav .dropdown-toggle::after { display:block; margin:0 auto; }
+    .yit-nav .navbar .yit-seclevel-menu .dropdown-toggle::after { display:inline-block; }
+    .yit-nav .dropdown-menu { /*top:140%;*/ } /* top position css */
+
+    /*** Nav Style Transparent CSS BOF ***/
+    .yit-nav-transparent-style .navbar-nav .nav-link { padding-left:0.7rem; padding-right:0.7rem; }
+
+    /*** Nav Style Fancy CSS BOF ***/
+    .yit-nav-fancy-style { max-width:720px; }
+}
+
+/* iPad Landscape Device Responsive CSS */
+@media (min-width:979px) and (max-width:1200px) {
+
+    /*** Nav Style Fancy CSS BOF ***/
+    .yit-nav-fancy-style { max-width:960px; }
+}
+
+/* Custom Media Device Responsive CSS */
+@media (min-width:980px) {
+
+    /*** Nav Style General Dropdown CSS BOF ***/
+    .yit-nav .dropdown:hover .yit-seclevel-menu .dropdown-menu { opacity: 0; visibility: hidden; }
+    .yit-nav .yit-seclevel-menu .dropdown:hover .dropdown-menu { opacity:1; -moz-opacity:1; -webkit-opacity:1; -o-opacity:1; -ms-opacity:1; visibility:visible; display:block; left:101%; }
+}
+
+/*
+| ================================================================================================================
+| Mega Menu CSS BOF (only for presentation purpose)
+| ================================================================================================================
+*/
+.yit-mega-menu .dropdown-menu { border:medium none; -moz-box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1); 
+                                box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1); }
+.yit-mega-menu .dropdown.yit-megamenu-block { position:static; }
+.yit-mega-menu .yit-megamenu-block .yit-mega-dropdown { padding:20px 15px; left:0; right:0; margin:0 auto; top:100%; } /* dropdown postion here */
+.yit-mega-menu .yit-mega-dropdown .yit-megamenu-item li { display:block; line-height:normal; }
+.yit-mega-menu .yit-mega-dropdown .yit-megamenu-item li:last-child { border-bottom:medium none; }
+.yit-mega-menu .yit-mega-dropdown .yit-megamenu-item li a { font-size:14px; color: rgba(0, 0, 0, 0.6); display:block; font-weight:400; padding:8px 10px;
+                                                            border-left:3px solid rgba(0, 0, 0, 0); }
+.yit-mega-menu .yit-mega-dropdown .yit-megamenu-item li a i { padding-right:10px; font-size:17px; }
+.yit-mega-menu .yit-mega-dropdown .yit-megamenu-item { background: #f8f8f8; position:relative; overflow:hidden; padding:10px; height:100%; }
+.yit-mega-menu .yit-mega-dropdown .page-title { color: #085DAD; font-size:15px; position: relative; padding:6px 10px; text-transform:uppercase; }
+.yit-mega-menu .yit-megamenu-block .yit-mega-dropdown { max-height:700px; overflow:auto; } /* megamenu scroll appear using nicescroll.js */
+.yit-mega-menu .yit-mega-dropdown .yit-megamenu-item li a .badge, .yit-mega-menu .yit-mega-dropdown .page-title .badge { text-transform:none; }
+
+/* Accessible Class CSS BOF */
+.yit-mega-menu .yit-mega-dropdown .yit-megamenu-item li.not-applicable { display:none; }
+
+/* Social CTA Block CSS BOF */
+.yit-mega-menu .yit-support-cta { margin-bottom:30px; }
+.yit-mega-menu .yit-support-cta .btn { padding:10px 20px; font-size:15px; }
+.yit-mega-menu .yit-support-cta .btn i { display: block; font-size: 25px; line-height: normal; padding:0 !important; }
+.yit-mega-menu .yit-support-cta.cta-social { background:#085DAD; padding:22px 20px; }
+.yit-mega-menu .yit-support-cta.cta-social a { font-size:17px; color:rgba(255, 255, 255, .8); width:31px; height:31px; line-height:31px; }
+.yit-mega-menu .yit-megamenu-block .row [class*="col-"] { padding-left:10px; padding-right:10px; } /* less gutter space from column */
+
+/* Hide Social CTA CSS BOF */
+.yit-mega-menu .yit-support-cta.cta-social li:nth-child(6) a,
+.yit-mega-menu .yit-support-cta.cta-social li:nth-child(7) a,
+.yit-mega-menu .yit-support-cta.cta-social li:nth-child(8) a,
+.yit-mega-menu .yit-support-cta.cta-social li:nth-child(9) a,
+.yit-mega-menu .yit-support-cta.cta-social li:last-child a { display:none; } /* change dispaly:none to block property for visible other social icons */
+
+/* Fancy Style Support CSS BOF */
+.yit-nav-fancy-style .yit-mega-menu .yit-support-cta.cta-social { padding:22px 20px; }
+.yit-on-scroll-nav.animated.navbar.yit-nav-fancy-style .yit-mega-menu .yit-support-cta.cta-social { padding:24px; }
+
+/* Megamenu Hover State CSS BOF */
+.yit-mega-menu .yit-mega-dropdown .yit-megamenu-item li a:hover, .yit-mega-menu .yit-mega-dropdown .yit-megamenu-item li a:focus,
+.yit-mega-menu .yit-mega-dropdown .yit-megamenu-item li a:active, .yit-mega-menu .yit-mega-dropdown .yit-megamenu-item li a.active {
+    color: #000000; border-left:3px solid #085DAD; } /* change megamenu hover here  */
+.yit-mega-menu .yit-support-cta.cta-social a:hover, .yit-mega-menu .yit-support-cta.cta-social a:focus, .yit-mega-menu .yit-support-cta.cta-social a:active
+{ color:#000; background:#fff; } /* change megamenu social hover here */
+
+/* Responsive Megamenu CSS  BOF
+================================================================================================================== */
+
+/* Mobile Device CSS BOF */
+@media (max-width:767px) {
+    .yit-support-cta { display:none; }
+    .yit-mega-menu .dropdown.yit-megamenu-block { position:relative; }
+    .yit-mega-menu .yit-mega-dropdown .page-title { text-align:left; padding:7px 20px; background:none; }
+    .yit-mega-menu .yit-mega-dropdown .yit-megamenu-item { padding:0; background:transparent; }
+    .yit-mega-menu .yit-mega-dropdown .yit-megamenu-item::after { display:none; }
+    .yit-mega-menu .yit-megamenu-block .yit-mega-dropdown { padding:0; }
+    .yit-mega-menu .dropdown-menu { border-top:medium none; -moz-box-shadow:none; -webkit-box-shadow:none; box-shadow:none; margin-top:0; }
+    .yit-mega-menu .yit-mega-dropdown .page-title { padding:7px 12px; font-size:14px; }
+    .yit-mega-menu .yit-mega-dropdown .yit-megamenu-item li a .badge { display:none; } /* hide badge label */
+    .yit-mega-menu .yit-megamenu-block .yit-mega-dropdown { max-height:none; } /* overvide megamenu scroll .nicescroll js using css */
+}
+
+/* iPad Device CSS BOF */
+@media (min-width:768px) and (max-width:980px) {
+    .yit-support-cta { display:none; }
+    .yit-mega-menu .yit-megamenu-block .row [class*="col-"] { padding-left:5px; padding-right:5px; } /* less gutter space from column */
+    .yit-mega-menu .yit-megamenu-block .yit-mega-dropdown { max-height:500px; } /* megamenu scroll appear using nicescroll.js */
+    .yit-mega-menu .yit-support-cta.cta-social { padding:12px 15px; }
+    .yit-mega-menu .yit-support-cta .btn { padding:15px 0; font-size:11px; }
+    .yit-mega-menu .yit-support-cta.cta-social a { font-size:13px; height:25px; width:25px; line-height:25px; }
+    .yit-on-scroll-nav.animated.navbar.yit-nav-fancy-style .yit-mega-menu .yit-support-cta.cta-social { padding:9px; }
+    .yit-mega-menu .yit-mega-dropdown .yit-megamenu-item li a { font-size:12px; padding:5px; }
+    .yit-mega-menu .yit-mega-dropdown .page-title { padding:7px 5px; font-size:13px; }
+    .yit-mega-menu .yit-mega-dropdown .yit-megamenu-item li a .badge { display:none; } /* hide badge label */
+    .yit-mega-menu .yit-mega-dropdown .yit-megamenu-item li a i { font-size: 13px; padding-right: 5px; }
+
+    /* Hover State CSS BOF */
+    .yit-mega-menu .dropdown-menu { opacity:0; visibility:hidden; -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s;
+                                    -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; display:block; }
+    .yit-mega-menu .dropdown:hover .dropdown-menu, .yit-mega-menu .dropdown:focus .dropdown-menu, .yit-mega-menu .dropdown:active .dropdown-menu {
+        opacity:1; -moz-opacity:1; -webkit-opacity:1; -o-opacity:1; -ms-opacity:1; visibility:visible; display:block; }
+}
+
+/* iPad Landscape Device CSS BOF */
+@media (min-width:980px) and (max-width:1200px) {
+    .yit-support-cta { display:none; }
+    .yit-mega-menu .yit-megamenu-block .yit-mega-dropdown { max-height:600px; } /* megamenu scroll appear using nicescroll.js */
+    .yit-mega-menu .yit-support-cta.cta-social { padding:12px; }
+    .yit-mega-menu .yit-support-cta.cta-social a { font-size:15px; height:25px; width:25px; line-height:25px; }
+    .yit-mega-menu .yit-support-cta .btn { padding:15px 0; font-size:13px; }
+    .yit-mega-menu .yit-mega-dropdown .yit-megamenu-item li a { font-size:13px; padding:7px 5px; }
+    .yit-mega-menu .yit-mega-dropdown .page-title { padding:7px 5px; font-size:13px; }
+    .yit-mega-menu .yit-mega-dropdown .yit-megamenu-item li a .badge { display:none; } /* hide badge label */
+}
+
+/* Custom Device CSS BOF for (Megamenu / Dropdown Hover ) */
+@media (min-width:980px) {
+    .yit-mega-menu .dropdown-menu { opacity:0; visibility:hidden; -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s;
+                                    -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; display:block; }
+    .yit-mega-menu .dropdown:hover .dropdown-menu, .yit-mega-menu .dropdown:focus .dropdown-menu, .yit-mega-menu .dropdown:active .dropdown-menu {
+        opacity:1; -moz-opacity:1; -webkit-opacity:1; -o-opacity:1; -ms-opacity:1; visibility:visible; display:block; }
+}

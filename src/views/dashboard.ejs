@@ -1,0 +1,58 @@
+<% layout('layout') -%>
+<div style="height: 10vh;"></div>
+<div>
+<h1 class="mt-4">Dashboard</h1>
+
+    <div id="AddContact">
+    <form action="/create-contact" method="POST">
+        Name: <input type="text" placeholder="Name" name="name" required>
+        Phone: <input type="text" placeholder="Phone" name="phone" required>
+        Email: <input type="text" placeholder="Email" name="email" required>
+        <button type="submit">Create Contact</button>
+    </form>
+    </div>
+    <div id="ContactDetails">
+        <ul>
+            <% for(let i of contact_list) { %>
+             
+                <div id="list-item">
+            <li>
+                
+                
+                <p>
+                    <%= i.name %>
+                </p>
+
+                <p>
+                    <%= i.phone %>
+                </p>
+
+                <p>
+                    <%= i.email %>
+                </p>
+
+                <div class="edit-button">
+                    <a href="#">
+                        <p><i class="fas fa-camera"></i></i></p>
+                    </a>
+                    
+                </div>
+            
+            <div class="delete-button">
+                <a href="/delete-contact/?id=<%= i._id %>">
+                    <p><i class="fas fa-minus-circle"></i></p>
+                </a>
+                
+            </div>
+            </li>
+            <div>
+        
+        <% } %>
+        
+        </ul>
+    </div>
+</div>
+
+
+<a href="/logout" class="btn btn-secondary">Logout</a>
+</div>

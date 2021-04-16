@@ -1,0 +1,377 @@
+/*
+| --------------------------------------------------------
+| Theme Name : WebPanda
+| Theme Version : 1.0
+| Theme Date : 07/08/2018
+| Platforms : HTML5, CSS3, Bootstrap4, JS, Jquery, Sass
+| Theme Author : Yankee Themes
+| Author URI : https://themeforest.net/user/yankeethemes
+| Author Contact : enquiry[at]yankeeinfoweb[dot]com
+| Tags : yankeethemes, yankeeinfoweb, webdesign, boostrap, wordpress, support, html, responsive, css3, wellorganized, retina, animation, html5, sass, support, yakneelife
+| File : yit-custom-nav.css
+| --------------------------------------------------------
+*/
+
+/*
+| --------------------------------------------------------
+| TABLE OF CSS CONTENT
+| --------------------------------------------------------
+| Custom Navigation Style
+| Responsive Navigation Style
+*/
+
+/* NOTE: This file includes all custom navigation (custom, slide, off canvas and stylish) with many more variations styles */
+
+/* Custom Navigation Style CSS BOF
+=================================================== */
+
+/*** Custom Nav Style-1 CSS BOF ***/
+.yit-custom-nav-1 .toggle-nav { /*background-color:#333333;*/ top:0; left: 0; z-index:999; display:none; position:fixed; width:100%; height:100vh; }
+.yit-custom-nav-1 .toggle-nav .toggle-sitenav li { display:block; }
+.yit-custom-nav-1 .toggle-nav .toggle-sitenav li a { font-size: 35px; padding-left:0; position: relative; transform: translate(0px);
+                                                     -moz-transform: translate(0px); -webkit-transform: translate(0px); -o-transform: translate(0px); -ms-transform: translate(0px);
+                                                     transition: all 0.4s cubic-bezier(0.5, 0, 0.8, 1) 0s; -moz-transition: all 0.4s cubic-bezier(0.5, 0, 0.8, 1) 0s;
+                                                     -webkit-transition: all 0.4s cubic-bezier(0.5, 0, 0.8, 1) 0s; -o-transition: all 0.4s cubic-bezier(0.5, 0, 0.8, 1) 0s;
+                                                     -ms-transition: all 0.4s cubic-bezier(0.5, 0, 0.8, 1) 0s;
+}
+.yit-custom-nav-1 .toggle-nav .toggle-sitenav li a::before { background:none; content: ""; height: 2px; left: 0; position: absolute; top:23px;
+                                                             transition: all 0.4s cubic-bezier(0.8, 0, 0.58, 1) 0s; -moz-transition: all 0.4s cubic-bezier(0.8, 0, 0.58, 1) 0s;
+                                                             -webkit-transition: all 0.4s cubic-bezier(0.8, 0, 0.58, 1) 0s; -o-transition: all 0.4s cubic-bezier(0.8, 0, 0.58, 1) 0s;
+                                                             -ms-transition: all 0.4s cubic-bezier(0.8, 0, 0.58, 1) 0s; width: 5px;
+}
+
+/*** Toogle Button CSS BOF ***/
+.yit-custom-nav-1 .nav-toggle-bar { bottom: 0; height:20px; margin: auto; position: absolute; right:30px; top: 0; width: 40px; z-index: 999; }
+.yit-custom-nav-1 .nav-toggle-bar .bar-1, .yit-custom-nav-1 .nav-toggle-bar .bar-2, .yit-custom-nav-1 .nav-toggle-bar .bar-3 { background-color: #fff;
+                                                                                                                               float: right; height: 2px; margin-bottom: 8px; width: 100%; -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s;
+                                                                                                                               -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; }
+.yit-custom-nav-1 .nav-toggle-bar .bar-3 { width:60%; }
+.yit-custom-nav-1 .nav-toggle-bar .toggle-bar-animate.bar-1 { -webkit-transform:rotate(45deg); -o-transform:rotate(45deg); -ms-transform:rotate(45deg);
+                                                              -moz-transform:rotate(45deg); transform:rotate(45deg); transform-origin:15% 40% 0; -moz-transform-origin:15% 40% 0; -webkit-transform-origin:15% 40% 0;
+                                                              -o-transform-origin:15% 40% 0; -ms-transform-origin:15% 40% 0; }
+.yit-custom-nav-1 .nav-toggle-bar .toggle-bar-animate.bar-2 { background-color:transparent; }
+.yit-custom-nav-1 .nav-toggle-bar .toggle-bar-animate.bar-3 { -webkit-transform:rotate(-45deg); -o-transform:rotate(-45deg); -ms-transform:rotate(-45deg);
+                                                              -moz-transform:rotate(-45deg); transform:rotate(-45deg); transform-origin:15% 40% 0; -moz-transform-origin:15% 40% 0; -webkit-transform-origin:15% 40% 0;
+                                                              -o-transform-origin:15% 40% 0; -ms-transform-origin:15% 40% 0; width:100%; }
+
+/*** Animated Nav CSS BOF ***/
+.yit-custom-nav-1.yit-on-scroll-nav.animated { background-color:rgba(0, 0, 0, .8); } /* change opacity for dark backgound (default-1) */
+
+/* Hover State CSS BOF */
+.yit-custom-nav-1 .toggle-nav .toggle-sitenav li a:hover::before, .yit-custom-nav-1 .toggle-nav .toggle-sitenav li a:focus::before,
+.yit-custom-nav-1 .toggle-nav .toggle-sitenav li a:active:before, .yit-custom-nav-1 .toggle-nav .toggle-sitenav li a.active:before { background:#ffffff;
+                                                                                                                                     width:30px }
+.yit-custom-nav-1 .toggle-nav .toggle-sitenav li a:hover, .yit-custom-nav-1 .toggle-nav .toggle-sitenav li a:focus,
+.yit-custom-nav-1 .toggle-nav .toggle-sitenav li a:active, .yit-custom-nav-1 .toggle-nav .toggle-sitenav li a.active { transform:translate(15px, 0px);
+                                                                                                                       color:#fff; -moz-transform:translate(15px, 0px); -webkit-transform:translate(15px, 0px); -o-transform:translate(15px, 0px);
+                                                                                                                       -ms-transform:translate(15px, 0px); padding-left:35px; }
+
+/*** Custom Nav Style-2 CSS BOF ***/
+.yit-custom-nav-2.left-side-nav .logo { position:absolute; left:15px; text-align:center; bottom:20px; }
+.yit-custom-nav-2.left-side-nav
+{
+    background-color:#fff; position:fixed; left:0; top:0; width:80px; height:100%; z-index:1030; -moz-transition:all .5s ease-in-out 0s;
+    -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s;
+    box-shadow:0 2px 10px 5px rgba(0, 0, 0, 0.2); -moz-box-shadow:0 2px 10px 5px rgba(0, 0, 0, 0.2); -webkit-box-shadow:0 2px 10px 5px rgba(0, 0, 0, 0.2);
+}
+.yit-custom-nav-2.left-side-nav::after { content: ""; display: block; height: 100%; position: absolute; right: 0; top: 0; width: 1px; }
+.yit-custom-nav-2.left-side-nav .toogle-nav
+{
+    height: 100%; position: relative; top: 0; left:79px; overflow-x: hidden; padding-top: 60px; opacity:0; padding-left:20px;
+    -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s;
+    -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s;
+}
+.yit-custom-nav-2.left-side-nav .toogle-nav li { margin-bottom:9px; }
+.yit-custom-nav-2.left-side-nav .toogle-nav a { font-size: 21px; line-height: 35px; display:inline-block; position:relative; }
+.yit-custom-nav-2.left-side-nav .toogle-nav a::after
+{
+    background: rgba(239, 45, 86, 0.8); content: ""; height: 2px; left: 0; opacity: 0; position: absolute; top: 18px; width: 18px; z-index: -1;
+    transition: all 0.5s ease-in-out 0s; -moz-transition: all 0.5s ease-in-out 0s; -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s; -ms-transition: all 0.5s ease-in-out 0s;
+}
+.yit-custom-nav-2.left-side-nav .yit-social
+{
+    left:20px; position: absolute; top: 50%; -webkit-transform:translate(0, -40%); -o-transform:translate(0, -40%); -ms-transform:translate(0, -40%);
+    -moz-transform:translate(0, -40%); transform:translate(0, -40%);
+}
+.yit-custom-nav-2.left-side-nav .yit-social li { display:block; }
+
+/*** Toogle Button CSS BOF ***/
+.yit-custom-nav-2.left-side-nav .nav-toggle-bar { display: block; padding:25px 27px; position:absolute; text-align: center;
+                                                  tranistion:all 0.4s cubic-bezier(0.6, 0, 0.2, 1) 0s; transition:all 0.4s cubic-bezier(0.6, 0, 0.2, 1) 0s; -moz-transition:all 0.4s cubic-bezier(0.6, 0, 0.2, 1) 0s; -webkit-transition:all 0.4s cubic-bezier(0.6, 0, 0.2, 1) 0s; -o-transition:all 0.4s cubic-bezier(0.6, 0, 0.2, 1) 0s; -ms-transition:all 0.4s cubic-bezier(0.6, 0, 0.2, 1) 0s; }
+.yit-custom-nav-2.left-side-nav .nav-toggle-bar .toggle-icon-wrap { height:25px; margin: 0 auto; overflow: hidden; position: relative; text-align: center;
+                                                                    width: 25px; }
+.yit-custom-nav-2.left-side-nav .nav-toggle-bar .toggle-icon, .yit-custom-nav-2.left-side-nav .nav-toggle-bar .toggle-icon::after,
+.yit-custom-nav-2.left-side-nav .nav-toggle-bar .toggle-icon::before { content: ""; display: block; height: 2px; left: 0;
+                                                                       position:absolute;  right:0; top:50%; width:26px; background:#333; transition:all 0.4s cubic-bezier(0.6, 0, 0.2, 1) 0s; -moz-transition:all 0.4s cubic-bezier(0.6, 0, 0.2, 1) 0s; -webkit-transition:all 0.4s cubic-bezier(0.6, 0, 0.2, 1) 0s; -o-transition:all 0.4s cubic-bezier(0.6, 0, 0.2, 1) 0s; -ms-transition:all 0.4s cubic-bezier(0.6, 0, 0.2, 1) 0s; margin-left:0; -webkit-transform:rotate(0deg); -o-transform:rotate(0deg); -ms-transform:rotate(0deg);
+                                                                       -moz-transform:rotate(0deg); transform:rotate(0deg); }
+.yit-custom-nav-2.left-side-nav .nav-toggle-bar .toggle-icon::before { margin-top: -7px; top:0; }
+.yit-custom-nav-2.left-side-nav .nav-toggle-bar .toggle-icon::after { margin-top: 7px; top:0; }
+
+/* Hover State CSS BOF */
+.yit-custom-nav-2.left-side-nav .nav-toggle-bar:hover .toggle-icon { width: 13px; }
+.yit-custom-nav-2.left-side-nav .toogle-nav a:hover::after, .yit-custom-nav-2.left-side-nav .toogle-nav a:focus::after,
+.yit-custom-nav-2.left-side-nav .toogle-nav a:active::after, .yit-custom-nav-2.left-side-nav .toogle-nav a.active::after { left:100%; opacity: 1; }
+
+/* Appear JS Class */
+.yit-custom-nav-2.left-side-nav.js-side-nav-open .toggle-icon::before { margin-top: 0; transform: rotate(135deg); -moz-transform: rotate(135deg);
+                                                                        -webkit-transform: rotate(135deg); -o-transform: rotate(135deg); -ms-transform: rotate(135deg); }
+.yit-custom-nav-2.left-side-nav.js-side-nav-open .toggle-icon::after { margin-top: 0; transform: rotate(-135deg); -moz-transform: rotate(-135deg);
+                                                                       -webkit-transform: rotate(-135deg); -o-transform: rotate(-135deg); -ms-transform: rotate(-135deg); }
+.yit-custom-nav-2.left-side-nav.js-side-nav-open .toggle-icon { background:none; }
+.yit-custom-nav-2.left-side-nav.js-side-nav-open { width: 275px; }
+.yit-custom-nav-2.left-side-nav.js-side-nav-open .toogle-nav { opacity: 1; }
+
+/*** Custom Nav Style-3 CSS BOF ***/
+.yit-custom-nav-3 { background:#fff; box-shadow:0 2px 3px 0 rgba(0, 0, 0, 0.1); -moz-box-shadow:0 2px 3px 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow:0 2px 3px 0 rgba(0, 0, 0, 0.1); padding:15px 0; }
+.yit-custom-nav-3 .toggle-nav { top:0; left: 0; z-index:999; display:none; position:fixed; width:100%; height:100vh; }
+.yit-custom-nav-3 .toggle-nav .toggle-sitenav li { display:block; -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s;
+                                                   -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s;  transition:all .5s ease-in-out 0s; }
+.yit-custom-nav-3 .toggle-nav .toggle-sitenav li a { font-size:45px; position: relative; color:rgb(255, 255, 255, .7); padding-right:20px; }
+.yit-custom-nav-3 .toggle-nav .toggle-sitenav li span { font-size: 23px; font-weight: 300; -webkit-transition:all .5s ease-in-out 0s;
+                                                        -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s;  transition:all .5s ease-in-out 0s; opacity:0; visibility:hidden; }
+
+/*** Toogle Button CSS BOF ***/
+.yit-custom-nav-3 .nav-toggle-bar { bottom: 0; height:20px; margin: auto; position: absolute; right:30px; top: 0; width: 40px; z-index: 999; }
+.yit-custom-nav-3 .nav-toggle-bar .bar-1, .yit-custom-nav-3 .nav-toggle-bar .bar-2, .yit-custom-nav-3 .nav-toggle-bar .bar-3 { background-color: #e91e63;
+                                                                                                                               float: right; height: 2px; margin-bottom: 8px; width: 100%; -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s;
+                                                                                                                               -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; }
+.yit-custom-nav-3 .nav-toggle-bar .bar-3 { width:60%; }
+.yit-custom-nav-3 .nav-toggle-bar .toggle-bar-animate.bar-1 { -webkit-transform:rotate(45deg); -o-transform:rotate(45deg); -ms-transform:rotate(45deg);
+                                                              -moz-transform:rotate(45deg); transform:rotate(45deg); transform-origin:15% 40% 0; -moz-transform-origin:15% 40% 0; -webkit-transform-origin:15% 40% 0;
+                                                              -o-transform-origin:15% 40% 0; -ms-transform-origin:15% 40% 0; }
+.yit-custom-nav-3 .nav-toggle-bar .toggle-bar-animate.bar-2 { background-color:transparent; }
+.yit-custom-nav-3 .nav-toggle-bar .toggle-bar-animate.bar-3 { -webkit-transform:rotate(-45deg); -o-transform:rotate(-45deg); -ms-transform:rotate(-45deg);
+                                                              -moz-transform:rotate(-45deg); transform:rotate(-45deg); transform-origin:15% 40% 0; -moz-transform-origin:15% 40% 0; -webkit-transform-origin:15% 40% 0;
+                                                              -o-transform-origin:15% 40% 0; -ms-transform-origin:15% 40% 0; width:100%; }
+
+/*** Animated Nav CSS BOF ***/
+.yit-custom-nav-3.yit-on-scroll-nav.animated { background-color:rgba(0, 0, 0, .8); } /* change opacity for dark backgound (default-1) */
+
+/* Hover State CSS BOF */
+.yit-custom-nav-3 .toggle-nav .toggle-sitenav li a:hover::before, .yit-custom-nav-3 .toggle-nav .toggle-sitenav li a:focus::before,
+.yit-custom-nav-3 .toggle-nav .toggle-sitenav li a:active:before, .yit-custom-nav-3 .toggle-nav .toggle-sitenav li a.active:before { background:#ffffff;
+                                                                                                                                     width:30px }
+.yit-custom-nav-3 .toggle-nav .toggle-sitenav li a:hover, .yit-custom-nav-3 .toggle-nav .toggle-sitenav li a:focus,
+.yit-custom-nav-3 .toggle-nav .toggle-sitenav li a:active, .yit-custom-nav-3 .toggle-nav .toggle-sitenav li a.active { color:#fff;
+                                                                                                                       text-decoration:underline; }
+.yit-custom-nav-3 .toggle-nav .toggle-sitenav li:hover span { color: #e91e63; opacity: 1; visibility: visible; }
+
+/*** Custom Nav Style-4 CSS BOF ***/
+.yit-custom-nav-4.left-side-nav .logo { position:absolute; left:15px; text-align:center; bottom:20px; }
+.yit-custom-nav-4.left-side-nav { position:fixed; left:0; top:0; width:80px; height:100%; z-index:1030; }
+.yit-custom-nav-4.left-side-nav .toogle-nav { position:relative; top:85px; z-index:-1; text-align:center; transform:translateY(-300px); -moz-transform:translateY(-300px);
+                                              -webkit-transform:translateY(-300px); -o-transform:translateY(-300px); -ms-transform:translateY(-300px); -moz-transition:all .4s ease-in-out 0s; -webkit-transition:all .4s ease-in-out 0s; -o-transition:all .4s ease-in-out 0s; -ms-transition:all .4s ease-in-out 0s; transition:all .4s ease-in-out 0s; }
+.yit-custom-nav-4.left-side-nav .toogle-nav li a { color: rgba(255, 255, 255, 0.7); display: block; font-size: 20px; padding: 5px 0; }
+
+/*** Toogle Button CSS BOF ***/
+.yit-custom-nav-4.left-side-nav .nav-toggle-bar { display: block; padding:25px 28px; position:absolute; text-align: center; background:#2a2d3d; z-index:15;
+                                                  tranistion:all 0.4s cubic-bezier(0.6, 0, 0.2, 1) 0s; transition:all 0.4s cubic-bezier(0.6, 0, 0.2, 1) 0s; -moz-transition:all 0.4s cubic-bezier(0.6, 0, 0.2, 1) 0s;
+                                                  -webkit-transition:all 0.4s cubic-bezier(0.6, 0, 0.2, 1) 0s; -o-transition:all 0.4s cubic-bezier(0.6, 0, 0.2, 1) 0s; -ms-transition:all 0.4s cubic-bezier(0.6, 0, 0.2, 1) 0s; }
+.yit-custom-nav-4.left-side-nav .nav-toggle-bar .toggle-icon-wrap { height:25px; margin: 0 auto; overflow: hidden; position: relative; text-align: center; width: 25px; }
+.yit-custom-nav-4.left-side-nav .nav-toggle-bar .toggle-icon, .yit-custom-nav-4.left-side-nav .nav-toggle-bar .toggle-icon::after,
+.yit-custom-nav-4.left-side-nav .nav-toggle-bar .toggle-icon::before { content: ""; display: block; height: 2px; left: 0;
+                                                                       position:absolute;  right:0; top:50%; width:26px; background:#fff; transition:all 0.4s cubic-bezier(0.6, 0, 0.2, 1) 0s; -moz-transition:all 0.4s cubic-bezier(0.6, 0, 0.2, 1) 0s; -webkit-transition:all 0.4s cubic-bezier(0.6, 0, 0.2, 1) 0s; -o-transition:all 0.4s cubic-bezier(0.6, 0, 0.2, 1) 0s; -ms-transition:all 0.4s cubic-bezier(0.6, 0, 0.2, 1) 0s; margin-left:0; -webkit-transform:rotate(0deg); -o-transform:rotate(0deg); -ms-transform:rotate(0deg);
+                                                                       -moz-transform:rotate(0deg); transform:rotate(0deg); }
+.yit-custom-nav-4.left-side-nav .nav-toggle-bar .toggle-icon::before { margin-top: -7px; top:0; }
+.yit-custom-nav-4.left-side-nav .nav-toggle-bar .toggle-icon::after { margin-top: 7px; top:0; }
+.yit-custom-nav-4.left-side-nav .toogle-nav li a:hover { color:#fff; }
+
+/* Appear JS Class */
+.yit-custom-nav-4.left-side-nav.js-side-nav-open .toggle-icon::before { margin-top: 0; transform: rotate(135deg); -moz-transform: rotate(135deg);
+                                                                        -webkit-transform: rotate(135deg); -o-transform: rotate(135deg); -ms-transform: rotate(135deg); }
+.yit-custom-nav-4.left-side-nav.js-side-nav-open .toggle-icon::after { margin-top: 0; transform: rotate(-135deg); -moz-transform: rotate(-135deg);
+                                                                       -webkit-transform: rotate(-135deg); -o-transform: rotate(-135deg); -ms-transform: rotate(-135deg); }
+.yit-custom-nav-4.left-side-nav.js-side-nav-open .toggle-icon { background:none; }
+.yit-custom-nav-4.left-side-nav.js-side-nav-open .toogle-nav { opacity: 1; transform: translateY(0px); -moz-transform: translateY(0px); -webkit-transform: translateY(0px);
+                                                               -o-transform: translateY(0px); -ms-transform: translateY(0px); }
+
+/*** Custom Nav Style-5 CSS BOF ***/
+.yit-custom-nav-5.right-side-nav { background:#ffffff; box-shadow: 0 -10px 15px 4px rgba(0, 0, 0, 0.4); -moz-box-shadow: 0 -10px 15px 4px rgba(0, 0, 0, 0.4); z-index:10;
+                                   -webkit-box-shadow: 0 -10px 15px 4px rgba(0, 0, 0, 0.4); height: 100vh; width:350px; padding:35px 20px; position: fixed; right: 0; top: 0; transform:translate(120%, 0px);
+                                   -moz-transform:translate(120%, 0px); -o-transform:translate(100%, 0px); -ms-transform:translate(120%, 0px); -webkit-transform:translate(120%, 0px); width: 320px; }
+.yit-custom-nav-5.right-side-nav { transition: all 0.4s ease-in-out 0s; -moz-transition: all 0.4s ease-in-out 0s; -webkit-transition: all 0.4s ease-in-out 0s;
+                                   -o-transition: all 0.4s ease-in-out 0s; -ms-transition: all 0.4s ease-in-out 0s;  }
+.yit-custom-nav-5.right-side-nav .nav-inner-content { margin-top:65px; }
+
+/* Appear JS Class */
+.js-side-nav-open .yit-custom-nav-5.right-side-nav { transform:translate(0px); -moz-transform:translate(0px); -o-transform:translate(0px); -ms-transform:translate(0px);
+                                                     -webkit-transform:translate(0px); }
+
+/*** Custom Nav Style Bouncy CSS BOF ***/
+.yit-custom-bouncy-nav li .bouncy-item { padding: 0 25px; position: relative; top: -520%;
+                                         transition: all 500ms cubic-bezier(0.235, 0.625, 0.07, 0.98) 0s; -moz-transition: all 500ms cubic-bezier(0.235, 0.625, 0.07, 0.98) 0s;
+                                         -webkit-transition: all 500ms cubic-bezier(0.235, 0.625, 0.07, 0.98) 0s; -o-transition: all 500ms cubic-bezier(0.235, 0.625, 0.07, 0.98) 0s;
+                                         -ms-transition: all 500ms cubic-bezier(0.235, 0.625, 0.07, 0.98) 0s; opacity:0; visibility:hidden; }
+
+/* Appear JS Class */
+.js-side-nav-open .yit-custom-bouncy-nav li .bouncy-item { top:0; display:block; opacity:1; visibility:visible; }
+.js-side-nav-open .yit-custom-bouncy-nav li:first-child .bouncy-item { transition-delay:0.55s; -moz-transition-delay:0.55s; -webkit-transition-delay:0.55s;
+                                                                       -o-transition-delay:0.55s; -ms-transition-delay:0.55s; }
+.js-side-nav-open .yit-custom-bouncy-nav li:nth-child(2) .bouncy-item { transition-delay:0.65s; -moz-transition-delay:0.65s; -webkit-transition-delay:0.65s;
+                                                                        -o-transition-delay:0.65s; -ms-transition-delay:0.65s; }
+.js-side-nav-open .yit-custom-bouncy-nav li:nth-child(3) .bouncy-item { transition-delay:0.75s; -moz-transition-delay:0.75s; -webkit-transition-delay:0.75s;
+                                                                        -o-transition-delay:0.75s; -ms-transition-delay:0.75s; }
+.js-side-nav-open .yit-custom-bouncy-nav li:nth-child(4) .bouncy-item { transition-delay:0.85s; -moz-transition-delay:0.85s; -webkit-transition-delay:0.85s;
+                                                                        -o-transition-delay:0.85s; -ms-transition-delay:0.85s; }
+.js-side-nav-open .yit-custom-bouncy-nav li:nth-child(5) .bouncy-item { transition-delay:0.95s; -moz-transition-delay:0.95s; -webkit-transition-delay:0.95s;
+                                                                        -o-transition-delay:0.95s; -ms-transition-delay:0.95s; }
+.js-side-nav-open .yit-custom-bouncy-nav li:last-child .bouncy-item { transition-delay:1s; -moz-transition-delay:1s; -webkit-transition-delay:1s;
+                                                                      -o-transition-delay:1s; -ms-transition-delay:1s; }
+
+/*** Custom Nav 3D Style CSS BOF ***/
+.yit-custom-nav-3d.right-side-nav { background:#ffffff; box-shadow: 0 -10px 15px 4px rgba(0, 0, 0, 0.4); -moz-box-shadow: 0 -10px 15px 4px rgba(0, 0, 0, 0.4); z-index:10;
+                                    -webkit-box-shadow: 0 -10px 15px 4px rgba(0, 0, 0, 0.4); height:auto;; width:350px; padding:35px 0; position: fixed; right: 0; top: 0; transform:translateX(120%);
+                                    -moz-transform:translateX(120%); -o-transform:translateX(120%); -ms-transform:translateX(120%); -webkit-transform:translateX(120%); width:60%; }
+.yit-custom-nav-3d.right-side-nav .nav-inner-content { margin-top:65px; }
+.yit-custom-nav-3d.right-side-nav .yit-custom-nav-listing li { border-width:0 1px 1px 0; border-style:solid; border-color:transparent #fff #fff transparent; }
+.yit-custom-nav-3d.right-side-nav .yit-nav-item { min-height:250px; height:calc((100vh - 160px) / 2); display:block; text-align:center; }
+.yit-custom-nav-3d.right-side-nav .yit-nav-item svg { stroke:#e91e63; }
+.yit-custom-nav-3d.right-side-nav .yit-nav-item span { display:block; margin:10px auto; font-size:20px; font-weight:300; }
+.yit-custom-nav-3d.right-side-nav .yit-nav-item .nav-item-disp-table { display:table; height:100%; width:100%; padding-left:15px; padding-right:15px; }
+.yit-custom-nav-3d.right-side-nav .yit-nav-item .nav-item-disp-cell { display:table-cell; vertical-align:middle; }
+.yit-custom-nav-3d.right-side-nav .yit-nav-item .icon { font-size:50px; }
+.yit-custom-nav-3d.right-side-nav .yit-nav-item:hover { background:#e91e63; color:#fff; }
+.yit-custom-nav-3d.right-side-nav .yit-nav-item:hover svg { stroke:#fff; }
+.yit-custom-nav-3d.right-side-nav, .yit-custom-nav-3d.right-side-nav .yit-nav-item svg { transition: all 0.4s ease-in-out 0s; -moz-transition: all 0.4s ease-in-out 0s; -webkit-transition: all 0.4s ease-in-out 0s;
+                                                                                         -o-transition: all 0.4s ease-in-out 0s; -ms-transition: all 0.4s ease-in-out 0s; }
+
+/* Appear JS Class */
+.js-side-nav-open .yit-custom-nav-3d.right-side-nav { transform:translateX(0); -moz-transform:translateX(0); -o-transform:translateX(0); -ms-transform:translateX(0);
+                                                      -webkit-transform:translateX(0); }
+
+/*** Custom Nav Border Style CSS BOF ***/
+.yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item { display:block; color:rgba(255, 255, 255, .7);; height:230px; position:relative; font-weight:300; text-transform:uppercase; height:230px; margin:25px auto; background:rgba(0, 0, 0, .1); }
+.yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item::before, .yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item::after { content: ""; height: 10px;
+                                                                                                                                            position: absolute; width: 10px; }
+.yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item::after { border-bottom:1px solid #e91e63; border-right:1px solid #e91e63; bottom: 0; right: 0; }
+.yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item::before { border-left:1px solid #e91e63; border-top:1px solid #e91e63; left: 0; top: 0; }
+.yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item i { display:block; font-size:40px; }
+.yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item span { margin:10px auto; display:block; font-size:18px; }
+.yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item .nav-item-disp-table { display: table; height: 100%; padding-left: 15px; padding-right: 15px; width: 100%; }
+.yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item .nav-item-disp-cell { display:table-cell; vertical-align:middle; }
+.yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item, .yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item::before,
+.yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item::after { transition: all 0.5s ease-in-out 0s; -moz-transition: all 0.5s ease-in-out 0s;
+                                                                      -webkit-transition: all 0.5s ease-in-out 0s; -o-transition: all 0.5s ease-in-out 0s; -ms-transition: all 0.5s ease-in-out 0s; }
+.yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item:hover::before, .yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item:hover::after { height: 100%; width: 100%; }
+.yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item:hover { color:#fff; }
+
+/*** Custom Full Menu Style CSS BOF ***/
+.yit-custom-fade-full-menu .nav-toggle-bar [class*="bar-"] { background:#e91e63 }
+.yit-custom-fade-full-menu .yit-custom-nav-listing .nav-item { font-size:25px; border-left:3px solid rgba(0, 0, 0, 0.1); padding-left:15px; }
+.yit-custom-fade-full-menu .yit-custom-nav-listing .yit-nav-dropdown-menu li { line-height:30px; padding-left:35px; padding-right:35px; }
+.yit-custom-fade-full-menu .yit-custom-nav-listing .yit-nav-dropdown { position:relative; margin:15px 0; }
+.yit-custom-fade-full-menu .yit-custom-nav-listing .nav-item:hover { border-left: 3px solid #000000; }
+.yit-custom-fade-full-menu .yit-custom-nav-listing .yit-nav-dropdown::after { color: #000000; content: ""; font-family: "fontawesome"; font-size: 35px; position: absolute;
+                                                                              right:0; top:0; }
+.yit-custom-fade-full-menu .yit-custom-nav-listing .yit-nav-dropdown-menu { display:none; }
+
+/* Appear JS Class */
+.yit-custom-fade-full-menu .yit-custom-nav-listing .js-nav-active::after { content:"" }
+.yit-custom-fade-full-menu .yit-custom-nav-listing .js-nav-active .nav-item { border-left: 3px solid #000000; color:#000000; }
+.yit-custom-fade-full-menu .yit-custom-nav-listing .js-nav-active .yit-nav-dropdown-menu { display:block; }
+
+/*** Custom Left Verticle Menu Style CSS BOF ***/
+.yit-custom-left-verticle-menu .nav-toggle-bar.yit-custom-toggle-icon { height:60px; width:60px; padding:0; }
+.yit-custom-left-verticle-menu .nav-toggle-bar.yit-custom-toggle-icon span { top:-12px; }
+.yit-custom-left-verticle-menu .nav-toggle-bar.yit-custom-toggle-icon i { position:relative; top:18px; }
+.yit-custom-left-verticle-menu .yit-custom-verticle-menu-item li { margin-bottom:7px; }
+.yit-custom-left-verticle-menu .yit-custom-verticle-menu-item a { font-size:15px; font-weight:400; line-height:30px; }
+.yit-custom-left-verticle-menu .yit-custom-verticle-menu-item .yit-nav-dropdown::after { content: ""; font-family: "fontawesome"; font-size:20px; position: absolute; right:0; top:-3px; }
+.yit-custom-left-verticle-menu .yit-custom-verticle-menu-item .yit-nav-dropdown { position:relative; }
+.yit-custom-left-verticle-menu .yit-custom-verticle-menu-item .yit-nav-dropdown-menu { padding:15px 15px 5px; display:none; }
+.yit-custom-left-verticle-menu .yit-custom-verticle-menu-item .yit-nav-dropdown-menu i { padding-right:10px; }
+.yit-custom-left-verticle-menu .yit-social { position:absolute; bottom:50px; }
+
+/* Appear JS Clas */
+.yit-custom-left-verticle-menu .yit-custom-verticle-menu-item a:hover, .yit-custom-left-verticle-menu .yit-custom-verticle-menu-item a:focus,
+.yit-custom-left-verticle-menu .yit-custom-verticle-menu-item a:active, .yit-custom-left-verticle-menu .yit-custom-verticle-menu-item a.active { color:#e91e63; }
+.yit-custom-left-verticle-menu .yit-custom-verticle-menu-item .yit-nav-dropdown.js-nav-active .yit-nav-dropdown-menu { display:block; }
+.yit-custom-left-verticle-menu .yit-custom-verticle-menu-item .js-nav-active.yit-nav-dropdown::after { content:""; }
+
+/*** Custom Toogle Button CSS BOF (for all navigation) ***/
+.nav-toggle-bar.yit-custom-toggle-icon { background:#e91e63; height:100%; padding:5px 22px; position:absolute; right:0; text-align:center; top:0; z-index:1; display:block; z-index:100; }
+.nav-toggle-bar.yit-custom-toggle-icon span { width:25px; height:2px; display:block; margin:5px auto; background:#fff; position:relative; top:25px; }
+.nav-toggle-bar.yit-custom-toggle-icon i { font-size:25px; opacity:0; visibility:hidden; }
+.nav-toggle-bar.yit-custom-toggle-icon span, .nav-toggle-bar.yit-custom-toggle-icon i { transition: all 0.4s ease-in-out 0s; -moz-transition: all 0.4s ease-in-out 0s;
+                                                                                        -webkit-transition: all 0.4s ease-in-out 0s; -o-transition: all 0.4s ease-in-out 0s; -ms-transition: all 0.4s ease-in-out 0s;  }
+
+/* Appear JS Class */
+.js-side-nav-open .nav-toggle-bar.yit-custom-toggle-icon span { opacity: 0; }
+.js-side-nav-open .nav-toggle-bar.yit-custom-toggle-icon i { opacity:1; visibility:visible; }
+
+/*** Nav Style (.js) Animated CSS BOF ***/
+.yit-on-scroll-nav { -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; }
+.yit-on-scroll-nav.animated.navbar {
+    background-color:#000;
+}
+.yit-on-scroll-nav.animated .yit-top-nav { background-color:#1e1e1e; }
+.yit-on-scroll-nav.animated .navbar { background-color:#1e1e1e; }
+
+/*** Nav Style (.js) Sticky CSS BOF ***/
+.yit-on-sticky-nav.is-hidden, .yit-on-sticky-nav.is-visible { -moz-transition:all .4s ease-in-out 0s; -webkit-transition:all .4s ease-in-out 0s;
+                                                              -o-transition:all .4s ease-in-out 0s; -ms-transition:all .4s ease-in-out 0s; transition:all .4s ease-in-out 0s;  }
+.yit-on-sticky-nav.is-hidden
+{
+    -webkit-transform:translate(0, -60px); -moz-translate:translate(0, -60px); -o-translate:translate(0, -60px); -ms-translate:translate(0, -60px); translate:(0, -60px);
+    opacity:0;
+}
+.yit-on-sticky-nav.is-visible { opacity:1; }
+.yit-on-sticky-nav.is-visible { background-color:rgba(0, 0, 0, .8); }
+
+/* Responsive Custom Navigation Style CSS BOF
+=================================================== */
+
+/* Mobile Device CSS BOF */
+@media(max-width:767px ) {
+
+    .yit-custom-nav-1 .toggle-nav .nav-title { font-size:1.2rem; }
+    .yit-custom-nav-1 .toggle-nav { padding-top:50px; padding-bottom:50px; overflow:scroll; }
+    .yit-custom-nav-1 .toggle-nav .toggle-sitenav { margin-bottom:30px; }
+    .yit-custom-nav-1 .toggle-nav hr { margin:20px 0; }
+    .yit-custom-nav-1 .toggle-nav .toggle-sitenav li a { font-size:20px; }
+    .yit-custom-nav-1 .toggle-nav .toggle-sitenav li a::before { top:14px; }
+    .yit-custom-nav-1 .toggle-nav .menu-contact * { text-align:left; }
+    .yit-custom-nav-1 .toggle-nav .menu-contact p { margin-bottom:.5rem; }
+    .yit-custom-nav-1 .toggle-nav .yit-social hr { margin:20px auto; }
+    .yit-custom-nav-1 .toggle-nav .yit-social.icon-medium a { width:40px; height:40px; line-height:40px; font-size:20px; }
+    .yit-custom-nav-2.left-side-nav { height:80px; width:100%; }
+    .yit-custom-nav-2.left-side-nav .nav-toggle-bar { right:0; z-index:1; }
+    .yit-custom-nav-2.left-side-nav .yit-social { left:0; right:0; margin:0 auto; -webkit-transform:none; -o-transform:none; -ms-transform:none; -moz-transform:none; transform:none;
+                                                  display:table; top:20px; }
+    .yit-custom-nav-2.left-side-nav .yit-social li { display:inline-block; }
+    .yit-custom-nav-2.left-side-nav.js-side-nav-open { height:100%; width:100%; }
+    .yit-custom-nav-2.left-side-nav .toogle-nav { width:100%; left:0; padding:0 20px; top:95px; }
+    .yit-custom-nav-2.left-side-nav .logo { top:15px; bottom:auto; }
+    .yit-custom-nav-3 .toggle-nav .toggle-sitenav li span { display:none; }
+    .yit-custom-nav-3 .toggle-nav { padding-top:50px; padding-bottom:50px; overflow:scroll; }
+    .yit-custom-nav-3 .toggle-nav .toggle-sitenav li a { font-size:20px; }
+    .yit-custom-nav-3 .toggle-nav .menu-contact { margin-top:30px; }
+    .yit-custom-nav-3 .toggle-nav .menu-contact * { text-align:left; }
+    .yit-custom-nav-3 .toggle-nav .menu-contact p { margin-bottom:.5rem; }
+    .yit-custom-nav-3 .toggle-nav .yit-social.icon-medium a { width:40px; height:40px; line-height:40px; font-size:20px; }
+    .yit-custom-nav-4.left-side-nav { height:75px; width:100%; }
+    .yit-custom-nav-4.left-side-nav li { display:inline-block; padding:0 7px; }
+    .yit-custom-nav-4.left-side-nav .toogle-nav { left:40px; }
+    .yit-custom-nav-4.left-side-nav.js-side-nav-open .toogle-nav { transform:translateY(-70px); -moz-transform:translateY(-70px); -webkit-transform:translateY(-70px); -o-transform:translateY(-70px);
+                                                                   -ms-transform:translateY(-70px); }
+    .yit-custom-nav-3d.right-side-nav { width:100%; }
+    .yit-custom-nav-3d.right-side-nav .yit-nav-item { min-height:150px; }
+    .yit-custom-nav-3d.right-side-nav { height:100vh; overflow-y:scroll; }
+    .yit-custom-nav-3d.right-side-nav .nav-inner-content { margin-top:0; }
+    .yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item .nav-item-disp-table { padding-left:10px; padding-right:10px; }
+    .yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item { height:150px; padding:20px 0; margin:10px auto; }
+    .yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item i { font-size:30px; }
+    .yit-custom-nav-border .yit-custom-nav-listing .yit-nav-item span { font-size:15px }
+    .yit-custom-fade-full-menu .trade { display:none; }
+    .yit-custom-fade-full-menu .toggle-nav .height-cover { height:auto; }
+    .yit-custom-fade-full-menu .yit-custom-nav-listing .nav-item, .yit-custom-fade-full-menu .yit-custom-nav-listing .yit-nav-dropdown::after { font-size:20px; }
+    .yit-custom-left-verticle-menu .yit-custom-nav-5.right-side-nav { height:100%; overflow-y:scroll; }
+    .yit-custom-left-verticle-menu .yit-social { position:relative; bottom:20px; }
+}
+
+/* iPad Device CSS BOF */
+@media (min-width:768px) and (max-width:980px){
+    .yit-custom-nav-3 .toggle-nav .toggle-sitenav li a { font-size:30px; }
+    .yit-custom-nav-3d.right-side-nav { width:80%; }
+}

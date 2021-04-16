@@ -1,0 +1,49 @@
+/*
+| --------------------------------------------------------
+| Theme Name : WebPanda
+| Theme Version : 1.0
+| Theme Date : 07/08/2018
+| Platforms : HTML5, CSS3, Bootstrap4, JS, Jquery, Sass
+| Theme Author : Yankee Themes
+| Author URI : https://themeforest.net/user/yankeethemes
+| Author Contact : enquiry[at]yankeeinfoweb[dot]com
+| Tags : yankeethemes, yankeeinfoweb, webdesign, boostrap, wordpress, support, html, responsive, css3, wellorganized, retina, animation, html5, sass, support, yakneelife
+| File : yit-plugins.css
+| --------------------------------------------------------
+*/
+
+/* NOTE:  This file includes all plugins. If you don't want to use any plugins from below. You can simply remove that line from this file. */
+
+/* Slider Plugin CSS */
+@import url("plugins/flexslider.css");
+@import url("plugins/owl.carousel.css");
+@import url("plugins/owl.theme.default.css");
+@import url("plugins/slick.css");
+@import url("plugins/slick-theme.css");
+@import url("plugins/swiper.min.css");
+
+/* Animation Plugin CSS */
+@import url("plugins/animate.min.css");
+
+/* Fancybox Popup CSS */
+@import url("plugins/fancybox-slider.css");
+@import url("plugins/magnific-popup.css");
+
+/* Portfolio Gallery CSS */
+@import url("plugins/justifiedGallery.css");
+
+/* Font Icons CSS */
+@import url("font-icons/drip-icons.css");
+@import url("font-icons/etline-icons.css");
+@import url("font-icons/font-awesome.min.css");
+/*@import url("font-icons/fontawesome-all.css");*/
+@import url("font-icons/themify-icons.css");
+@import url("font-icons/flaticon.css");
+@import url("font-icons/lawyer-icon.css");
+
+/* Other Miscellaneous Plugins CSS */
+@import url("plugins/flags.css");
+@import url("plugins/jquery.fullpage.css");
+@import url("plugins/nice-select.css");
+@import url("plugins/image-comparison-slider.css");
+@import url("plugins/bootstrap-datetimepicker.min.css");

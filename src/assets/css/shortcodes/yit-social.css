@@ -1,0 +1,197 @@
+/*
+| --------------------------------------------------------
+| Theme Name : WebPanda
+| Theme Version : 1.0
+| Theme Date : 07/08/2018
+| Platforms : HTML5, CSS3, Bootstrap4, JS, Jquery, Sass
+| Theme Author : Yankee Themes
+| Author URI : https://themeforest.net/user/yankeethemes
+| Author Contact : enquiry[at]yankeeinfoweb[dot]com
+| Tags : yankeethemes, yankeeinfoweb, webdesign, boostrap, wordpress, support, html, responsive, css3, wellorganized, retina, animation, html5, sass, support, yakneelife
+| File : yit-social.css
+| --------------------------------------------------------
+*/
+
+/*
+| --------------------------------------------------------
+| TABLE OF CSS CONTENT
+| --------------------------------------------------------
+| Skillbar Style CSS BOF
+| Responsive Style CSS BOF
+*/
+
+/* Note:
+	- yit is a standard prefix of our profile name (yankee infoweb theme)
+	- This file include all social with variation style
+*/
+
+/* Social Icon Style CSS BOF (.yit-social)
+================================================== */
+.yit-social li { display:inline-block; }
+.yit-social a { display: inline-block; font-size: 30px; height: 45px; line-height: 45px; text-align: center; width: 45px; text-align:center;color:#085DAD; }
+.yit-social a:hover {color: #8CC739!important; }
+
+.yit-social.icon-large a { font-size:35px; width:60px; height:60px; line-height:60px; }
+.yit-social.icon-medium a { font-size:25px; width:45px; height:45px; line-height:45px; }
+.yit-social.icon-small a { font-size:20px; width:40px; height:40px; line-height:40px; }
+.yit-social.icon-xsmall a { font-size:15px; width:25px; height:25px; line-height:25px; }
+
+    /*** Social Icon Color Variation CSS BOF ***/
+    .yit-social a.facebook { background-color:#3b5998; }
+    .yit-social a.twitter { background-color:#00aced; }
+    .yit-social a.google { background-color:#dc4a38; }
+    .yit-social a.dribbble { background-color:#ea4c89; }
+    .yit-social a.linkedin { background-color:#007bb6; }
+    .yit-social a.instagram { background-color:#fe1f49; }
+    .yit-social a.tumblr { background-color:#32506d; }
+    .yit-social a.flickr { background-color:#ff0084; }
+    .yit-social a.youtube { background-color:#bb0000; }
+    .yit-social a.rss { background-color:#f2890a; }
+    .yit-social a.reddit { background-color:#ff4500; }
+    .yit-social a.behance { background-color:#1769ff; }
+    .yit-social a.vine { background-color:#00bf8f; }
+
+    .yit-social a.facebook, .yit-social a.twitter, .yit-social a.google, .yit-social a.dribbble, .yit-social a.linkedin, .yit-social a.instagram, .yit-social a.tumblr,
+    .yit-social a.flickr, .yit-social a.youtube, .yit-social a.rss, .yit-social a.reddit, .yit-social a.behance, .yit-social a.vine { color:#fff; }
+
+        /* Hover State CSS BOF */
+        .yit-social a.facebook:hover, .yit-social a.facebook:hover:focus, .yit-social a.facebook:hover:active,
+        .yit-social a.twitter:hover, .yit-social a.twitter:focus, .yit-social a.twitter:active,
+        .yit-social a.google:hover, .yit-social a.google:focus, .yit-social a.google:active,
+        .yit-social a.dribbble:hover, .yit-social a.dribbble:focus, .yit-social a.dribbble:active,
+        .yit-social a.linkedin:hover, .yit-social a.linkedin:focus, .yit-social a.linkedin:active,
+        .yit-social a.instagram:hover, .yit-social a.instagram:focus, .yit-social a.instagram:active,
+        .yit-social a.tumblr:hover, .yit-social a.tumblr:focus, .yit-social a.tumblr:active,
+        .yit-social a.flickr:hover, .yit-social a.flickr:focus, .yit-social a.flickr:active,
+        .yit-social a.youtube:hover, .yit-social a.youtube:focus, .yit-social a.youtube:active,
+        .yit-social a.rss:hover, .yit-social a.rss:focus, .yit-social a.rss:active,
+        .yit-social a.reddit:hover, .yit-social a.reddit:focus, .yit-social a.reddit:active,
+        .yit-social a.behance:hover, .yit-social a.behance:focus, .yit-social a.behance:active,
+        .yit-social a.vine:hover, .yit-social a.vine:focus, .yit-social a.vine:active { color:rgba(255, 255, 255, .6); }
+
+/*** Social Style-1 CSS BOF ***/
+.yit-social.style-1 a { color:rgba(0, 0, 0, .4); }
+.yit-social.style-1 a:hover { color:rgba(0, 0, 0, .8); }
+
+/*** Social Style-2 CSS BOF ***/
+.yit-social.style-2 a { -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; }
+.yit-social.style-2 a:hover, .yit-social.style-1 a:focus, .yit-social.style-1 a:active { -moz-border-radius:100px; -webkit-border-radius:100px; border-radius:100px; }
+
+/*** Social Style-3 CSS BOF ***/
+.yit-social.style-3 a { background-color: rgba(0, 0, 0, 0); border: 1px solid rgba(0, 0, 0, 0.3); color: #666666; }
+.yit-social.style-3 a.facebook:hover, .yit-social.style-3 a.facebook:focus, .yit-social.style-3 a.facebook:active { border:solid 1px #3b5998; color:#3b5998; }
+.yit-social.style-3 a.twitter:hover, .yit-social.style-3 a.twitter:focus, .yit-social.style-3 a.twitter:active { border:solid 1px #00aced; color:#00aced; }
+.yit-social.style-3 a.google:hover, .yit-social.style-3 a.google:focus, .yit-social.style-3 a.google:active { border:solid 1px #dc4a38; color:#dc4a38; }
+.yit-social.style-3 a.dribbble:hover, .yit-social.style-3 a.dribbble:focus, .yit-social.style-3 a.dribbble:active { border:solid 1px #ea4c89; color:#ea4c89; }
+.yit-social.style-3 a.linkedin:hover, .yit-social.style-3 a.linkedin:focus, .yit-social.style-3 a.linkedin:active { border:solid 1px #007bb6; color:#007bb6; }
+.yit-social.style-3 a.instagram:hover, .yit-social.style-3 a.instagram:focus, .yit-social.style-3 a.instagram:active { border:solid 1px #fe1f49; color:#fe1f49; }
+.yit-social.style-3 a.tumblr:hover, .yit-social.style-3 a.tumblr:focus, .yit-social.style-3 a.tumblr:active { border:solid 1px #32506d; color:#32506d; }
+.yit-social.style-3 a.flickr:hover, .yit-social.style-3 a.flickr:focus, .yit-social.style-3 a.flickr:active { border:solid 1px #ff0084; color:#ff0084; }
+.yit-social.style-3 a.youtube:hover, .yit-social.style-3 a.youtube:focus, .yit-social.style-3 a.youtube:active { border:solid 1px #bb0000; color:#bb0000; }
+.yit-social.style-3 a.rss:hover, .yit-social.style-3 a.rss:focus, .yit-social.style-3 a.rss:active { border:solid 1px #f2890a; color:#f2890a; }
+.yit-social.style-3 a.reddit:hover, .yit-social.style-3 a.reddit:focus, .yit-social.style-3 a.reddit:active { border:solid 1px #1769ff; color:#1769ff; }
+.yit-social.style-3 a.behance:hover, .yit-social.style-3 a.behance:focus, .yit-social.style-3 a.behance:active { border:solid 1px #00aced; color:#00aced; }
+.yit-social.style-3 a.vine:hover, .yit-social.style-3 a.vine:focus, .yit-social.style-3 a.vine:active { border:solid 1px #00bf8f; color:#00bf8f; }
+
+/*** Social Style-4 CSS BOF ***/
+.yit-social.style-4 a { background-color: rgba(0, 0, 0, 0); color: #666666; }
+.yit-social.style-4 a.facebook:hover, .yit-social.style-4 a.facebook:focus, .yit-social.style-4 a.facebook:active { color:#3b5998; }
+.yit-social.style-4 a.twitter:hover, .yit-social.style-4 a.twitter:focus, .yit-social.style-4 a.twitter:active { color:#00aced; }
+.yit-social.style-4 a.google:hover, .yit-social.style-4 a.google:focus, .yit-social.style-4 a.google:active { color:#dc4a38; }
+.yit-social.style-4 a.dribbble:hover, .yit-social.style-4 a.dribbble:focus, .yit-social.style-4 a.dribbble:active { color:#ea4c89; }
+.yit-social.style-4 a.linkedin:hover, .yit-social.style-4 a.linkedin:focus, .yit-social.style-4 a.linkedin:active { color:#007bb6; }
+.yit-social.style-4 a.instagram:hover, .yit-social.style-4 a.instagram:focus, .yit-social.style-4 a.instagram:active { color:#fe1f49; }
+.yit-social.style-4 a.tumblr:hover, .yit-social.style-4 a.tumblr:focus, .yit-social.style-4 a.tumblr:active { color:#32506d; }
+.yit-social.style-4 a.flickr:hover, .yit-social.style-4 a.flickr:focus, .yit-social.style-4 a.flickr:active { color:#ff0084; }
+.yit-social.style-4 a.youtube:hover, .yit-social.style-4 a.youtube:focus, .yit-social.style-4 a.youtube:active { color:#bb0000; }
+.yit-social.style-4 a.rss:hover, .yit-social.style-4 a.rss:focus, .yit-social.style-4 a.rss:active { color:#f2890a; }
+.yit-social.style-4 a.reddit:hover, .yit-social.style-4 a.reddit:focus, .yit-social.style-4 a.reddit:active { color:#1769ff; }
+.yit-social.style-4 a.behance:hover, .yit-social.style-4 a.behance:focus, .yit-social.style-4 a.behance:active { color:#00aced; }
+.yit-social.style-4 a.vine:hover, .yit-social.style-4 a.vine:focus, .yit-social.style-4 a.vine:active { color:#00bf8f; }
+
+/*** Social Style-5 CSS BOF ***/
+.yit-social.style-5 a { background-color: rgba(0, 0, 0, 0); color: #666666; }
+.yit-social.style-5 a.facebook:hover, .yit-social.style-5 a.facebook:focus, .yit-social.style-5 a.facebook:active { background-color:#3b5998; color:#fff; }
+.yit-social.style-5 a.twitter:hover, .yit-social.style-5 a.twitter:focus, .yit-social.style-5a.twitter:active { background-color:#00aced; color:#fff; }
+.yit-social.style-5 a.google:hover, .yit-social.style-5 a.google:focus, .yit-social.style-5 a.google:active { background-color:#dc4a38; color:#fff; }
+.yit-social.style-5 a.dribbble:hover, .yit-social.style-5 a.dribbble:focus, .yit-social.style-5 a.dribbble:active { background-color:#ea4c89; color:#fff; }
+.yit-social.style-5 a.linkedin:hover, .yit-social.style-5 a.linkedin:focus, .yit-social.style-5 a.linkedin:active { background-color:#007bb6; color:#fff; }
+.yit-social.style-5 a.instagram:hover, .yit-social.style-5 a.instagram:focus, .yit-social.style-5 a.instagram:active { background-color:#fe1f49; color:#fff; }
+.yit-social.style-5 a.tumblr:hover, .yit-social.style-5 a.tumblr:focus, .yit-social.style-5 a.tumblr:active { background-color:#32506d; color:#fff; }
+.yit-social.style-5 a.flickr:hover, .yit-social.style-5 a.flickr:focus, .yit-social.style-5 a.flickr:active { background-color:#ff0084; color:#fff; }
+.yit-social.style-5 a.youtube:hover, .yit-social.style-5 a.youtube:focus, .yit-social.style-5 a.youtube:active { background-color:#bb0000; color:#fff; }
+.yit-social.style-5 a.rss:hover, .yit-social.style-5 a.rss:focus, .yit-social.style-5 a.rss:active { background-color:#f2890a; color:#fff; }
+.yit-social.style-5 a.reddit:hover, .yit-social.style-5 a.reddit:focus, .yit-social.style-5 a.reddit:active { background-color:#1769ff; color:#fff; }
+.yit-social.style-5 a.behance:hover, .yit-social.style-5 a.behance:focus, .yit-social.style-5 a.behance:active { background-color:#00aced; color:#fff; }
+.yit-social.style-5 a.vine:hover, .yit-social.style-5 a.vine:focus, .yit-social.style-5 a.vine:active { background-color:#00bf8f; color:#fff; }
+
+/*** Social Style-6 CSS BOF ***/
+.yit-social.style-6 a i { -webkit-transform:rotate(0deg); -o-transform:rotate(0deg); -ms-transform:rotate(0deg); -moz-transform:rotate(0deg); transform:rotate(0deg);
+    -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s;
+    transition:all .5s ease-in-out 0s; }
+.yit-social.style-6 a:hover i, .yit-social.style-6 a:focus i, .yit-social.style-6 a:active i  {
+    -webkit-transform:rotate(360deg); -o-transform:rotate(360deg); -ms-transform:rotate(360deg); -moz-transform:rotate(360deg); transform:rotate(360deg); }
+
+/*** Social Style-7 CSS BOF ***/
+.yit-social.style-7 a { -webkit-transform:scale(1); -o-transform:scale(1); -ms-transform:scale(1); -moz-transform:scale(1); transform:scale(1); }
+.yit-social.style-7 a:hover, .yit-social.style-7 a:focus, .yit-social.style-7 a:active  { -webkit-transform:scale(.8); -o-transform:scale(.8); -ms-transform:scale(.8); -moz-transform:scale(.8); transform:scale(.8); }
+
+/*** Social Style-8 CSS BOF ***/
+.yit-social.style-8 a { background:none; border:none; position:relative; z-index:2; }
+.yit-social.style-8 a::after { left:0; bottom:0; right:0; content:''; position:absolute; width:100%; height:2px; -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; z-index:-1; }
+.yit-social.style-8 a:hover::after { height:100%; }
+.yit-social.style-8 a:hover, .yit-social.style-8 a:focus, .yit-social.style-8 a:active { color:#fff !important; }
+
+/*** Social Style-9 CSS BOF ***/
+.yit-social.style-9 a { background:none; border:none; position:relative; z-index:2; }
+.yit-social.style-9 a::after { left:0; bottom:0; right:0; content:''; position:absolute; width:100%; height:100%; -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; z-index:-1;
+    -webkit-transform:scale(0); -o-transform:scale(0); -ms-transform:scale(0); -moz-transform:scale(0); transform:scale(0); }
+.yit-social.style-9 a:hover::after { -webkit-transform:scale(1); -o-transform:scale(1); -ms-transform:scale(1); -moz-transform:scale(1); transform:scale(1); }
+.yit-social.style-9 a:hover, .yit-social.style-9 a:hover:focus, .yit-social.style-9 a:active { color:#fff !important; }
+
+/*** Social Style-10 CSS BOF ***/
+.yit-social.style-10 a { background:none; border:none; position:relative; z-index:2; }
+.yit-social.style-10 a::after { -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; z-index:-1;
+  content: ""; left: 0; margin: 0 auto; position: absolute; right: 0; width: 0; z-index: -1; top:0; bottom:0; }
+.yit-social.style-10 a:hover::after { height:100%; width:100%; }
+.yit-social.style-10 a:hover, .yit-social.style-10 a:focus, .yit-social.style-10 a:active { color:#fff !important; }
+
+    /* Combine Social Style 8,9,10 Bg Selector CSS BOF */
+    .yit-social.style-8 a.facebook::after, .yit-social.style-9 a.facebook::after, .yit-social.style-10 a.facebook::after { background-color:#3b5998; }
+    .yit-social.style-8 a.twitter::after, .yit-social.style-9 a.twitter::after, .yit-social.style-10 a.twitter::after { background-color:#00aced; }
+    .yit-social.style-8 a.google::after, .yit-social.style-9 a.google::after, .yit-social.style-10 a.google::after { background-color:#dc4a38; }
+    .yit-social.style-8 a.dribbble::after, .yit-social.style-9 a.dribbble::after, .yit-social.style-10 a.dribbble::after { background-color:#ea4c89; }
+    .yit-social.style-8 a.linkedin::after, .yit-social.style-9 a.linkedin::after, .yit-social.style-10 a.linkedin::after { background-color:#007bb6; }
+    .yit-social.style-8 a.instagram::after, .yit-social.style-9 a.instagram::after, .yit-social.style-10 a.instagram::after { background-color:#fe1f49; }
+    .yit-social.style-8 a.tumblr::after, .yit-social.style-9 a.tumblr::after, .yit-social.style-10 a.tumblr::after { background-color:#32506d; }
+    .yit-social.style-8 a.flickr::after, .yit-social.style-9 a.flickr::after, .yit-social.style-10 a.flickr::after { background-color:#ff0084; }
+    .yit-social.style-8 a.youtube::after, .yit-social.style-9 a.youtube::after, .yit-social.style-10 a.youtube::after { background-color:#bb0000; }
+    .yit-social.style-8 a.rss::after, .yit-social.style-9 a.rss::after, .yit-social.style-10 a.rss::after { background-color:#f2890a; }
+    .yit-social.style-8 a.reddit::after, .yit-social.style-9 a.reddit::after, .yit-social.style-10 a.reddit::after { background-color:#ff4500; }
+    .yit-social.style-8 a.behance::after, .yit-social.style-9 a.behance::after, .yit-social.style-10 a.behance::after { background-color:#1769ff; }
+    .yit-social.style-8 a.vine::after, .yit-social.style-9 a.vine::after, .yit-social.style-10 a.vine::after { background-color:#00bf8f; }
+
+    /* Combine Social Style 8,9,10 Color Selector CSS BOF */
+    .yit-social.style-8 a.facebook, .yit-social.style-9 a.facebook, .yit-social.style-10 a.facebook { color:#3b5998; }
+    .yit-social.style-8 a.twitter, .yit-social.style-9 a.twitter, .yit-social.style-10 a.twitter { color:#00aced; }
+    .yit-social.style-8 a.google, .yit-social.style-9 a.google, .yit-social.style-10 a.google { color:#dc4a38; }
+    .yit-social.style-8 a.dribbble, .yit-social.style-9 a.dribbble, .yit-social.style-10 a.dribbble { color:#ea4c89; }
+    .yit-social.style-8 a.linkedin, .yit-social.style-9 a.linkedin, .yit-social.style-10 a.linkedin { color:#007bb6; }
+    .yit-social.style-8 a.instagram, .yit-social.style-9 a.instagram, .yit-social.style-10 a.instagram { color:#fe1f49; }
+    .yit-social.style-8 a.tumblr, .yit-social.style-9 a.tumblr, .yit-social.style-10 a.tumblr { color:#32506d; }
+    .yit-social.style-8 a.flickr, .yit-social.style-9 a.flickr, .yit-social.style-10 a.flickr { color:#ff0084; }
+    .yit-social.style-8 a.youtube, .yit-social.style-9 a.youtube, .yit-social.style-10 a.youtube { color:#bb0000; }
+    .yit-social.style-8 a.rss, .yit-social.style-9 a.rss, .yit-social.style-10 a.rss { color:#f2890a; }
+    .yit-social.style-8 a.reddit, .yit-social.style-9 a.reddit, .yit-social.style-10 a.reddit { color:#ff4500; }
+    .yit-social.style-8 a.behance, .yit-social.style-9 a.behance, .yit-social.style-10 a.behance { color:#1769ff; }
+    .yit-social.style-8 a.vine, .yit-social.style-9 a.vine, .yit-social.style-10 a.vine { color:#00bf8f; }
+
+
+/*** Responsive Social Style CSS BOF ***/
+@media(max-width: 767px){
+    .yit-social { text-align:center; }
+    .yit-social.float-right { float:none !important; }
+}
+@media(min-width:768px) and (max-width:980px) {
+    .yit-social.icon-small a { width:35px; height:35px; line-height:35px; font-size:18px; }
+}

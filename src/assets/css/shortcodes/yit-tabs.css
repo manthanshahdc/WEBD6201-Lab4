@@ -1,0 +1,221 @@
+/*
+| --------------------------------------------------------
+| Theme Name : WebPanda
+| Theme Version : 1.0
+| Theme Date : 07/08/2018
+| Platforms : HTML5, CSS3, Bootstrap4, JS, Jquery, Sass
+| Theme Author : Yankee Themes
+| Author URI : https://themeforest.net/user/yankeethemes
+| Author Contact : enquiry[at]yankeeinfoweb[dot]com
+| Tags : yankeethemes, yankeeinfoweb, webdesign, boostrap, wordpress, support, html, responsive, css3, wellorganized, retina, animation, html5, sass, support, yakneelife
+| File : yit-tabs.css
+| --------------------------------------------------------
+*/
+
+/*
+| --------------------------------------------------------
+| TABLE OF CSS CONTENT
+| --------------------------------------------------------
+| Tabs Style CSS BOF
+| Verticel Tabs Style CSS BOF
+| Responsive Style CSS BOF
+*/
+
+/* Note:
+        - yit is a standard prefix of our profile name (yankee infoweb theme)
+        - This file include all tabs with variation style
+*/
+
+/* Tabs Style CSS BOF (.yit-tab)
+================================================== */
+.yit-tab .nav-tabs .nav-link { -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; padding:10px 20px; }
+.yit-tab .tab-content { padding:15px; border:solid 1px #dee2e6; border-top:medium none; background-color:#fff; }
+.yit-tab .nav-tabs .nav-item { margin-bottom:0; }
+
+/*** Style-1 CSS BOF ***/
+.yit-tab.style-1 .nav-tabs .nav-item.show .nav-link { border:solid 1px solid rgba(0, 0, 0, .2); }
+.yit-tab.style-1 .tab-content { border-top:medium none; }
+.yit-tab.style-1 .nav-tabs .nav-item { border-right: 1px solid #dee2e6; }
+.yit-tab.style-1 .nav-tabs { border:solid 1px #dee2e6 }
+.yit-tab.style-1 .tab-content { border:solid 1px #dee2e6; border-top:medium none; }
+
+/* Hover State CSS BOF */
+.yit-tab.style-1 .nav-tabs .nav-link.active, .yit-tab.style-1 .nav-tabs .nav-link:hover, .yit-tab.style-1 .nav-tabs .nav-link:focus  { background-color:#e91e63; color:#fff; border:solid 1px #e91e63; }
+
+/*** Style-2 CSS BOF ***/
+.yit-tab.style-2 .nav-tabs .nav-item.show .nav-link { border:solid 1px solid rgba(0, 0, 0, .2); }
+.yit-tab.style-2 .tab-content { border-top:medium none; }
+.yit-tab.style-2 .nav-tabs .nav-item { border-right: 1px solid #dee2e6; }
+.yit-tab.style-2 .nav-tabs { border:solid 1px #dee2e6; }
+.yit-tab.style-2 .tab-content { border-top:medium none; }
+.yit-tab.style-2 .nav-tabs .nav-link { border-top:solid 3px #fff; -moz-box-shadow:none; -webkit-box-shadow:none; box-shadow:none; }
+
+/* Hover State CSS BOF */
+.yit-tab.style-2 .nav-tabs .nav-link.active, .yit-tab.style-2 .nav-tabs .nav-link:hover, .yit-tab.style-2 .nav-tabs .nav-link:focus { -moz-box-shadow:0 2px 5px 0 rgba(0, 0, 0, 0.2);
+                                                                                                                                      -webkit-box-shadow:0 2px 5px 0 rgba(0, 0, 0, 0.2); box-shadow:0 2px 5px 0 rgba(0, 0, 0, 0.2); }
+.yit-tab.style-2 .nav-tabs .nav-link.active, .yit-tab.style-2 .nav-tabs .nav-link:hover, .yit-tab.style-2 .nav-tabs .nav-link:focus  {
+    border-top:solid 3px #e91e63; color:#e91e63; }
+
+/*** Style-3 CSS BOF ***/
+.yit-tab.style-3 .nav { display:block; }
+.yit-tab.style-3 .tab-content { border:none; padding:35px; }
+.yit-tab.style-3 .nav-link { border:medium none; font-weight:500; font-size:16px; text-transform:uppercase; position:relative; }
+.yit-tab.style-3 .nav-link:after { position:absolute; left:0; right:0; bottom:-36px; content:""; font-family:"fontawesome"; font-size:34px; color:transparent;
+                                   -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; }
+
+/* Hover State CSS BOF */
+.yit-tab.style-3 .nav-tabs .nav-link.active, .yit-tab.style-3 .nav-tabs .nav-link:hover, .yit-tab.style-3 .nav-tabs .nav-link:focus  { color:#e91e63; border:medium none; }
+.yit-tab.style-3 .nav-tabs .nav-link.active:after, .yit-tab.style-3 .nav-tabs .nav-link:hover:after, .yit-tab.style-3 .nav-tabs .nav-link:focus:after { color:#e91e63; }
+
+/*** Style-4 CSS BOF ***/
+.yit-tab.style-4 .nav { display:block; }
+.yit-tab.style-4 .nav-tabs { border-bottom:medium none; }
+.yit-tab.style-4 .tab-content { border:none; padding:35px; }
+.yit-tab.style-4 .nav-link { border:medium none; font-weight:500; font-size:16px; text-transform:uppercase; -moz-box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1); box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1); background:#fff; margin:0 5px; }
+.yit-tab.style-4 .nav-link i { padding:0 5px; }
+
+/* Hover State CSS BOF */
+.yit-tab.style-4 .nav-tabs .nav-link.active, .yit-tab.style-4 .nav-tabs .nav-link:hover, .yit-tab.style-4 .nav-tabs .nav-link:focus  { color:#fff; border:medium none;
+                                                                                                                                       background:#e91e63; }
+
+/*** Style-5 CSS BOF ***/
+.yit-tab.style-5 .nav { display:block; }
+.yit-tab.style-5 .nav-tabs { border-bottom:medium none; }
+.yit-tab.style-5 .nav-tabs .nav-link { padding:0; }
+.yit-tab.style-5 .tab-content { border:none; padding:35px; }
+.yit-tab.style-5 .nav-link { border:medium none; background:#dee2e6; margin:0 10px; }
+
+/* Hover State CSS BOF */
+.yit-tab.style-5 .nav-tabs .nav-link.active, .yit-tab.style-5 .nav-tabs .nav-link:hover, .yit-tab.style-5 .nav-tabs .nav-link:focus  { color:#fff; border:medium none;
+                                                                                                                                       background:#e91e63; }
+
+/*** Style-6 CSS BOF ***/
+.yit-tab.style-6 .nav-tabs { border-bottom:medium none; }
+.yit-tab.style-6 .nav-tabs .nav-link { background:#dee2e6; padding:15px 22px; font-weight:500; font-size:17px; text-transform:uppercase; }
+.yit-tab.style-6 .tab-content { border:none; padding:35px; background:none; }
+.yit-tab.style-6 .nav-link i { display:block; font-size:35px; margin:7px auto; }
+.yit-tab.style-6 .nav-link { border:medium none; margin:0 1px; background:none; }
+
+/* Hover State CSS BOF */
+.yit-tab.style-6 .nav-tabs .nav-link.active, .yit-tab.style-6 .nav-tabs .nav-link:hover, .yit-tab.style-6 .nav-tabs .nav-link:focus  { border:medium none; background:#e91e63; color:#fff; }
+
+/*** Style-7 CSS BOF ***/
+.yit-tab.style-7 .nav-tabs { border-bottom:medium none; }
+.yit-tab.style-7 .nav-tabs .nav-link { background:#dee2e6; padding:15px 22px; font-weight:500; font-size:17px; text-transform:uppercase; border-top:solid 3px #dee2e6; }
+.yit-tab.style-7 .tab-content { border:none; padding:35px; background:none; }
+.yit-tab.style-7 .nav-link i { display:block; font-size:35px; margin:7px auto; }
+.yit-tab.style-7 .nav-link { border:medium none; margin:0 1px; background:none; }
+
+/* Hover State CSS BOF */
+.yit-tab.style-7 .nav-tabs .nav-link.active, .yit-tab.style-7 .nav-tabs .nav-link:hover, .yit-tab.style-7 .nav-tabs .nav-link:focus  {
+    border-top:solid 3px #e91e63; background:#fff; color:#e91e63; }
+
+/*** Style-8 CSS BOF ***/
+.yit-tab.style-8 .nav-tabs { border-bottom:medium none; }
+.yit-tab.style-8 .nav-tabs .nav-link { background:#dee2e6; font-weight:500; font-size:17px; text-transform:uppercase; }
+.yit-tab.style-8 .tab-content { border:none; padding:35px; background:none; }
+.yit-tab.style-8 .nav-link i { display:block; font-size:35px; margin:7px auto; display:table; background:rgba(0, 0, 0, .1); }
+.yit-tab.style-8 .nav-link { border:medium none; margin:0 1px; background:none; }
+
+/* Hover State CSS BOF */
+.yit-tab.style-8 .nav-tabs .nav-link.active, .yit-tab.style-8 .nav-tabs .nav-link:hover, .yit-tab.style-8 .nav-tabs .nav-link:focus  { background:#fff; color:#e91e63; }
+.yit-tab.style-8 .nav-tabs .nav-link.active i, .yit-tab.style-8 .nav-tabs .nav-link:hover i, .yit-tab.style-8 .nav-tabs .nav-link:focus i { background:#e91e63; color:#fff; }
+
+/*** Style-9 CSS BOF ***/
+.yit-tab.style-9 .nav-tabs { border-bottom:medium none; }
+.yit-tab.style-9 .nav-tabs .nav-link { background:#fff; padding:15px 22px; font-weight:500; font-size:17px; text-transform:uppercase; border:solid 2px #dee2e6; }
+.yit-tab.style-9 .tab-content { border:none; padding:35px; background:none; }
+.yit-tab.style-9 .nav-link i { display:block; font-size:35px; margin:7px auto; }
+.yit-tab.style-9 .nav-link { border:medium none; margin:0 5px; background:none; }
+.yit-tab.style-9 .nav-link:after { position:absolute; left:0; right:0; bottom:-45px; content:""; font-family:"fontawesome"; font-size:45px; color:transparent;
+                                   -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; }
+
+/* Hover State CSS BOF */
+.yit-tab.style-9 .nav-tabs .nav-link.active, .yit-tab.style-9 .nav-tabs .nav-link:hover, .yit-tab.style-9 .nav-tabs .nav-link:focus  { border:solid 2px #e91e63; color:#e91e63; }
+.yit-tab.style-9 .nav-tabs .nav-link.active:after { color:#e91e63; }
+
+/*** Style-10 CSS BOF ***/
+.yit-tab.style-10 .nav-tabs { border-bottom:medium none; }
+.yit-tab.style-10 .nav-tabs .nav-link { background:#dee2e6; padding:15px 22px; font-weight:500; font-size:17px; text-transform:uppercase; margin:0 5px; }
+.yit-tab.style-10 .tab-content { border:none; padding:35px; background:#f8f8f8; }
+.yit-tab.style-10 .nav-link { border:medium none; background:none; -moz-border-radius:20px 20px 0 0; -webkit-border-radius:20px 20px 0 0; border-radius:20px 20px 0 0; }
+.yit-tab.style-10 .nav-link i { font-size: 25px; line-height: normal; padding: 0 8px; position: relative; top: 5px; }
+
+/* Hover State CSS BOF */
+.yit-tab.style-10 .nav-tabs .nav-link.active, .yit-tab.style-10 .nav-tabs .nav-link:hover, .yit-tab.style-10 .nav-tabs .nav-link:focus  { border:medium none; background:#e91e63; color:#fff; }
+
+/*** Style-10 CSS BOF ***/
+.yit-tab.style-11 .nav-tabs { border-bottom:medium none; }
+.yit-tab.style-11 .nav-tabs .nav-link { background:#dee2e6; padding:15px 22px; font-weight:500; font-size:17px; text-transform:uppercase; }
+.yit-tab.style-11 .tab-content { border:none; padding:35px; background:#f8f8f8; }
+.yit-tab.style-11 .nav-link { border:medium none; background:none; }
+.yit-tab.style-11 .nav-tabs li:first-child .nav-link { -moz-border-radius:40px 0 0 40px; -webkit-border-radius:40px 0 0 40px; border-radius:40px 0 0 40px; }
+.yit-tab.style-11 .nav-tabs li:last-child .nav-link { -moz-border-radius:0 40px 40px 0; -webkit-border-radius:0 40px 40px 0; border-radius:0 40px 40px 0; }
+.yit-tab.style-11 .nav-link i { font-size: 25px; line-height: normal; padding: 0 8px; position: relative; top: 5px; }
+
+/* Hover State CSS BOF */
+.yit-tab.style-11 .nav-tabs .nav-link.active, .yit-tab.style-11 .nav-tabs .nav-link:hover, .yit-tab.style-11 .nav-tabs .nav-link:focus  { border:medium none; background:#085DAD; color:#fff; }
+
+/*** Verticle Tab Default Style CSS BOF ***/
+.yit-tab-verticle .nav-pills .nav-link { -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; }
+.yit-tab-verticle .tab-content { padding:15px; }
+.yit-tab-verticle .tab-content { border:solid 1px #dee2e6; }
+.yit-tab-verticle .pad-r-5 i { padding-right:5px; }
+
+/* Hover State CSS BOF */
+.yit-tab-verticle .nav-pills .nav-link.active, .yit-tab-verticle .nav-pills .show > .nav-link, .yit-tab-verticle .nav-pills .nav-link:hover,
+.yit-tab-verticle .nav-pills .nav-link:focus { background:#e91e63; color:#fff; }
+
+/*** Verticle Tab Style-1 CSS BOF ***/
+.yit-tab-verticle.style-1 .nav-pills .nav-link { border-bottom:solid 1px rgba(0, 0, 0, .1); }
+.yit-tab-verticle.style-1 .nav-pills .nav-link:last-child { border-bottom:none; }
+
+/*** Verticle Tab Style-2 CSS BOF ***/
+.yit-tab-verticle.style-2 .nav-pills .nav-link { border-right:solid 3px rgba(0, 0, 0, .3); -moz-box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1); box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1); margin-bottom:7px; }
+
+/*** Verticle Tab Style-3 CSS BOF ***/
+.yit-tab-verticle.style-3 .nav-pills .nav-link { border-bottom:solid 1px rgba(255, 255, 255, .1); }
+.yit-tab-verticle.style-3 .nav-pills .nav-link:last-child { border-bottom:none; }
+.yit-tab-verticle.style-3 .nav-pills .nav-link { position: relative; }
+.yit-tab-verticle.style-3 .nav-pills .nav-link.active:after
+{
+    border-bottom: 20px solid rgba(0, 0, 0, 0); border-left: 20px solid #e91e63; border-top: 23px solid rgba(0, 0, 0, 0); content: ""; height: 1px; position: absolute; right: -20px;
+    top: 0; width: 1px;
+}
+.yit-tab-verticle.style-3 .nav-pills .nav-link:last-child.active::after { border-top:21px solid rgba(0, 0, 0, 0) }
+
+/*** Verticle Tab Style-4 CSS BOF ***/
+.yit-tab-verticle.style-4 .nav-pills .nav-link { background: #dee2e6; margin-bottom: 10px; padding: 15px; text-align: center; }
+.yit-tab-verticle.style-4 .nav-pills .nav-link i { display: block; font-size: 35px;  margin-bottom: 5px; }
+
+/* Hover State CSS BOF */
+.yit-tab-verticle.style-4 .nav-pills .nav-link.active, .yit-tab-verticle.style-4 .nav-pills .show > .nav-link, .yit-tab-verticle.style-4 .nav-pills .nav-link:hover,
+.yit-tab-verticle.style-4 .nav-pills .nav-link:focus { background:#e91e63; color:#fff; }
+
+/*** Responisve Accordion Style CSS BOF ***/
+@media (max-width:767px ){
+    .yit-tab.style-3 .nav-tabs li, .yit-tab.style-4 .nav-tabs li, .yit-tab.style-5 .nav-tabs li { display:inline-block; }
+    .yit-tab.style-3 .nav-link::after { bottom:-34px; }
+    .yit-tab .nav-tabs .nav-link { padding:10px 15px; }
+    .yit-tab.style-4 .nav-link span { display:none; }
+    .yit-tab.style-4 .nav-link { margin:0 auto 10px; }
+    .yit-tab.style-5 .nav-link { margin:0 5px; }
+    .yit-tab.style-6 .nav-tabs .nav-item, .yit-tab.style-7 .nav-tabs .nav-item, .yit-tab.style-8 .nav-tabs .nav-item, .yit-tab.style-10 .nav-tabs .nav-item, .yit-tab.style-11 .nav-tabs .nav-item  { margin-bottom:10px; }
+    .yit-tab.style-9 .nav-tabs .nav-item { margin-bottom:30px; }
+    .yit-tab.style-9 .nav-link::after { bottom:-43px; }
+    .yit-tab.style-10 .nav-link { -moz-border-radius:20px; -webkit-border-radius:20px; border-radius:20px; }
+    .yit-tab.style-10 .tab-content { margin-top:15px; }
+    .yit-tab.style-11 .nav-tabs li .nav-link, .yit-tab.style-11 .nav-tabs li:first-child .nav-link, .yit-tab.style-11 .nav-tabs li:last-child .nav-link { -moz-border-radius:40px;
+                                                                                                                                                          -webkit-border-radius:40px; border-radius:40px; }
+    .yit-tab.style-11 .nav-tabs .nav-link { padding:10px 22px; }
+    .yit-tab.style-11 .nav-link i { top:0; }
+    .yit-tab-verticle .tab-content { margin-top:15px; margin-bottom:15px; }
+}
+@media(min-width:768px) and (max-width:980px){
+    .yit-tab.style-4 .nav-link { margin:0; }
+    .yit-tab.style-10 .nav-link i, .yit-tab.style-11 .nav-link i { display:block; }
+    .yit-tab-verticle.style-3 .nav-pills .nav-link.active::after { border-top:22px solid rgba(0, 0, 0, 0); }
+}
+
+/*** Element Page Tab CSS BOF ***/
+.yit-tab .element-tab-content.tab-content { padding-top:35px !important; padding-bottom:0 !important; } /* override tab content padding */

@@ -1,0 +1,224 @@
+/*
+| --------------------------------------------------------
+| Theme Name : WebPanda
+| Plugin Version : 1.0
+| Theme Date : 07/08/2018
+| Platforms : HTML5, CSS3, Bootstrap4, JS, Jquery, Sass
+| Theme Author : Yankee Themes
+| Author URI : https://themeforest.net/user/yankeethemes
+| Author Contact : enquiry[at]yankeeinfoweb[dot]com
+| Tags : yankeethemes, yankeeinfoweb, webdesign, boostrap, wordpress, support, html, responsive, css3, wellorganized, retina, animation, html5, sass, support, yakneelife
+| File : yit-blog.css
+| --------------------------------------------------------
+*/
+
+/*
+| --------------------------------------------------------
+| TABLE OF CSS CONTENT
+| --------------------------------------------------------
+| Blog Pages Style CSS BOF
+| Blog Sidebar Style CSS BOF
+| Blog Single Pages Style CSS BOF
+| Home Page Blogs Style CSS BOF
+*/
+
+/* Note:
+	- yit is a standard prefix of our profile name (yankee infoweb theme)
+	- This file include all blogs with variation style
+*/
+
+/* Blog CSS BOF (.yit-blog)
+================================================== */
+.yit-blog .yit-blog-item { margin-bottom:30px; position:relative; -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s;
+	-ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; }
+.yit-blog .yit-blog-item p { margin-bottom:10px; }
+
+/*** Blog Style-1 CSS BOF ***/
+.yit-blog.style-1 .yit-blog-item { background:#f5f5f5; }
+.yit-blog.style-1 .yit-blog-detail { padding:15px; }
+
+/*** Blog Style-2 CSS BOF ***/
+.yit-blog.style-2 .yit-blog-item { background:#fff; -moz-box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1);
+	box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1); }
+.yit-blog.style-2 .yit-blog-detail { padding:15px; }
+.yit-blog.style-2 .yit-blog-thumbnail { position:relative; }
+.yit-blog.style-2 .yit-blog-thumbnail:before { position:absolute; left:0; top:0; width:100%; height:100%; background:rgba(0, 0, 0, .5); content:""; -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; }
+.yit-blog.style-2 .yit-blog-item:hover .yit-blog-thumbnail:before {  background:rgba(0, 0, 0, .3); }
+
+/*** Blog Style-3 CSS BOF ***/
+.yit-blog.style-3 .yit-blog-item .yit-blog-thumbnail { position:relative; margin-bottom:0; }
+.yit-blog.style-3 .yit-blog-item .post-date { bottom: 0; padding: 15px; position: absolute; width: auto; right: 0; border-radius:20px 0 0; -moz-border-radius:20px 0 0;
+	-webkit-border-radius:20px 0 0; }
+.yit-blog.style-3 .yit-blog-item .yit-blog-detail p { font-size:16px; }
+
+/*** Blog Style-4 CSS BOF ***/
+.yit-blog.style-4 .yit-blog-item { background:#fff; -moz-box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1);
+	box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1); margin-bottom:0; }
+.yit-blog.style-4 .yit-blog-detail { padding:15px; }
+.yit-blog.style-4 .yit-blog-thumbnail { position:relative; }
+.yit-blog.style-4 .yit-blog-item .post-action { margin: 15px auto; overflow: hidden; padding:0 2px; }
+.yit-blog.style-4 .yit-blog-item .post-action .post-date { float:left; color:rgba(0, 0, 0, .5); }
+.yit-blog.style-4 .yit-blog-item .post-action .post-author { float:right; color:rgba(0, 0, 0, .5); }
+.yit-blog.style-4 .yit-blog-item .btn-more { font-size: 25px; height: 50px; line-height: 50px; text-align: center; width: 50px; opacity:0; margin-top:-35px; }
+.yit-blog.style-4 .yit-blog-item:hover .btn-more { opacity:1; margin-top:0; }
+
+/*** Blog Style-5 CSS BOF ***/
+.yit-blog.style-5 .yit-blog-item { -moz-box-shadow:0 6px 16px 0 #cccccc; -webkit-box-shadow:0 6px 16px 0 #cccccc; box-shadow:0 6px 16px 0 #cccccc; }
+.yit-blog.style-5 .yit-blog-item .yit-blog-action ul { display:table; width:100%; margin:0 auto; }
+.yit-blog.style-5 .yit-blog-item .yit-blog-action ul li { padding:15px; font-size:13px; border-right:1px solid rgba(0, 0, 0, .1); display:table-cell; max-width:135px; }
+.yit-blog.style-5 .yit-blog-item .yit-blog-action ul li i { padding-right:5px; display:block; } /* override icon */
+.yit-blog.style-5 .yit-blog-item .yit-blog-action ul li:last-child { border-right:medium none; }
+.yit-blog.style-5 .yit-blog-item .yit-blog-tag { bottom: -41px; font-size: 13px; left: 0; position: absolute; width: 100%; -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; }
+.yit-blog.style-5 .yit-blog-item .yit-blog-tag i { padding:0 5px; }
+.yit-blog.style-5 .yit-blog-item:hover .yit-blog-tag { bottom:0; }
+
+/*** Blog Style-6 CSS BOF ***/
+.yit-blog.style-6 .yit-blog-item .yit-blog-author img { display:inline-block; margin-right:15px; width:40px; }
+.yit-blog.style-6 .yit-blog-item .yit-blog-author .post-date { display:inline-block; vertical-align:middle; }
+.yit-blog.style-6 .yit-blog-item hr { margin:10px 0; }
+.yit-blog.style-6 .yit-blog-item .post-category { font-size: 12px; padding: 5px 10px; position: absolute; right: 0; text-transform: uppercase; bottom: 0;
+	-moz-border-radius:5px 0 0; -webkit-border-radius:5px 0 0; border-radius:5px 0 0; }
+
+/*** Blog Style-7 CSS BOF ***/
+.yit-blog.style-7 .yit-blog-item { background:#fff; -moz-box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1);
+	box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1); margin-bottom:0; }
+.yit-blog.style-7 .yit-blog-detail { padding:15px; }
+.yit-blog.style-7 .yit-blog-thumbnail { position:relative; }
+.yit-blog.style-7 .yit-blog-item .post-action { margin: 15px auto; overflow: hidden; padding:0 10px; }
+.yit-blog.style-7 .yit-blog-item .post-action .post-date { float:left; color:rgba(0, 0, 0, .5); }
+.yit-blog.style-7 .yit-blog-item .post-action .post-author { float:right; color:rgba(0, 0, 0, .5); }
+.yit-blog.style-7 .yit-blog-item .btn-more { bottom: -47px; font-size: 25px; height: 50px; left: auto; line-height: 50px; position: absolute; right: 20px; text-align: center; top: auto;
+  width: 50px; }
+
+/*** Blog Style-8 CSS BOF ***/
+.yit-blog.style-8 .yit-blog-item { background:#f5f5f5; margin-bottom:0; }
+.yit-blog.style-8 .yit-blog-detail { padding:15px; }
+
+	/***  Carousel Control CSS BOF ***/
+	.yit-blog .owl-theme .owl-nav [class*="owl-"] { -moz-border-radius:100px; -webkit-border-radius:100px; border-radius:100px; font-size:30px; line-height:40px;height:45px; width:45px; padding:0; }
+	.yit-blog .owl-theme .owl-nav [class*="owl-"]:hover { background:#333 }
+
+/*** Blog ISOTOP Style CSS BOF ***/
+.blog-filter .btn { background:none; color:rgba(0, 0, 0, .5); border-bottom:solid 2px transparent; padding:5px 15px; }
+.blog-filter .btn:hover, .blog-filter .btn:focus, .blog-filter .btn:active, .blog-filter .btn.is-checked { color:#000; border-bottom:solid 2px #000; }
+
+/*** Blog Style-9 CSS BOF ***/
+.yit-blog.style-9 .yit-blog-item { position:relative; overflow:hidden; }
+.yit-blog.style-9 .yit-blog-item .blog-thumbnail { overflow:hidden; position:relative; }
+.yit-blog.style-9 .yit-blog-item .blog-thumbnail:after { left:0; width:100%; position:absolute; top:0; height:100%; background-color:rgba(0, 0, 0, .4); content:""; }
+.yit-blog.style-9 .yit-blog-item .blog-item-content { position:relative; top:-1px; height:100%; left:0; background-color:#333; padding:25px; }
+.yit-blog.style-9 .yit-blog-item .blog-action { position:absolute; bottom:100px; visibility:hidden; opacity:0; right:0; margin:0 auto; left:0; text-align:center; z-index:2; }
+.yit-blog.style-9 .yit-blog-item img { -webkit-transform:scale(1); -o-transform:scale(1); -ms-transform:scale(1); -moz-transform:scale(1); transform:scale(1); }
+.yit-blog.style-9 .yit-blog-item .blog-action .btn { width:auto; }
+.yit-blog.style-9 .yit-blog-item, .yit-blog.style-9 .yit-blog-item .blog-action, .yit-blog.style-9 .yit-blog-item img, .yit-blog.style-9 .yit-blog-item .blog-action,
+.yit-blog.style-9 .yit-blog-item .blog-thumbnail:after { -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s;
+	-ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; }
+.yit-blog.style-9 .yit-blog-item:hover .blog-action { opacity:1; visibility:visible; }
+.yit-blog.style-9 .yit-blog-item:hover .blog-thumbnail:after { background-color:rgba(0, 0, 0, .8); }
+.yit-blog.style-9 .yit-blog-item:hover img { -webkit-transform:scale(1.2); -o-transform:scale(1.2); -ms-transform:scale(1.2); -moz-transform:scale(1.2); transform:scale(1.2); }
+
+/*** Blog Style-10 CSS BOF ***/
+.yit-blog.style-10 .yit-blog-item { border-bottom-width:3px; border-bottom-style:solid; border-bottom-color:transparent; }
+.yit-blog.style-10 .yit-blog-item, .yit-blog.style-10 .blog-thumbnail, .yit-blog.style-10 .blog-thumbnail img { -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; }
+.yit-blog.style-10 .yit-blog-item .post-date { top:-25px; box-shadow:0px 0 0px 4px rgba(0, 0, 0, 0.1); -moz-box-shadow:0px 0 0px 4px rgba(0, 0, 0, 0.1);
+		webkit-box-shadow:0px 0 0px 4px rgba(0, 0, 0, 0.1); padding:10px 20px; }
+.yit-blog.style-10 .blog-thumbnail img { -webkit-transform:scale(1); -o-transform:scale(1); -ms-transform:scale(1); -moz-transform:scale(1); transform:scale(1); }
+.yit-blog.style-10 .yit-blog-item:hover { border-bottom-color:#e91e63; }
+.yit-blog.style-10 .yit-blog-item:hover .blog-thumbnail img { -webkit-transform:scale(1.2); -o-transform:scale(1.2); -ms-transform:scale(1.2); -moz-transform:scale(1.2); transform:scale(1.2); }
+
+/*** Responsive Blog Listing CSS BOF ***/
+@media (max-width: 767px){
+.yit-blog .blog-readmore { display:table; margin:0 auto; }
+.yit-blog.style-3 [class*="link-"] { display:table; margin:0 auto; }
+.yit-blog.style-6 .yit-blog-item hr { margin:10px auto; }
+.blog-filter .btn { width:auto; padding:5px; } /* override blog filter tab button */
+}
+@media (min-width: 768px) and (max-width:980px) {
+.yit-blog.style-5 .yit-blog-item .yit-blog-detail .post-title { font-size:1rem; }
+}
+
+/* Blog Sidebar CSS BOF
+================================================== */
+.blog-sidebar h6 { font-size:1rem; }
+
+	/*** Blog Search CSS BOF ***/
+	.blog-sidebar .sidebar-box.yit-search .common-form .form-control::placeholder { color:rgba(0, 0, 0, .7); opacity:.5; }
+	.blog-sidebar .sidebar-box.yit-search .common-form .form-control::-moz-placeholder { color:rgba(0, 0, 0, .7); opacity:.5; }
+	.blog-sidebar .sidebar-box.yit-search .common-form .form-control:-ms-input-placeholder { color:rgba(0, 0, 0, .7); opacity:.5; }
+	.blog-sidebar .sidebar-box.yit-search .common-form .form-control::-webkit-input-placeholder { color:rgba(0, 0, 0, .7); opacity:.5; }
+	.blog-sidebar .sidebar-box.yit-search .common-form .form-control::-o-input-placeholder { color:rgba(0, 0, 0, .7); opacity:.5; }
+
+	/*** Blog Categories CSS BOF ***/
+	.blog-sidebar .blog-meta .list-group-item:first-child { -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; }
+	.blog-sidebar .blog-meta .list-group-item { border:medium none; padding:0.25rem 0; }
+
+	/*** Blog Testimonial CSS BOF ***/
+	.blog-testimonial .yit-testimonial .owl-carousel .owl-item img { height:70px; border:medium none; }
+
+	/*** Blog Popular Post CSS BOF ***/
+	.blog-popular-post .media { margin-bottom:15px; }
+	.blog-popular-post li:last-child .media { margin-bottom:0; }
+	.blog-popular-post .media .post-thumbnail img { width:75px; margin-right:15px; height:55px; }
+	.blog-popular-post .media .media-body { font-size:13px; line-height:17px; position:relative; top:-5px; }
+
+/*** Responsive Blog Sidebar CSS BOF ***/
+@media (min-width:768px) and (max-width:980px) {
+.blog-sidebar .yit-search .common-form { max-width:100%; }
+}
+
+/* Blog Single Pages CSS BOF
+================================================== */
+
+	/*** Blog Common Tags CSS BOF ***/
+	.blog-standard .likes i { line-height:30px; }
+	.blog-tags li:first-child:before { display:none; }
+	.blog-tags li:nth-child(2):before { content:"" }
+	.blog-tags li:before { content:"|"; padding:0 5px; color:rgba(0, 0, 0, .5); }
+
+	/*** Blog Caption CSS BOF ***/
+	.blog-caption .caption-img { width:50%; }
+
+	/*** Blog Likes CSS BOF ***/
+	.blog-standard .yit-social.icon-xsmall a { font-size:12px; }
+	.yit-social a.blog-like { border-radius: 20px; -moz-border-radius: 20px; -webkit-border-radius: 20px; height: auto; padding: 0 15px; width: auto; }
+
+	/*** Blog Post Comment CSS BOF ***/
+	.blog-post-comment .post-thumbnail { width:70px; }
+	.blog-post-comment .blog-comment-item.reply-item { margin-left:100px; width:calc(100% - 100px) } /* for reply block css */
+
+	/*** Comment Form CSS BOF ***/
+	.blog-reply-form .form-control { background:#fff; }
+
+/*** Responsive Single Blog Pages CSS BOF ***/
+@media (max-width: 767px){
+.blog-standard .post-info-item { display:block; text-align:center; padding:10px 0 0 0; }
+.blog-standard .blog-post-info { padding-bottom:10px; }
+.blog-standard .blog-post-info .yit-display-v-centrize { display:block; }
+.blog-caption .caption-img { width:100%; }
+.blog-post-comment .blog-comment-item .post-thumbnail, .blog-post-comment .blog-comment-item .post-comment { display:table; margin:0 auto 10px; }
+.blog-post-comment .blog-comment-item.reply-item { width:100%; margin-left:0; }
+.blog-post-comment .blog-comment-item .btn { margin-top:10px; }
+}
+
+/* Home Page Blogs CSS BOF
+================================================== */
+
+/*** Home Blog Classic Page CSS BOF ***/
+.home-blog-classic .inner-banner-content { position:relative; }
+.home-blog-classic .inner-banner-content::before, .home-blog-classic .inner-banner-content::after { background: #e91e63; content: ""; height: 15px; position: absolute; width: 15px; }
+.home-blog-classic .inner-banner-content::before { left:15px; top:-8px; }
+.home-blog-classic .inner-banner-content::after { right:15px; bottom:-8px; }
+
+/*** Home Blog Masonry Page CSS BOF ***/
+.home-blog-masonry .banner-item .banner-content
+{
+	background: -moz-linear-gradient(left,  rgba(0,0,0) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgba(0,0,0) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgba(0,0,0) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+}
+.home-blog-masonry .banner-item .banner-content::after { background: #e91e63; content: ""; height: 3px; left: 0; margin: 0 auto; position: absolute; right: 0; top: 0; width: 104px;
+	opacity:0; visibility:hidden; }
+.home-blog-masonry .swiper-slide-active, .home-blog-masonry .banner-item .banner-content::after {-moz-transition:all .8s ease-in-out 0s; -webkit-transition:all .8s ease-in-out 0s;
+	-o-transition:all .8s ease-in-out 0s; -ms-transition:all .8s ease-in-out 0s; transition:all .8s ease-in-out 0s; }
+.home-blog-masonry .swiper-slide-active .banner-content::after { width:100%; opacity:1; visibility:visible; } /* animate bar on active slider */

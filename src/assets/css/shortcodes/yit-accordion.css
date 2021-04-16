@@ -1,0 +1,105 @@
+/*
+| --------------------------------------------------------
+| Theme Name : WebPanda
+| Theme Version : 1.0
+| Theme Date : 07/08/2018
+| Platforms : HTML5, CSS3, Bootstrap4, JS, Jquery, Sass
+| Theme Author : Yankee Themes
+| Author URI : https://themeforest.net/user/yankeethemes
+| Author Contact : enquiry[at]yankeeinfoweb[dot]com
+| Tags : yankeethemes, yankeeinfoweb, webdesign, boostrap, wordpress, support, html, responsive, css3, wellorganized, retina, animation, html5, sass, support, yakneelife
+| File : yit-accordion.css
+| --------------------------------------------------------
+*/
+
+/*
+| --------------------------------------------------------
+| TABLE OF CSS CONTENT
+| --------------------------------------------------------
+| Pricing Style CSS BOF
+| Responsive Style CSS BOF
+*/
+
+/* Note:
+	- yit is a standard prefix of our profile name (yankee infoweb theme)
+	- This file include all accordion with variation style
+*/
+
+/* Accordion Style CSS BOF (.yit-accordion)
+================================================== */
+.yit-accordion { margin-top:20px; }
+.yit-accordion .card { margin-bottom:25px; border:medium none; position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical;
+  -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; min-width: 0; word-wrap: break-word; background-color: #fff;
+  background-clip: border-box; border-radius: 0.25rem; -moz-border-radius: 0.25rem; -webkit-border-radius: 0.25rem; }
+.yit-accordion .card-header { margin-bottom: 0; padding: 0.75rem 1.25rem; }
+.yit-accordion .btn { background:none; color:inherit; padding:5px 0; display:block; text-align:left; }
+.yit-accordion .card-body { -webkit-box-flex: 1; -ms-flex: 1 1 auto; flex: 1 1 auto; padding: 1.25rem; }
+.yit-accordion .card-body p:last-child { margin-bottom:0; }
+.yit-accordion .card-header { background-color:transparent; }
+.yit-accordion .card-header .btn { position:relative; }
+.yit-accordion .card-header:first-child { -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; }
+
+/*** Accordion Style-1 CSS BOF ***/
+.yit-accordion.style-1 .card-header { border:solid 1px rgba(0, 0, 0, .1); }
+.yit-accordion.style-1 .card-header .btn::after { content: ""; font-family: fontawesome; font-size: 25px; line-height: normal; position: absolute; right: 0; top:0 }
+.yit-accordion.style-1 .card-header .btn.collapsed::after { content: ""; }
+.yit-accordion.style-1 .card-body { border:1px solid rgba(0, 0, 0, 0.1); border-top:medium none; }
+
+/*** Accordion Style-2 CSS BOF ***/
+.yit-accordion.style-2 .card-header { border:solid 1px rgba(0, 0, 0, .1); padding:10px 15px; }
+.yit-accordion.style-2 .card-header .btn::after { background: #e91e63; color: #ffffff; content: ""; font-family: 'fontawesome'; font-size: 25px; height: 35px;
+ 	line-height: 35px; position: absolute; right:0; text-align: center; top:0; width: 35px;
+ 	-moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; -moz-border-radius:100px; -webkit-border-radius:100px; border-radius:100px; }
+.yit-accordion.style-2 .card-header .btn.collapsed::after { content: ""; }
+.yit-accordion.style-2 .card-body { border:1px solid rgba(0, 0, 0, 0.1); border-top:medium none; }
+
+/*** Accordion Style-3 CSS BOF ***/
+.yit-accordion.style-3 .card-header { background-color:#f8f8f8; }
+.yit-accordion.style-3 .card-header .btn::after { content: ""; font-family: "themify"; font-size:17px; line-height: normal; position: absolute; right: 0; top:7px } /* right arrow */
+.yit-accordion.style-3 .card-header .btn.collapsed::after { content: ""; } /* down arrow */
+.yit-accordion.style-3 .card-header .btn.collapsed { color:rgba(0, 0, 0, 0.5); }
+.yit-accordion.style-3 .card-header .btn { color:#000; }
+
+/*** Accordion Style-4 CSS BOF ***/
+.yit-accordion.style-4 .card { background-color:transparent; margin-bottom:5px; }
+.yit-accordion.style-4 .card-header { border-bottom:dashed 1px rgba(0, 0, 0, .3); padding:10px 0; }
+.yit-accordion.style-4 .card-body { padding:15px 0; }
+.yit-accordion.style-4 .card-header .btn::after { content: ""; font-family: "themify"; font-size:17px; line-height: normal; position: absolute; right: 0; top:7px } /* right arrow */
+.yit-accordion.style-4 .card-header .btn.collapsed::after { content: ""; } /* down arrow */
+.yit-accordion.style-4 .card-header .btn.collapsed { color:rgba(0, 0, 0, 0.5); }
+.yit-accordion.style-4 .card-header .btn { color:#000; }
+
+/*** Accordion Style-5 CSS BOF ***/
+.yit-accordion.style-5 .card-header { padding:0; border:medium none; }
+.yit-accordion.style-5 .card-header .btn::after { content: ""; font-family: "fontawesome"; font-size:15px; line-height: normal; position: absolute; right:15px; top:17px } /* down arrow */
+.yit-accordion.style-5 .card-header .btn.collapsed::after { content: ""; } /* right arrow */
+.yit-accordion.style-5 .card-header .btn.collapsed { background-color:#f8f8f8; color:#333; }
+.yit-accordion.style-5 .card-header .btn { background-color:#e91e63; padding:15px; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; color:#fff; }
+
+/*** Accordion Style-6 CSS BOF ***/
+.yit-accordion.style-6 .card-header { padding:0; border:medium none; }
+.yit-accordion.style-6 .card-header .btn::after { content: ""; font-family: "fontawesome"; font-size:15px; line-height: normal; position: absolute; right:15px; top:17px } /* down arrow */
+.yit-accordion.style-6 .card-header .btn.collapsed::after { content: ""; } /* right arrow */
+.yit-accordion.style-6 .card-header .btn.collapsed { background-color:#fff; color:#333; }
+.yit-accordion.style-6 .card-header .btn { background-color:#e91e63; padding:15px; color:#fff; -moz-border-radius:5px 5px 0 0; -webkit-border-radius:5px 5px 0 0;
+	border-radius:5px 5px 0 0; }
+.yit-accordion.style-6 .card-body, .yit-accordion.style-6 .card-header .btn.collapsed { -moz-box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1); box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1); -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; }
+
+/*** Accordion Style-7 CSS BOF ***/
+.yit-accordion.style-7 .card-header { padding:0; border:medium none; }
+.yit-accordion.style-7 .card-header .btn::after { content: ""; font-family: "fontawesome"; font-size:15px; line-height: normal; position: absolute; right:15px; top:17px } /* down arrow */
+.yit-accordion.style-7 .card-header .btn.collapsed::after { content: ""; } /* right arrow */
+.yit-accordion.style-7 .card-header .btn { padding:15px; color:#e91e63; border-left:solid 3px #e91e63; -moz-box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1); -webkit-box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1); box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1); }
+.yit-accordion.style-7 .card-header .btn.collapsed { background-color:#fff; color:#333; border-left:solid 3px rgba(0, 0, 0, .2); }
+
+/*** Responisve Accordion Style CSS BOF ***/
+@media (max-width:767px ){
+.yit-accordion { margin-top:10px; }
+.yit-accordion .card { margin-bottom:15px; }
+.yit-accordion .card-header { padding:15px; }
+.yit-accordion .btn { margin-bottom:0; white-space:normal; }
+.yit-accordion.style-2 .card-header .btn::after { width:30px; height:30px; line-height:30px; }
+.yit-accordion.style-3 .card-header .btn::after { top:3px; }
+.yit-accordion.style-5 .card-header .btn::after, .yit-accordion.style-6 .card-header .btn::after { top:15px; }
+}

@@ -1,0 +1,185 @@
+/*
+| --------------------------------------------------------
+| Theme Name : WebPanda
+| Theme Version : 1.0
+| Theme Date : 07/08/2018
+| Platforms : HTML5, CSS3, Bootstrap4, JS, Jquery, Sass
+| Theme Author : Yankee Themes
+| Author URI : https://themeforest.net/user/yankeethemes
+| Author Contact : enquiry[at]yankeeinfoweb[dot]com
+| Tags : yankeethemes, yankeeinfoweb, webdesign, boostrap, wordpress, support, html, responsive, css3, wellorganized, retina, animation, html5, sass, support, yakneelife
+| File : yit-team.css
+| --------------------------------------------------------
+*/
+
+/*
+| --------------------------------------------------------
+| TABLE OF CSS CONTENT
+| --------------------------------------------------------
+| Team Style CSS BOF
+| Responsive Style CSS BOF
+*/
+
+/* Note:
+        - yit is a standard prefix of our profile name (yankee infoweb theme)
+        - This file include all team with variation style
+*/
+
+/* Team Style CSS BOF (.yit-team)
+================================================== */
+.yit-team .yit-team-item { border-width:1px; border-style:solid; border-color:rgba(0, 0, 0, .1); position:relative; -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s;
+                           margin-bottom:20px; }
+.yit-team .yit-team-item .yit-team-detail { padding:15px; background:#ededed; position:relative; }
+.yit-team .yit-team-item .team-social a { font-size:20px; padding:0 3px; }
+.yit-team .yit-team-item .team-social li { display:inline-block; }
+
+/*** Team Style-1 CSS BOF ***/
+.yit-team.style-1 .yit-team-thumb { position:relative; z-index:5; }
+.yit-team.style-1 .yit-team-thumb::after { left:0; top:0; content:''; position:absolute; width:100%; height:100%; background-color:rgba(0, 0, 0, .5); -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; visibility:hidden; opacity:0; }
+.yit-team.style-1 .yit-team-item:hover .yit-team-thumb::after { opacity: 1; visibility: visible; }
+.yit-team.style-1 .yit-team-item .team-social { left: 0; margin: 0 auto; position: absolute; right: 0; top:40%; z-index: 10; -moz-transition:all .5s ease-in-out 0s;
+                                                -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s;
+                                                -webkit-transform:scale(0); -o-transform:scale(0); -ms-transform:scale(0); -moz-transform:scale(0); transform:scale(0); }
+.yit-team.style-1 .yit-team-item .yit-team-detail { background:#fff; }
+.yit-team.style-1 .yit-team-item .team-social a { color:#fff; padding:0 10px; }
+.yit-team.style-1 .yit-team-item .team-info { transform: scale(1); -moz-transform: scale(1); -webkit-transform: scale(1); -o-transform: scale(1);
+                                              -ms-transform: scale(1); -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; }
+.yit-team.style-1 .yit-team-item:hover .team-social { -webkit-transform:scale(1); -o-transform:scale(1); -ms-transform:scale(1); -moz-transform:scale(1); transform:scale(1); }
+.yit-team.style-1 .yit-team-item .team-social a:hover { color:rgba(255, 255, 255, .8); }
+
+/*** Team Style-2 CSS BOF ***/
+.yit-team.style-2 .yit-team-thumb { position:relative; z-index:5; }
+.yit-team.style-2 .yit-team-thumb::after { left:0; top:0; content:''; position:absolute; width:100%; height:0; background-color:rgba(0, 0, 0, .5); -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; visibility:hidden; opacity:0; -webkit-transform:scale(0); -o-transform:scale(0); -ms-transform:scale(0); -moz-transform:scale(0);
+                                           transform:scale(0); }
+.yit-team.style-2 .yit-team-item .team-social { left: 0; margin: 0 auto; position: absolute; right: 0; top:15px; z-index: 10; -moz-transition:all .5s ease-in-out 0s;
+                                                -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s;
+                                                -webkit-transform:scale(0); -o-transform:scale(0); -ms-transform:scale(0); -moz-transform:scale(0); transform:scale(0); }
+.yit-team.style-2 .yit-team-item .team-info { -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s;
+                                              -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; -webkit-transform:scale(1); -o-transform:scale(1);
+                                              -ms-transform:scale(1); -moz-transform:scale(1); transform:scale(1); }
+.yit-team.style-2 .yit-team-item:hover .yit-team-thumb::after { opacity: 1; visibility: visible; -webkit-transform:scale(1); -o-transform:scale(1);
+                                                                -ms-transform:scale(1); -moz-transform:scale(1); transform:scale(1); height:100%; }
+.yit-team.style-2 .yit-team-item:hover .team-social  { -webkit-transform:scale(1); -o-transform:scale(1); -ms-transform:scale(1); -moz-transform:scale(1);
+                                                       transform:scale(1); }
+.yit-team.style-2 .yit-team-item:hover .team-info { -webkit-transform:scale(0); -o-transform:scale(0); -ms-transform:scale(0); -moz-transform:scale(0);
+                                                    transform:scale(0); }
+
+/*** Team Style-3 CSS BOF ***/
+.yit-team.style-3 .yit-team-item .yit-team-detail { background:none; }
+.yit-team.style-3 .yit-team-thumb { overflow: hidden; position: relative; }
+.yit-team.style-3 .yit-team-item { border:medium none; -moz-box-shadow:none; -webkit-box-shadow:none; box-shadow:none; }
+.yit-team.style-3 .yit-team-item, .yit-team.style-3 .yit-social { -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s;
+                                                                  transition:all .5s ease-in-out 0s; }
+.yit-team.style-3 .yit-team-item .yit-social { position: absolute; right: -40px; top:10px; width: 40px; }
+.yit-team.style-3 .yit-team-item .yit-social a { padding:0; }
+.yit-team.style-3 .yit-team-item:hover .yit-social { right: 30px; }
+.yit-team.style-3 .yit-team-item:hover { box-shadow: 0 0 30px 0 rgba(204, 204, 204, 0.4); -moz-box-shadow: 0 0 30px 0 rgba(204, 204, 204, 0.4);
+                                         -webkit-box-shadow: 0 0 30px 0 rgba(204, 204, 204, 0.4); }
+
+/*** Team Style-4 CSS BOF ***/
+.yit-team.style-4 .yit-team-item { position:relative; border-color:transparent; }
+.yit-team.style-4 .yit-team-thumb { overflow:hidden; }
+.yit-team.style-4 .team-info { left: 0; margin: 0 auto; padding: 25px; position: absolute; right: 0; text-align: center; }
+.yit-team.style-4 .yit-team-thumb img { -webkit-transform:scale(0.95) translateY(50px); -o-transform:scale(0.95) translateY(50px);
+                                        -ms-transform:scale(0.95) translateY(50px); -moz-transform:scale(0.95) translateY(50px); transform:scale(0.95) translateY(50px); -moz-transition:all .3s ease-in-out 0s; -webkit-transition:all .3s ease-in-out 0s; -o-transition:all .3s ease-in-out 0s; -ms-transition:all .3s ease-in-out 0s; transition:all .3s ease-in-out 0s; opacity:.7; }
+.yit-team.style-4 .team-social { left: 0; margin: 0 auto; opacity: 0; position: absolute; right: 0; top: 50%; transition: all 0.7s ease-in-out 0s;
+                                 visibility: hidden; }
+.yit-team.style-4 .yit-team-item:hover .team-social { opacity: 1; visibility: visible; }
+.yit-team.style-4 .yit-team-item:hover img { -webkit-transform:scale(1) translateY(0px); -o-transform:scale(1) translateY(0px);
+                                             -ms-transform:scale(1) translateY(0px); -moz-transform:scale(1) translateY(0px); transform:scale(1) translateY(0px); opacity:1; }
+
+/*** Team Style-5 CSS BOF ***/
+.yit-team.style-5 .yit-team-item { padding:5px; border-top:solid 3px #e91e63; padding:15px 0; }
+.yit-team.style-5 .yit-team-item img { border-bottom:solid 1px rgba(0, 0, 0, .1); }
+
+/*** Team Style-6 CSS BOF ***/
+.yit-team.style-6 .yit-team-item { border:medium none; overflow:hidden; }
+.yit-team.style-6 .yit-team-item .team-info { bottom:-146px; left: 0; padding:15px 10px; position: absolute; right: 0; -moz-transition:all .3s ease-in-out 0s; -webkit-transition:all .3s ease-in-out 0s; -o-transition:all .3s ease-in-out 0s; -ms-transition:all .3s ease-in-out 0s; transition:all .3s ease-in-out 0s; }
+.yit-team.style-6 .yit-team-item:hover .team-info { bottom:0; }
+
+/*** Team Style-7 CSS BOF ***/
+.yit-team.style-7 .yit-team-item .team-info { position:absolute; height:100%; width:100%; top:0; }
+.yit-team.style-7 .yit-team-item .yit-team-thumb, .yit-team.style-7 .yit-team-item .team-info { -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; }
+.yit-team.style-7 .yit-team-item .yit-team-thumb { transform: translate(0px); -moz-transform: translate(0px); -webkit-transform: translate(0px); -o-transform: translate(0px);
+                                                   -ms-transform: translate(0px); }
+.yit-team.style-7 .yit-team-item .team-info { height: 100%; position: absolute; top: 0; transform: translate(-100%); -moz-transform: translate(-100%);
+                                              -webkit-transform: translate(-100%); -o-transform: translate(-100%); -ms-transform: translate(-100%); width: 100%; }
+.yit-team.style-7 .yit-team-item:hover .team-info { transform: translate(0px); -moz-transform: translate(0px); -webkit-transform: translate(0px); -o-transform: translate(0px);
+                                                    -ms-transform: translate(0px); }
+.yit-team.style-7 .yit-team-item:hover .yit-team-thumb { transform: translate(100%); -moz-transform: translate(100%); -webkit-transform: translate(100%);
+                                                         -o-transform: translate(100%); -ms-transform: translate(100%); }
+
+/*** Team Style-8 CSS BOF ***/
+.yit-team.style-8 .yit-team-item .team-info { position:absolute; height:100%; width:100%; top:0; }
+.yit-team.style-8 .yit-team-item .yit-team-thumb, .yit-team.style-8 .yit-team-item .team-info, .yit-team.style-8 .yit-team-item .yit-team-thumb::before {
+    -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s;
+    transition:all .5s ease-in-out 0s; }
+.yit-team.style-8 .yit-team-item .yit-team-thumb { transform: translate(0px); -moz-transform: translate(0px); -webkit-transform: translate(0px); -o-transform: translate(0px);
+                                                   -ms-transform: translate(0px); }
+.yit-team.style-8 .yit-team-item .team-info { height:30%; position: absolute; bottom:0; top:auto; transform:translate(0px, 100%); -moz-transform:translate(0px, 100%);
+                                              -webkit-transform:translate(0px, 100%); -o-transform:translate(0px, 100%); -ms-transform:translate(0px, 100%); width: 100%; }
+.yit-team.style-8 .yit-team-item .yit-team-thumb::before { background-color: rgba(0, 0, 0, 0); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; }
+.yit-team.style-8 .yit-team-item:hover .team-info { transform: translate(0px); -moz-transform: translate(0px); -webkit-transform: translate(0px); -o-transform: translate(0px);
+                                                    -ms-transform: translate(0px); }
+.yit-team.style-8 .yit-team-item:hover .yit-team-thumb { transform: translate(0, -30%); -moz-transform: translate(0, -30%); -webkit-transform: translate(0, -30%);
+                                                         -o-transform: translate(0, -30%); -ms-transform: translate(0, -30%); }
+.yit-team.style-8 .yit-team-item:hover .yit-team-thumb::before { background-color: rgba(0, 0, 0, 0.7); }
+
+/*** Team Style-9 CSS BOF ***/
+.yit-team.style-9 .yit-team-item .yit-team-thumb, .yit-team.style-9 .yit-team-item .team-info { -moz-transition:all .5s ease-in-out 0s; -webkit-transition:all .5s ease-in-out 0s; -o-transition:all .5s ease-in-out 0s; -ms-transition:all .5s ease-in-out 0s; transition:all .5s ease-in-out 0s; }
+.yit-team.style-9 .yit-team-item .team-info
+{
+    position:absolute; height:100%; width:100%; top:0;
+    background: -moz-linear-gradient(top,rgba(255,255,255,0) 0,rgba(0,0,0,.35) 0,rgba(0,0,0,1) 95%);
+    background: -webkit-linear-gradient(top,rgba(255,255,255,0) 0,rgba(0,0,0,.35) 0,rgba(0,0,0,1) 50%);
+    background: linear-gradient(to bottom,rgba(255,255,255,0) 0,rgba(0,0,0,.35) 0,rgba(0,0,0,1) 95%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000', GradientType=0 );
+    opacity:0; visibility:hidden;
+}
+.yit-team.style-9 .yit-team-item:hover .team-info { opacity:1; visibility:visible; }
+.yit-team.style-9 .yit-team-item .team-info{
+    text-align: center;
+}
+.yit-team.style-9 .yit-team-item .team-info p{
+    text-align: center;
+}
+/***  Carousel Control CSS BOF ***/
+.yit-team .owl-theme .owl-nav [class*="owl-"] { -moz-border-radius:100px; -webkit-border-radius:100px; border-radius:100px; font-size:30px; line-height:40px;height:45px; width:45px; padding:0; }
+.yit-team .owl-theme .owl-nav [class*="owl-"]:hover { background:#085DAD; }
+
+/*** Team Carousel CSS BOF ***/
+.team-carousel .yit-team.style-4 .owl-carousel .owl-item { padding-bottom:100px; }
+.team-carousel.section-shadow::before { display:none; }
+
+.owl-theme.owl-theme-center-arrow .owl-nav [class*="owl-"]{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.owl-theme.owl-theme-center-arrow .owl-nav .owl-prev{
+    left: 0;
+}
+.owl-theme.owl-theme-center-arrow .owl-nav .owl-next{
+    right: 0;
+}
+
+
+/*** Responsive Team Style CSS BOF ***/
+@media (max-width: 767px){
+    .yit-team.style-1 .yit-team-item .team-social a { padding:0 5px; }
+    .yit-testimonial .owl-dots-nav .owl-dots { text-align:center; margin-bottom:20px; }
+    .yit-team.style-4 .team-info { position:relative; }
+    .yit-team.style-4 .yit-team-thumb img { -webkit-transform:none; -o-transform:none; -ms-transform:none; -moz-transform:none; transform:none; }
+}
+
+@media (min-width: 768px) and (max-width:980px) {
+    .yit-team .yit-team-item .team-social a { font-size:13px; }
+    .yit-team.style-3 .yit-team-item .yit-social a { margin:5px auto; }
+    .yit-team.style-3 .yit-team-item .yit-social.icon-small { font-size:inherit; }
+    .yit-team.style-4 .team-info { position:relative; }
+    .yit-team.style-4 .yit-team-thumb img { -webkit-transform:none; -o-transform:none; -ms-transform:none; -moz-transform:none; transform:none; }
+    .yit-team.style-4 .team-social { top:20%; }
+    .yit-team.style-4 .team-social .yit-social.icon-small a { font-size:13px; }
+    .yit-team.style-6 .yit-team-item .team-info { position:relative; bottom:0; }
+    .yit-team.style-8 .yit-team-item .team-info { height:100%; }
+}

@@ -1,0 +1,74 @@
+/*
+| --------------------------------------------------------
+| Theme Name : WebPanda
+| Theme Version : 1.0
+| Theme Date : 07/08/2018
+| Platforms : HTML5, CSS3, Bootstrap4, JS, Jquery, Sass
+| Theme Author : Yankee Themes
+| Author URI : https://themeforest.net/user/yankeethemes
+| Author Contact : enquiry[at]yankeeinfoweb[dot]com
+| Tags : yankeethemes, yankeeinfoweb, webdesign, boostrap, wordpress, support, html, responsive, css3, wellorganized, retina, animation, html5, sass, support, yakneelife
+| File : yit-skillbar.css
+| --------------------------------------------------------
+*/
+
+/*
+| --------------------------------------------------------
+| TABLE OF CSS CONTENT
+| --------------------------------------------------------
+| Skillbar Style CSS BOF
+| Responsive Style CSS BOF
+*/
+
+/* Note:
+	- yit is a standard prefix of our profile name (yankee infoweb theme)
+	- This file include all skillbar with variation style
+*/
+
+/* Skillbar Style CSS BOF (.yit-skillbar)
+================================================== */
+.yit-skillbar .skillbar-wrap { margin-bottom:15px; }
+.yit-skillbar .skillbar
+{
+	-webkit-transition:0.4s linear;
+    -moz-transition:0.4s linear;
+    -ms-transition:0.4s linear;
+    -o-transition:0.4s linear;
+    transition:0.4s linear;
+    -webkit-transition-property:width, background-color;
+    -moz-transition-property:width, background-color;
+    -ms-transition-property:width, background-color;
+    -o-transition-property:width, background-color;
+    transition-property:width, background-color;
+}
+.yit-skillbar .skill-bar-name h6 { font-size:14px; margin-bottom:3px; text-align:left; }
+.yit-skillbar .skill-bar-percent { position: absolute; right: 0; top: -29px; }
+.yit-skillbar[class*="style-"] .skillbar-wrap:last-child { margin-bottom:0; } /* override last element of skillbar style */
+
+/*** Skillbar Style-1 CSS BOF ***/
+.yit-skillbar.style-1 .skillbar-wrap { position:relative; }
+.yit-skillbar.style-1 .skillbar { position:relative; display:block; margin-bottom:25px; width:100%; background:#eee; height:5px; }
+.yit-skillbar.style-1 .skillbar-title { position:absolute; top:0; left:0; width:110px; font-weight:bold; font-size:13px; color:#ffffff; }
+.yit-skillbar.style-1 .skillbar-bar{ height:5px; width:0px; background:#6adcfa; }
+
+/*** Skillbar Style-2 CSS BOF ***/
+.yit-skillbar.style-2 .skillbar-wrap { position:relative; }
+.yit-skillbar.style-2 .skillbar { position:relative; display:block; margin-bottom:25px; width:100%; background:#eee; height:15px; }
+.yit-skillbar.style-2 .skillbar-title { position:absolute; top:0; left:0; width:110px; font-weight:bold; font-size:13px; color:#ffffff; }
+.yit-skillbar.style-2 .skillbar-bar{ height:15px; width:0px; background:#6adcfa; }
+
+/*** Skillbar Style-3 CSS BOF ***/
+.yit-skillbar.style-3 .skillbar-wrap { position:relative; }
+.yit-skillbar.style-3 .skillbar { position:relative; display:block; margin-bottom:25px; width:100%; background:#eee; height:15px; }
+.yit-skillbar.style-3 .skillbar-title { position:absolute; top:0; left:0; width:110px; font-weight:bold; font-size:13px; color:#ffffff; }
+.yit-skillbar.style-3 .skillbar-bar { height:15px; width:0px; background:#6adcfa; }
+.yit-skillbar.style-3 .skillbar, .yit-skillbar.style-3 .skillbar-bar { box-shadow:0px 2px 2px 0px rgba(0, 0, 0, .2) inset; -moz-box-shadow:0px 2px 2px 0px rgba(0, 0, 0, .2) inset;
+    -webkit-box-shadow:0px 2px 2px 0px rgba(0, 0, 0, .2) inset; }
+
+/*** Skillbar Style-4 CSS BOF ***/
+.yit-skillbar.style-4 .skillbar-wrap { position:relative; }
+.yit-skillbar.style-4 .skillbar { position:relative; display:block; margin-bottom:25px; width:100%; background:#eee; height:8px; }
+.yit-skillbar.style-4 .skill-bar-name i { font-size:17px; margin-right:10px; }
+.yit-skillbar.style-4 .skillbar-title { position:absolute; top:0; left:0; width:110px; font-weight:bold; font-size:13px; color:#ffffff; }
+.yit-skillbar.style-4 .skillbar-bar { height:8px; width:0px; background:#6adcfa; }
+.yit-skillbar.style-4 .skillbar, .yit-skillbar.style-4 .skillbar-bar { -moz-border-radius:30px; -webkit-border-radius:30px; border-radius:30px; }

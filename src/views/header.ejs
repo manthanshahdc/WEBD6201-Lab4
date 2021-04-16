@@ -1,0 +1,57 @@
+<!-- /Navigation BOC -->
+<header class="webpanda-default-header">
+    <div class="yit-nav yit-nav-transparent-style">
+        <nav class="navbar navbar-expand-md fixed-top navbar-light bg-none pt-20 pb-20 yit-on-scroll-nav yit-bsnav-right-menu">
+            <div class="container">
+                <a class="navbar-brand" href='/'>
+                     <img src="/images/logo/logo.png" alt="Manthan Shah ">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto font-weight-medium yit-upcase-nav yit-mega-menu js-nav-active">
+
+                        <!-- /Home Dropdown BOC -->
+                        <li class="nav-item <%= active == 'home' ? 'active' : '' %>">
+                            <a title="Home" class="nav-link" href="/">Home</a>
+                        </li>
+                        <li class="nav-item <%= active == 'about-us' ? 'active' : '' %>">
+                            <a title="About" class="nav-link" href="/about-me">About Me</a>
+                        </li>
+                        <li class="nav-item <%= active == 'about-us' ? 'active' : '' %>">
+                            <a title="About" class="nav-link" href="/projects">Projects</a>
+                        </li>
+                        <li class="nav-item <%= active == 'services' ? 'active' : '' %>">
+                            <a title="Services" class="nav-link" href="/services">Services</a>
+                        </li>
+
+                        <li class="nav-item <%= active == 'contact-us' ? 'active' : '' %>">
+                            <a title="Contact" class="nav-link" href="/contact-me">Contact</a>
+                        </li>
+                        <li class="nav-item <%= active == 'register' ? 'active' : '' %>">
+                            <a title="Contact" class="nav-link" href="/register">Register</a>
+                        </li>
+                        <li class="nav-item <%= active == 'login' ? 'active' : '' %>">
+                            <a title="Contact" class="nav-link" href="/login">Login</a>
+                        </li>
+                        <!-- /Pages Dropdown BOC -->
+                        <!-- <li class="nav-item dropdown">
+                            <a title="Services" class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                            <div class="dropdown-menu yit-radius-none pt-0 pb-0" aria-labelledby="navbarDropdown2">
+                                <ul class="yit-seclevel-menu">
+                                    <li class="nav-item"><a title="ReactJS" class="nav-link" href="javascript:void(0);" >ReactJS</a></li>
+                                    <li class="nav-item"><a title="Angular JS" class="nav-link" href="javascript:void(0);" >Angular JS</a></li>
+                                </ul>
+                            </div>
+                        </li> -->
+                        <!-- /Pages Dropdown EOC -->
+                        <!-- <li class="nav-item"><a title="Portfolio" class="nav-link" href="portfolio.html">Portfolio</a></li> -->
+                        <!--  <li class="nav-item"><a title="Blog" class="nav-link" href="javascript:void(0);">Blog</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+<!-- /Navigation EOC -->
