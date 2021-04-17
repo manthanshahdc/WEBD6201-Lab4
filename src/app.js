@@ -1,3 +1,10 @@
+/*
+File name = App.js
+Student’s Name = Manthan Shah
+StudentID = 100776892
+Date = 12/04/21
+*/
+
 const express = require('express');
 const expressLayouts = require('express-ejs-layouts');
 const passport = require('passport');

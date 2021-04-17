@@ -1,3 +1,10 @@
+/*
+File name = AppController.js
+Student’s Name = Manthan Shah
+StudentID = 100776892
+Date = 12/04/21
+*/
+
 const express = require('express');
 const router = express.Router();
 const bcrypt = require('bcryptjs');
